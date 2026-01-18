@@ -57,7 +57,7 @@ const RightPanel = () => {
         <h2 className="text-2xl font-bold text-slate-900">{neighbourhoodName}</h2>
         <button
           onClick={() => setSelectedNeighbourhood(null)}
-          className="text-slate-400 hover:text-slate-600 transition-colors"
+          className="text-slate-400 hover:text-slate-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded transition-colors"
           aria-label="Close panel"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,7 +73,9 @@ const RightPanel = () => {
             <h3 className="text-lg font-semibold text-slate-800">Crime Statistics</h3>
             {crimeQuartile && (
               <div className="flex items-center">
-                <span className="text-2xl mr-1">{crimeQuartile.emoji}</span>
+                <span className="text-2xl mr-1" aria-label={`Crime: ${crimeQuartile.label} (tier ${crimeQuartile.tier} of 4)`}>
+                  {crimeQuartile.emoji}
+                </span>
                 <span className="text-sm text-slate-600">{crimeQuartile.label}</span>
               </div>
             )}
@@ -131,7 +133,9 @@ const RightPanel = () => {
             <h3 className="text-lg font-semibold text-slate-800">Schools</h3>
             {schoolsQuartile && (
               <div className="flex items-center">
-                <span className="text-2xl mr-1">{schoolsQuartile.emoji}</span>
+                <span className="text-2xl mr-1" aria-label={`Schools: ${schoolsQuartile.label} (tier ${schoolsQuartile.tier} of 4)`}>
+                  {schoolsQuartile.emoji}
+                </span>
                 <span className="text-sm text-slate-600">{schoolsQuartile.label}</span>
               </div>
             )}
@@ -151,7 +155,9 @@ const RightPanel = () => {
             <h3 className="text-lg font-semibold text-slate-800">Parks & Playgrounds</h3>
             {parksQuartile && (
               <div className="flex items-center">
-                <span className="text-2xl mr-1">{parksQuartile.emoji}</span>
+                <span className="text-2xl mr-1" aria-label={`Parks: ${parksQuartile.label} (tier ${parksQuartile.tier} of 4)`}>
+                  {parksQuartile.emoji}
+                </span>
                 <span className="text-sm text-slate-600">{parksQuartile.label}</span>
               </div>
             )}

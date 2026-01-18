@@ -21,7 +21,7 @@ All datasets are **static, one-time only** (never updated after initial commit).
 | Dataset | Source | Format | Freshness | Notes |
 |---------|--------|--------|-----------|-------|
 | **Crime Data** | Edmonton Police Service (EPS) | JSON | 12-month average (Jan-Dec 2025) | Violent crimes aggregated by neighbourhood |
-| **Rent Data** | CMHC Rental Market Survey | JSON | October 2024 | Most recent official CMHC data available. Aggregated by CMHC zone (not neighbourhood) |
+| **Rent Data** | CMHC Rental Market Survey | JSON | October 2024 | Most recent official CMHC data available. By neighbourhood |
 | **Schools** | Edmonton Public School Board (EPSB) | GeoJSON | Static | School locations + catchment areas |
 | **Parks** | City of Edmonton Parks & Recreation | GeoJSON | Static | Park locations + types |
 | **Neighbourhoods** | City of Edmonton | GeoJSON | Static | 406 Edmonton neighbourhoods with boundaries (simplified for performance) |
@@ -274,9 +274,10 @@ git push origin main
 ## Important Notes
 - **This is a one-time project**: No ongoing data updates. All datasets frozen after initial commit.
 - **Map-first UX**: Users primarily interact via map hover tooltips, not data tables
-- **Zone-level rent data**: Rent prices are aggregated by CMHC zone, not individual neighbourhood. Tooltips/panels show the zone's rent data when user hovers/clicks any neighbourhood in that zone.
-- **Performance optimized**: O(1) data lookups via Map data structures, quartiles calculated once on load
+- **Neighbourhood-level rent data**: Rent prices are by neighbourhood from CMHC survey. All data loaded once at page initialization and cached in memory for instant access.
+- **Performance optimized**: O(1) data lookups via Map data structures, quartiles calculated once on load, mouse events throttled to 60fps
 - **GitHub Actions workflow**: MUST be at repository root `.github/workflows/deploy.yml` (NOT in subdirectory)
+- **Data loading**: All data (crime, rent, schools, parks, neighbourhood boundaries) loaded once at app initialization and stored in module-level Maps for O(1) lookups. No repeated file fetches during user interaction.
 
 ## Design Answers (Confirmed)
 1. ✅ GitHub Pages workflow set up at repository root

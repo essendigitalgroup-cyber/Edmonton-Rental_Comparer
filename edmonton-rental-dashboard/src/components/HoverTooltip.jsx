@@ -23,12 +23,32 @@ const HoverTooltip = ({ neighbourhood, mousePosition }) => {
   const schoolsQuartile = getSchoolsQuartile(neighbourhoodName);
   const parksQuartile = getParksQuartile(neighbourhoodName);
 
+  // Calculate tooltip position with viewport overflow detection
+  const TOOLTIP_OFFSET = 15;
+  const TOOLTIP_WIDTH = 200; // min-w-[200px]
+  const TOOLTIP_HEIGHT = 200; // estimated max height
+
+  const viewportWidth = window.innerWidth;
+  const viewportHeight = window.innerHeight;
+
+  // Check if tooltip would overflow right edge
+  const wouldOverflowRight = mousePosition.x + TOOLTIP_OFFSET + TOOLTIP_WIDTH > viewportWidth;
+  const left = wouldOverflowRight
+    ? mousePosition.x - TOOLTIP_WIDTH - TOOLTIP_OFFSET
+    : mousePosition.x + TOOLTIP_OFFSET;
+
+  // Check if tooltip would overflow bottom edge
+  const wouldOverflowBottom = mousePosition.y + TOOLTIP_OFFSET + TOOLTIP_HEIGHT > viewportHeight;
+  const top = wouldOverflowBottom
+    ? mousePosition.y - TOOLTIP_HEIGHT - TOOLTIP_OFFSET
+    : mousePosition.y + TOOLTIP_OFFSET;
+
   return (
     <div
       className="fixed pointer-events-none z-[2000] bg-slate-900 text-white rounded-lg shadow-2xl p-3 min-w-[200px]"
       style={{
-        left: `${mousePosition.x + 15}px`,
-        top: `${mousePosition.y + 15}px`,
+        left: `${left}px`,
+        top: `${top}px`,
         transform: 'translate(0, 0)'
       }}
     >
@@ -44,7 +64,7 @@ const HoverTooltip = ({ neighbourhood, mousePosition }) => {
             const price = rentData[unitType];
             return (
               <div key={unitType} className="text-xs mb-1">
-                <span className="text-slate-400">{UNIT_TYPE_LABELS[unitType]}:</span>{' '}
+                <span className="text-slate-300">{UNIT_TYPE_LABELS[unitType]}:</span>{' '}
                 <span className="font-semibold text-white">
                   {price ? `~$${Math.round(price).toLocaleString()}` : 'N/A'}
                 </span>
@@ -58,19 +78,25 @@ const HoverTooltip = ({ neighbourhood, mousePosition }) => {
       <div className="space-y-1">
         {crimeQuartile && (
           <div className="flex items-center text-xs">
-            <span className="mr-2">{crimeQuartile.emoji}</span>
+            <span className="mr-2" aria-label={`Crime: ${crimeQuartile.label} (tier ${crimeQuartile.tier} of 4)`}>
+              {crimeQuartile.emoji}
+            </span>
             <span className="text-slate-300">{crimeQuartile.label}</span>
           </div>
         )}
         {schoolsQuartile && (
           <div className="flex items-center text-xs">
-            <span className="mr-2">{schoolsQuartile.emoji}</span>
+            <span className="mr-2" aria-label={`Schools: ${schoolsQuartile.label} (tier ${schoolsQuartile.tier} of 4)`}>
+              {schoolsQuartile.emoji}
+            </span>
             <span className="text-slate-300">{schoolsQuartile.label} Schools</span>
           </div>
         )}
         {parksQuartile && (
           <div className="flex items-center text-xs">
-            <span className="mr-2">{parksQuartile.emoji}</span>
+            <span className="mr-2" aria-label={`Parks: ${parksQuartile.label} (tier ${parksQuartile.tier} of 4)`}>
+              {parksQuartile.emoji}
+            </span>
             <span className="text-slate-300">{parksQuartile.label} Parks</span>
           </div>
         )}

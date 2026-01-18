@@ -11,6 +11,11 @@
  * @returns {{q1: number, q2: number, q3: number}} Quartile thresholds
  */
 const calculateQuartiles = (values) => {
+  // Guard clause for empty arrays
+  if (!values || values.length === 0) {
+    return { q1: 0, q2: 0, q3: 0 };
+  }
+
   const sorted = [...values].sort((a, b) => a - b);
   const n = sorted.length;
 
@@ -85,7 +90,10 @@ const getQuartileDescriptor = (tier, metric) => {
  * @returns {Map<string, {tier: number, emoji: string, label: string, description: string, value: number}>}
  */
 export const calculateCrimeQuartiles = (crimeData) => {
-  if (!crimeData?.crime_by_neighbourhood) return new Map();
+  if (!crimeData?.crime_by_neighbourhood) {
+    console.warn('Crime data not available for quartile calculation');
+    return new Map();
+  }
 
   // Extract crime values
   const crimeValues = crimeData.crime_by_neighbourhood.map(
@@ -102,13 +110,14 @@ export const calculateCrimeQuartiles = (crimeData) => {
     const tier = getQuartileTier(value, quartiles, true); // Lower crime is better
     const descriptor = getQuartileDescriptor(tier, 'crime');
 
-    quartileMap.set(entry.neighbourhood_name.toUpperCase(), {
+    quartileMap.set(entry.neighbourhood_name.toUpperCase().trim(), {
       tier,
       ...descriptor,
       value
     });
   });
 
+  console.log(`Crime quartiles calculated for ${quartileMap.size} neighbourhoods`);
   return quartileMap;
 };
 
@@ -119,15 +128,18 @@ export const calculateCrimeQuartiles = (crimeData) => {
  * @returns {Map<string, {tier: number, emoji: string, label: string, description: string, value: number}>}
  */
 export const calculateSchoolsQuartiles = (schoolsData, neighbourhoodsData) => {
-  if (!schoolsData?.features || !neighbourhoodsData?.features) return new Map();
+  if (!schoolsData?.features || !neighbourhoodsData?.features) {
+    console.warn('Schools or neighbourhoods data not available for quartile calculation');
+    return new Map();
+  }
 
   // Count schools per neighbourhood (simple approach: by neighbourhood_name property)
   const schoolCounts = new Map();
 
   neighbourhoodsData.features.forEach(neighbourhood => {
-    const neighbourhoodName = neighbourhood.properties.name.toUpperCase();
+    const neighbourhoodName = neighbourhood.properties.name.toUpperCase().trim();
     const count = schoolsData.features.filter(
-      school => school.properties.neighbourhood_name?.toUpperCase() === neighbourhoodName
+      school => school.properties.neighbourhood_name?.toUpperCase().trim() === neighbourhoodName
     ).length;
     schoolCounts.set(neighbourhoodName, count);
   });
@@ -149,6 +161,7 @@ export const calculateSchoolsQuartiles = (schoolsData, neighbourhoodsData) => {
     });
   });
 
+  console.log(`Schools quartiles calculated for ${quartileMap.size} neighbourhoods`);
   return quartileMap;
 };
 
@@ -159,15 +172,18 @@ export const calculateSchoolsQuartiles = (schoolsData, neighbourhoodsData) => {
  * @returns {Map<string, {tier: number, emoji: string, label: string, description: string, value: number}>}
  */
 export const calculateParksQuartiles = (parksData, neighbourhoodsData) => {
-  if (!parksData?.features || !neighbourhoodsData?.features) return new Map();
+  if (!parksData?.features || !neighbourhoodsData?.features) {
+    console.warn('Parks or neighbourhoods data not available for quartile calculation');
+    return new Map();
+  }
 
   // Count parks per neighbourhood (by neighbourhood_name property)
   const parkCounts = new Map();
 
   neighbourhoodsData.features.forEach(neighbourhood => {
-    const neighbourhoodName = neighbourhood.properties.name.toUpperCase();
+    const neighbourhoodName = neighbourhood.properties.name.toUpperCase().trim();
     const count = parksData.features.filter(
-      park => park.properties.neighbourhood_name?.toUpperCase() === neighbourhoodName
+      park => park.properties.neighbourhood_name?.toUpperCase().trim() === neighbourhoodName
     ).length;
     parkCounts.set(neighbourhoodName, count);
   });
@@ -189,6 +205,7 @@ export const calculateParksQuartiles = (parksData, neighbourhoodsData) => {
     });
   });
 
+  console.log(`Parks quartiles calculated for ${quartileMap.size} neighbourhoods`);
   return quartileMap;
 };
 

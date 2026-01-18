@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import { useAppContext } from '../context/AppContext';
 import { loadAllData } from '../utils/dataLoader';
@@ -11,20 +11,32 @@ const Map = () => {
   const [error, setError] = useState(null);
   const [hoveredNeighbourhood, setHoveredNeighbourhood] = useState(null);
   const [mousePosition, setMousePosition] = useState(null);
+  const lastMouseUpdate = useRef(0);
 
   useEffect(() => {
+    let cancelled = false;
+
     const loadData = async () => {
       try {
         const data = await loadAllData();
-        setNeighbourhoods(data.neighbourhoods);
-        setLoading(false);
+        if (!cancelled) {
+          setNeighbourhoods(data.neighbourhoods);
+          setLoading(false);
+        }
       } catch (error) {
-        console.error('Error loading data:', error);
-        setError(error.message || 'Failed to load map data');
-        setLoading(false);
+        if (!cancelled) {
+          console.error('Error loading data:', error);
+          setError(error.message || 'Failed to load map data');
+          setLoading(false);
+        }
       }
     };
+
     loadData();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   // Style for neighbourhood polygons (memoized to prevent unnecessary re-computation)
@@ -59,6 +71,7 @@ const Map = () => {
       mouseout: (e) => {
         const layer = e.target;
         setHoveredNeighbourhood(null);
+        setMousePosition(null); // Clear mouse position to hide tooltip
         if (selectedNeighbourhood?.properties.name !== feature.properties.name) {
           layer.setStyle({
             weight: 1,
@@ -67,10 +80,15 @@ const Map = () => {
         }
       },
       mousemove: (e) => {
-        setMousePosition({
-          x: e.originalEvent.clientX,
-          y: e.originalEvent.clientY
-        });
+        // Throttle mouse position updates to ~60fps (16ms)
+        const now = Date.now();
+        if (now - lastMouseUpdate.current >= 16) {
+          setMousePosition({
+            x: e.originalEvent.clientX,
+            y: e.originalEvent.clientY
+          });
+          lastMouseUpdate.current = now;
+        }
       }
     });
   };
