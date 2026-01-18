@@ -89,7 +89,7 @@ const HoverTooltip = ({ neighbourhood, mousePosition }) => {
             <span className="mr-2" aria-label={`Schools: ${schoolsQuartile.label} (tier ${schoolsQuartile.tier} of 4)`}>
               {schoolsQuartile.emoji}
             </span>
-            <span className="text-slate-300">{schoolsQuartile.label} Schools</span>
+            <span className="text-slate-300">{schoolsQuartile.label}</span>
           </div>
         )}
         {parksQuartile && (
@@ -97,7 +97,7 @@ const HoverTooltip = ({ neighbourhood, mousePosition }) => {
             <span className="mr-2" aria-label={`Parks: ${parksQuartile.label} (tier ${parksQuartile.tier} of 4)`}>
               {parksQuartile.emoji}
             </span>
-            <span className="text-slate-300">{parksQuartile.label} Parks</span>
+            <span className="text-slate-300">{parksQuartile.label}</span>
           </div>
         )}
       </div>
