@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Map from './components/Map';
 import FilterControls from './components/FilterControls';
 import RightPanel from './components/RightPanel';
+import MapLegend from './components/MapLegend';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Map />
           <FilterControls />
           <RightPanel />
+          <MapLegend />
         </div>
       </div>
     </AppProvider>

@@ -2,12 +2,15 @@ import { useEffect, useState, useCallback } from 'react';
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import { useAppContext } from '../context/AppContext';
 import { loadAllData } from '../utils/dataLoader';
+import HoverTooltip from './HoverTooltip';
 
 const Map = () => {
   const { selectedNeighbourhood, setSelectedNeighbourhood } = useAppContext();
   const [neighbourhoods, setNeighbourhoods] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [hoveredNeighbourhood, setHoveredNeighbourhood] = useState(null);
+  const [mousePosition, setMousePosition] = useState(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -37,7 +40,7 @@ const Map = () => {
     };
   }, [selectedNeighbourhood]);
 
-  // Handle neighbourhood click
+  // Handle neighbourhood interactions
   const onEachNeighbourhood = (feature, layer) => {
     layer.on({
       click: () => {
@@ -45,6 +48,7 @@ const Map = () => {
       },
       mouseover: (e) => {
         const layer = e.target;
+        setHoveredNeighbourhood(feature);
         if (selectedNeighbourhood?.properties.name !== feature.properties.name) {
           layer.setStyle({
             weight: 2,
@@ -54,20 +58,20 @@ const Map = () => {
       },
       mouseout: (e) => {
         const layer = e.target;
+        setHoveredNeighbourhood(null);
         if (selectedNeighbourhood?.properties.name !== feature.properties.name) {
           layer.setStyle({
             weight: 1,
             fillOpacity: 0.6
           });
         }
+      },
+      mousemove: (e) => {
+        setMousePosition({
+          x: e.originalEvent.clientX,
+          y: e.originalEvent.clientY
+        });
       }
-    });
-
-    // Tooltip
-    layer.bindTooltip(feature.properties.name, {
-      permanent: false,
-      direction: 'center',
-      className: 'neighbourhood-tooltip'
     });
   };
 
@@ -108,26 +112,34 @@ const Map = () => {
   const edmontonCenter = [53.5461, -113.4938];
 
   return (
-    <MapContainer
-      center={edmontonCenter}
-      zoom={11}
-      style={{ height: '100%', width: '100%' }}
-      className="z-0"
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-
-      {/* Neighbourhood boundaries */}
-      {neighbourhoods && (
-        <GeoJSON
-          data={neighbourhoods}
-          style={getNeighbourhoodStyle}
-          onEachFeature={onEachNeighbourhood}
+    <div className="relative h-full w-full">
+      <MapContainer
+        center={edmontonCenter}
+        zoom={11}
+        style={{ height: '100%', width: '100%' }}
+        className="z-0"
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-      )}
-    </MapContainer>
+
+        {/* Neighbourhood boundaries */}
+        {neighbourhoods && (
+          <GeoJSON
+            data={neighbourhoods}
+            style={getNeighbourhoodStyle}
+            onEachFeature={onEachNeighbourhood}
+          />
+        )}
+      </MapContainer>
+
+      {/* Custom dark-themed hover tooltip */}
+      <HoverTooltip
+        neighbourhood={hoveredNeighbourhood}
+        mousePosition={mousePosition}
+      />
+    </div>
   );
 };
 
