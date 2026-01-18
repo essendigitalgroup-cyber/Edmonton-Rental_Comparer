@@ -1,8 +1,23 @@
 import { useAppContext } from '../context/AppContext';
-import { isDataLoaded, getCrimeByNeighbourhood, getRentByNeighbourhood, getParksByNeighbourhood } from '../utils/dataLoader';
+import {
+  isDataLoaded,
+  getCrimeByNeighbourhood,
+  getRentByNeighbourhood,
+  getParksByNeighbourhood,
+  getCrimeQuartile,
+  getSchoolsQuartile,
+  getParksQuartile
+} from '../utils/dataLoader';
+
+const UNIT_TYPE_LABELS = {
+  studio: 'Studio',
+  '1_bedroom': '1 Bedroom',
+  '2_bedroom': '2 Bedroom',
+  '3_bedroom_plus': '3+ Bedroom'
+};
 
 const RightPanel = () => {
-  const { selectedNeighbourhood, setSelectedNeighbourhood, activeUnitType, visibleLayers } = useAppContext();
+  const { selectedNeighbourhood, setSelectedNeighbourhood, selectedUnitTypes, visibleLayers } = useAppContext();
 
   if (!selectedNeighbourhood) {
     return (
@@ -31,20 +46,18 @@ const RightPanel = () => {
   const rentData = getRentByNeighbourhood(neighbourhoodName);
   const parks = getParksByNeighbourhood(neighbourhoodName);
 
-  const getRentValue = () => {
-    if (!rentData) return null;
-    return rentData[activeUnitType];
-  };
-
-  const rentValue = getRentValue();
+  // Get quartile data
+  const crimeQuartile = getCrimeQuartile(neighbourhoodName);
+  const schoolsQuartile = getSchoolsQuartile(neighbourhoodName);
+  const parksQuartile = getParksQuartile(neighbourhoodName);
 
   return (
-    <div className="absolute top-4 right-4 w-96 bg-white shadow-lg rounded-lg p-6 z-[1000] max-h-[calc(100vh-2rem)] overflow-y-auto">
+    <div className="absolute top-4 right-4 w-96 bg-white shadow-lg rounded-lg p-6 z-[1000]">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-2xl font-bold text-slate-900">{neighbourhoodName}</h2>
         <button
           onClick={() => setSelectedNeighbourhood(null)}
-          className="text-slate-400 hover:text-slate-600 transition-colors"
+          className="text-slate-400 hover:text-slate-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded transition-colors"
           aria-label="Close panel"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -53,10 +66,20 @@ const RightPanel = () => {
         </button>
       </div>
 
-      {/* Crime Stats */}
+      {/* Crime Stats with Quartile */}
       {visibleLayers.crime && (
         <div className="mb-4 pb-4 border-b border-slate-200">
-          <h3 className="text-lg font-semibold text-slate-800 mb-2">Crime Statistics</h3>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-lg font-semibold text-slate-800">Crime Statistics</h3>
+            {crimeQuartile && (
+              <div className="flex items-center">
+                <span className="text-2xl mr-1" aria-label={`Crime: ${crimeQuartile.label} (tier ${crimeQuartile.tier} of 4)`}>
+                  {crimeQuartile.emoji}
+                </span>
+                <span className="text-sm text-slate-600">{crimeQuartile.label}</span>
+              </div>
+            )}
+          </div>
           {crimeData ? (
             <div className="space-y-1">
               <p className="text-sm text-slate-700">
@@ -65,7 +88,9 @@ const RightPanel = () => {
               <p className="text-sm text-slate-700">
                 <span className="font-semibold">Monthly Average:</span> {crimeData.violent_weapons_crimes_monthly_avg} incidents/month
               </p>
-              <p className="text-xs text-slate-500 mt-1">Violent & weapons crimes only</p>
+              {crimeQuartile && (
+                <p className="text-xs text-slate-500 mt-1">{crimeQuartile.description}</p>
+              )}
             </div>
           ) : (
             <p className="text-sm text-slate-500">No crime data available</p>
@@ -73,37 +98,26 @@ const RightPanel = () => {
         </div>
       )}
 
-      {/* Rent Stats */}
+      {/* Rent Stats - Selected Unit Types Only */}
       {visibleLayers.rent && (
         <div className="mb-4 pb-4 border-b border-slate-200">
-          <h3 className="text-lg font-semibold text-slate-800 mb-2">Rental Prices</h3>
+          <h3 className="text-lg font-semibold text-slate-800 mb-3">Market Rental Rates</h3>
           {rentData ? (
-            <div className="space-y-2">
-              <div className="bg-blue-50 p-3 rounded-md">
-                <p className="text-sm text-slate-600 mb-1">
-                  {activeUnitType === 'studio' && 'Studio'}
-                  {activeUnitType === '1_bedroom' && '1 Bedroom'}
-                  {activeUnitType === '2_bedroom' && '2 Bedroom'}
-                  {activeUnitType === '3_bedroom_plus' && '3+ Bedroom'}
-                  {activeUnitType === 'total_avg' && 'Total Average'}
-                </p>
-                <p className="text-2xl font-bold text-blue-900">
-                  {rentValue ? `$${rentValue}` : 'N/A'}
-                  {rentValue && <span className="text-sm font-normal text-slate-600">/month</span>}
-                </p>
-              </div>
-              <details className="text-sm">
-                <summary className="cursor-pointer text-blue-600 hover:text-blue-800">
-                  View all unit types
-                </summary>
-                <div className="mt-2 space-y-1 pl-2">
-                  <p className="text-slate-700">Studio: {rentData.studio ? `$${rentData.studio}` : 'N/A'}</p>
-                  <p className="text-slate-700">1 Bedroom: {rentData['1_bedroom'] ? `$${rentData['1_bedroom']}` : 'N/A'}</p>
-                  <p className="text-slate-700">2 Bedroom: {rentData['2_bedroom'] ? `$${rentData['2_bedroom']}` : 'N/A'}</p>
-                  <p className="text-slate-700">3+ Bedroom: {rentData['3_bedroom_plus'] ? `$${rentData['3_bedroom_plus']}` : 'N/A'}</p>
-                  <p className="text-slate-700 font-semibold mt-1">Total Average: {rentData.total_avg ? `$${rentData.total_avg}` : 'N/A'}</p>
-                </div>
-              </details>
+            <div className="space-y-3">
+              {selectedUnitTypes.map(unitType => {
+                const price = rentData[unitType];
+                return (
+                  <div key={unitType} className="bg-blue-50 p-3 rounded-md">
+                    <p className="text-sm text-slate-600 mb-1">
+                      {UNIT_TYPE_LABELS[unitType]}
+                    </p>
+                    <p className="text-2xl font-bold text-blue-900">
+                      {price ? `$${Math.round(price).toLocaleString()}` : 'N/A'}
+                      {price && <span className="text-sm font-normal text-slate-600">/month</span>}
+                    </p>
+                  </div>
+                );
+              })}
               <p className="text-xs text-slate-500 mt-2">Source: CMHC October 2024</p>
             </div>
           ) : (
@@ -112,23 +126,49 @@ const RightPanel = () => {
         </div>
       )}
 
-      {/* Parks */}
+      {/* Schools with Quartile */}
+      {visibleLayers.schools && (
+        <div className="mb-4 pb-4 border-b border-slate-200">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-lg font-semibold text-slate-800">Schools</h3>
+            {schoolsQuartile && (
+              <div className="flex items-center">
+                <span className="text-2xl mr-1" aria-label={`Schools: ${schoolsQuartile.label} (tier ${schoolsQuartile.tier} of 4)`}>
+                  {schoolsQuartile.emoji}
+                </span>
+                <span className="text-sm text-slate-600">{schoolsQuartile.label}</span>
+              </div>
+            )}
+          </div>
+          {schoolsQuartile ? (
+            <p className="text-xs text-slate-500">{schoolsQuartile.description}</p>
+          ) : (
+            <p className="text-sm text-slate-500">No schools data available</p>
+          )}
+        </div>
+      )}
+
+      {/* Parks with Quartile */}
       {visibleLayers.parks && (
         <div className="mb-4">
-          <h3 className="text-lg font-semibold text-slate-800 mb-2">Parks & Playgrounds</h3>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-lg font-semibold text-slate-800">Parks & Playgrounds</h3>
+            {parksQuartile && (
+              <div className="flex items-center">
+                <span className="text-2xl mr-1" aria-label={`Parks: ${parksQuartile.label} (tier ${parksQuartile.tier} of 4)`}>
+                  {parksQuartile.emoji}
+                </span>
+                <span className="text-sm text-slate-600">{parksQuartile.label}</span>
+              </div>
+            )}
+          </div>
           {parks && parks.length > 0 ? (
             <div>
-              <p className="text-sm text-slate-700 mb-2">
+              <p className="text-sm text-slate-700 mb-1">
                 <span className="font-semibold">{parks.length}</span> playground{parks.length !== 1 ? 's' : ''} in this neighbourhood
               </p>
-              {parks.length <= 5 && (
-                <ul className="text-sm text-slate-600 space-y-1">
-                  {parks.map((park, idx) => (
-                    <li key={idx} className="truncate">
-                      • {park.properties.name}
-                    </li>
-                  ))}
-                </ul>
+              {parksQuartile && (
+                <p className="text-xs text-slate-500 mt-1">{parksQuartile.description}</p>
               )}
             </div>
           ) : (

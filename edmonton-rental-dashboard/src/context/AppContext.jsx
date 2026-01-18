@@ -11,8 +11,8 @@ export const useAppContext = () => {
 };
 
 export const AppProvider = ({ children }) => {
-  // Global state for active unit type (for rent filtering)
-  const [activeUnitType, setActiveUnitType] = useState('total_avg');
+  // Global state for selected unit types (for rent filtering) - supports multiple selections
+  const [selectedUnitTypes, setSelectedUnitTypes] = useState(['1_bedroom']); // Default: 1 bedroom
 
   // Global state for selected neighbourhood
   const [selectedNeighbourhood, setSelectedNeighbourhood] = useState(null);
@@ -33,15 +33,28 @@ export const AppProvider = ({ children }) => {
     }));
   }, []);
 
+  // Toggle unit type selection (memoized to prevent recreation)
+  const toggleUnitType = useCallback((unitType) => {
+    setSelectedUnitTypes(prev => {
+      if (prev.includes(unitType)) {
+        // Uncheck - but keep at least one selected
+        return prev.length > 1 ? prev.filter(t => t !== unitType) : prev;
+      } else {
+        // Check - add to selection
+        return [...prev, unitType];
+      }
+    });
+  }, []);
+
   // Memoize value object to prevent unnecessary re-renders
   const value = useMemo(() => ({
-    activeUnitType,
-    setActiveUnitType,
+    selectedUnitTypes,
+    toggleUnitType,
     selectedNeighbourhood,
     setSelectedNeighbourhood,
     visibleLayers,
     toggleLayer
-  }), [activeUnitType, selectedNeighbourhood, visibleLayers]);
+  }), [selectedUnitTypes, selectedNeighbourhood, visibleLayers, toggleUnitType, toggleLayer]);
 
   return (
     <AppContext.Provider value={value}>

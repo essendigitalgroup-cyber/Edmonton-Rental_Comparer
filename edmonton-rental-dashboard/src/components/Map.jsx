@@ -1,77 +1,58 @@
-import { useEffect, useState, useMemo, useCallback } from 'react';
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup } from 'react-leaflet';
-import L from 'leaflet';
+import { useEffect, useState, useCallback, useRef } from 'react';
+import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import { useAppContext } from '../context/AppContext';
-import { loadAllData, getNeighbourhoods, getRentByNeighbourhood } from '../utils/dataLoader';
-
-// Fix for default marker icon
-import icon from 'leaflet/dist/images/marker-icon.png';
-import iconShadow from 'leaflet/dist/images/marker-shadow.png';
-
-let DefaultIcon = L.icon({
-  iconUrl: icon,
-  shadowUrl: iconShadow,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41]
-});
-
-L.Marker.prototype.options.icon = DefaultIcon;
+import { loadAllData } from '../utils/dataLoader';
+import HoverTooltip from './HoverTooltip';
 
 const Map = () => {
-  const { selectedNeighbourhood, setSelectedNeighbourhood, activeUnitType, visibleLayers } = useAppContext();
+  const { selectedNeighbourhood, setSelectedNeighbourhood } = useAppContext();
   const [neighbourhoods, setNeighbourhoods] = useState(null);
-  const [schools, setSchools] = useState(null);
-  const [parks, setParks] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [hoveredNeighbourhood, setHoveredNeighbourhood] = useState(null);
+  const [mousePosition, setMousePosition] = useState(null);
+  const lastMouseUpdate = useRef(0);
 
   useEffect(() => {
+    let cancelled = false;
+
     const loadData = async () => {
       try {
         const data = await loadAllData();
-        setNeighbourhoods(data.neighbourhoods);
-        setSchools(data.schools);
-        setParks(data.parks);
-        setLoading(false);
+        if (!cancelled) {
+          setNeighbourhoods(data.neighbourhoods);
+          setLoading(false);
+        }
       } catch (error) {
-        console.error('Error loading data:', error);
-        setError(error.message || 'Failed to load map data');
-        setLoading(false);
+        if (!cancelled) {
+          console.error('Error loading data:', error);
+          setError(error.message || 'Failed to load map data');
+          setLoading(false);
+        }
       }
     };
+
     loadData();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
-
-  // Get color based on rent value
-  const getRentColor = (rentValue) => {
-    if (!rentValue || rentValue === null) return '#d1d5db'; // gray for no data
-
-    // Color scale from green (cheap) to red (expensive)
-    if (rentValue < 1200) return '#10b981'; // green
-    if (rentValue < 1350) return '#84cc16'; // lime
-    if (rentValue < 1500) return '#eab308'; // yellow
-    if (rentValue < 1650) return '#f97316'; // orange
-    return '#ef4444'; // red
-  };
 
   // Style for neighbourhood polygons (memoized to prevent unnecessary re-computation)
   const getNeighbourhoodStyle = useCallback((feature) => {
-    const neighbourhoodName = feature.properties.name;
-    const rentData = getRentByNeighbourhood(neighbourhoodName);
-    const rentValue = rentData ? rentData[activeUnitType] : null;
-
-    const isSelected = selectedNeighbourhood?.properties.name === neighbourhoodName;
+    const isSelected = selectedNeighbourhood?.properties.name === feature.properties.name;
 
     return {
-      fillColor: visibleLayers.rent ? getRentColor(rentValue) : '#e2e8f0',
+      fillColor: '#e2e8f0', // Neutral slate color
       weight: isSelected ? 3 : 1,
       opacity: 1,
       color: isSelected ? '#1e40af' : '#64748b',
-      fillOpacity: 0.6
+      fillOpacity: isSelected ? 0.7 : 0.5
     };
-  }, [activeUnitType, selectedNeighbourhood, visibleLayers.rent]);
+  }, [selectedNeighbourhood]);
 
-  // Handle neighbourhood click
+  // Handle neighbourhood interactions
   const onEachNeighbourhood = (feature, layer) => {
     layer.on({
       click: () => {
@@ -79,6 +60,7 @@ const Map = () => {
       },
       mouseover: (e) => {
         const layer = e.target;
+        setHoveredNeighbourhood(feature);
         if (selectedNeighbourhood?.properties.name !== feature.properties.name) {
           layer.setStyle({
             weight: 2,
@@ -88,45 +70,28 @@ const Map = () => {
       },
       mouseout: (e) => {
         const layer = e.target;
+        setHoveredNeighbourhood(null);
+        setMousePosition(null); // Clear mouse position to hide tooltip
         if (selectedNeighbourhood?.properties.name !== feature.properties.name) {
           layer.setStyle({
             weight: 1,
             fillOpacity: 0.6
           });
         }
+      },
+      mousemove: (e) => {
+        // Throttle mouse position updates to ~60fps (16ms)
+        const now = Date.now();
+        if (now - lastMouseUpdate.current >= 16) {
+          setMousePosition({
+            x: e.originalEvent.clientX,
+            y: e.originalEvent.clientY
+          });
+          lastMouseUpdate.current = now;
+        }
       }
     });
-
-    // Tooltip
-    layer.bindTooltip(feature.properties.name, {
-      permanent: false,
-      direction: 'center',
-      className: 'neighbourhood-tooltip'
-    });
   };
-
-  // School icon (memoized to prevent memory leak)
-  const schoolIcon = useMemo(() => new L.Icon({
-    iconUrl: 'data:image/svg+xml;base64,' + btoa(`
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3b82f6" width="24" height="24">
-        <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
-        <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/>
-      </svg>
-    `),
-    iconSize: [24, 24],
-    iconAnchor: [12, 24]
-  }), []);
-
-  // Park icon (memoized to prevent memory leak)
-  const parkIcon = useMemo(() => new L.Icon({
-    iconUrl: 'data:image/svg+xml;base64,' + btoa(`
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#10b981" width="20" height="20">
-        <circle cx="12" cy="12" r="10" />
-      </svg>
-    `),
-    iconSize: [20, 20],
-    iconAnchor: [10, 20]
-  }), []);
 
   // Error state
   if (error) {
@@ -165,62 +130,34 @@ const Map = () => {
   const edmontonCenter = [53.5461, -113.4938];
 
   return (
-    <MapContainer
-      center={edmontonCenter}
-      zoom={11}
-      style={{ height: '100%', width: '100%' }}
-      className="z-0"
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-
-      {/* Neighbourhood boundaries */}
-      {neighbourhoods && (
-        <GeoJSON
-          data={neighbourhoods}
-          style={getNeighbourhoodStyle}
-          onEachFeature={onEachNeighbourhood}
-          key={activeUnitType} // Re-render when unit type changes
+    <div className="relative h-full w-full">
+      <MapContainer
+        center={edmontonCenter}
+        zoom={11}
+        style={{ height: '100%', width: '100%' }}
+        className="z-0"
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-      )}
 
-      {/* Schools (limited to 100 for performance) */}
-      {visibleLayers.schools && schools && schools.features.slice(0, 100).map((school, idx) => (
-        <Marker
-          key={`school-${idx}`}
-          position={[school.geometry.coordinates[1], school.geometry.coordinates[0]]}
-          icon={schoolIcon}
-        >
-          <Popup>
-            <div>
-              <h3 className="font-bold">{school.properties.school_name}</h3>
-              <p className="text-sm">{school.properties.school_type}</p>
-              <p className="text-sm">{school.properties.grades}</p>
-              <p className="text-xs text-slate-500 mt-1">{school.properties.address}</p>
-            </div>
-          </Popup>
-        </Marker>
-      ))}
+        {/* Neighbourhood boundaries */}
+        {neighbourhoods && (
+          <GeoJSON
+            data={neighbourhoods}
+            style={getNeighbourhoodStyle}
+            onEachFeature={onEachNeighbourhood}
+          />
+        )}
+      </MapContainer>
 
-      {/* Parks (showing first 200 globally for context; RightPanel filters by neighbourhood) */}
-      {visibleLayers.parks && parks && parks.features.slice(0, 200).map((park, idx) => (
-        <Marker
-          key={`park-${idx}`}
-          position={[park.geometry.coordinates[1], park.geometry.coordinates[0]]}
-          icon={parkIcon}
-        >
-          <Popup>
-            <div>
-              <h3 className="font-bold">{park.properties.name}</h3>
-              <p className="text-sm">{park.properties.type}</p>
-              <p className="text-xs text-slate-500">{park.properties.neighbourhood_name}</p>
-            </div>
-          </Popup>
-        </Marker>
-      ))}
-    </MapContainer>
+      {/* Custom dark-themed hover tooltip */}
+      <HoverTooltip
+        neighbourhood={hoveredNeighbourhood}
+        mousePosition={mousePosition}
+      />
+    </div>
   );
 };
 

@@ -1,7 +1,14 @@
 # CLAUDE.md - Edmonton Neighborhoods Rental Scores
 
 ## Project Overview
-Interactive map-based dashboard showing Edmonton neighbourhoods with overlaid data on crime, rental prices, schools, and parks. Users click/hover on neighbourhoods to see detailed stats in a right-side panel. Map-first interface with filtering controls.
+Interactive map-based dashboard showing Edmonton neighbourhoods with **quartile-based performance indicators** for crime, schools, and parks. Users hover to see a dark tooltip with rental prices and quartile rankings, or click neighbourhoods to see detailed stats in a right-side panel. Map-first interface with checkbox filtering controls.
+
+**Key Design Principles:**
+- **NO map markers** for schools/parks (data shown via quartile indicators only)
+- **NO rent-based choropleth coloring** on map (neutral slate color for all neighbourhoods)
+- **Quartile system**: 🔵 Best (top 25%) → 🟢 Good → 🟡 Fair → 🔴 Poor (bottom 25%)
+- **Instant updates**: No "Apply Filters" button - changes happen immediately
+- **Multiple unit type selection**: Checkboxes allow selecting multiple bedroom types simultaneously
 
 ## Repository & Deployment
 - **GitHub Repo**: `essendigitalgroup-cyber/Edmonton-Neighborhoods-Rental-Scores`
@@ -14,7 +21,7 @@ All datasets are **static, one-time only** (never updated after initial commit).
 | Dataset | Source | Format | Freshness | Notes |
 |---------|--------|--------|-----------|-------|
 | **Crime Data** | Edmonton Police Service (EPS) | JSON | 12-month average (Jan-Dec 2025) | Violent crimes aggregated by neighbourhood |
-| **Rent Data** | CMHC Rental Market Survey | JSON | October 2024 | Most recent official CMHC data available. Aggregated by CMHC zone (not neighbourhood) |
+| **Rent Data** | CMHC Rental Market Survey | JSON | October 2024 | Most recent official CMHC data available. By neighbourhood |
 | **Schools** | Edmonton Public School Board (EPSB) | GeoJSON | Static | School locations + catchment areas |
 | **Parks** | City of Edmonton Parks & Recreation | GeoJSON | Static | Park locations + types |
 | **Neighbourhoods** | City of Edmonton | GeoJSON | Static | 406 Edmonton neighbourhoods with boundaries (simplified for performance) |
@@ -37,22 +44,24 @@ All datasets are **static, one-time only** (never updated after initial commit).
 ```
 /src
   ├── components/
-  │   ├── Map.jsx              (Leaflet map with neighbourhood boundaries)
-  │   ├── RightPanel.jsx       (Crime, rent, schools, parks stats)
-  │   ├── FilterControls.jsx   (Checkboxes for data layer visibility)
+  │   ├── Map.jsx              (Leaflet map with neighbourhood boundaries - NO MARKERS)
+  │   ├── RightPanel.jsx       (Crime, rent, schools, parks stats with quartile indicators)
+  │   ├── FilterControls.jsx   (Unit type checkboxes + data layer visibility toggles)
+  │   ├── HoverTooltip.jsx     (Dark-themed tooltip following mouse cursor)
+  │   ├── MapLegend.jsx        (Bottom-left legend showing quartile meanings)
   │   └── Header.jsx           (Title + subtitle)
+  ├── context/
+  │   └── AppContext.jsx       (Global state: selectedUnitTypes[], selectedNeighbourhood, visibleLayers)
   ├── data/
-  │   ├── crime-data.json      (12-month average by neighbourhood)
-  │   ├── rent-data.json       (by CMHC zone)
-  │   ├── schools.json         (locations + catchment areas)
-  │   ├── parks.json           (locations + types)
-  │   └── neighbourhoods.geojson (simplified boundaries + zone mapping)
+  │   ├── crime-data-processed.json      (12-month average by neighbourhood)
+  │   ├── rent-data-processed.json       (by CMHC zone)
+  │   ├── schools.geojson                (school locations)
+  │   ├── parks.geojson                  (park locations)
+  │   └── City_of_Edmonton_-_Neighbourhoods_20260117.geojson
   ├── utils/
-  │   ├── dataLoader.js        (Load and parse JSON/GeoJSON)
-  │   ├── zoneMapper.js        (Map neighbourhoods to CMHC zones for rent lookup)
-  │   └── dataAggregators.js   (Filter schools/parks by neighbourhood)
-  ├── App.jsx                  (Main app container)
-  ├── App.css                  (Tailwind + custom styles)
+  │   ├── dataLoader.js          (Load and parse JSON/GeoJSON, O(1) lookups via Maps)
+  │   └── quartileCalculator.js  (Calculate quartile rankings for crime/schools/parks)
+  ├── App.jsx                    (Main app container)
   └── main.jsx
 /public
   ├── index.html
@@ -60,52 +69,116 @@ All datasets are **static, one-time only** (never updated after initial commit).
 package.json
 vite.config.js
 tailwind.config.js
-.github/workflows/deploy.yml  (GitHub Actions auto-deploy to Pages)
-CLAUDE.md                      (this file)
-README.md                      (user-facing project description)
+.github/workflows/deploy.yml    (GitHub Actions auto-deploy to Pages - MUST be at repo root)
+CLAUDE.md                        (this file)
+README.md                        (user-facing project description)
 ```
 
 ## Core Features & Interactions
 
 ### Map Interface (Primary)
 - Display Edmonton neighbourhood boundaries as clickable/hoverable polygons
-- Highlight neighbourhood on hover
+- **Neutral slate color (#e2e8f0)** for all neighbourhoods - NO rent-based coloring
+- **NO map markers** for schools/parks - data shown only in tooltips/panels
+- Highlight neighbourhood on hover (darker shade, thicker border)
+- Show dark tooltip on hover with rent + quartile indicators
 - Show full stats on click → right panel appears
 
-### Right Panel (Secondary)
-- **Shows when:** User clicks neighbourhood or hovers within a zone
-- **Sticky rent data:** When user hovers within a CMHC zone, rent prices stay displayed as cursor moves through neighbourhoods in that zone (since rent is zone-level, not neighbourhood-level)
-- **Displays:**
-  - Neighbourhood name
-  - Crime stats (violent crimes - 12-month average)
-  - Rent prices (by bedroom type: bachelor, 1-bed, 2-bed, 3-bed+ - for the zone this neighbourhood belongs to)
-  - Schools (list of schools in/near neighbourhood)
-  - Parks (count and list of parks)
+### Dark Hover Tooltip (follows mouse cursor)
+- **Position:** Near/follows mouse cursor (15px offset)
+- **Theme:** Dark background (bg-slate-900), white text
+- **Shows:**
+  - Neighbourhood name (uppercase, bold)
+  - Rent prices for ALL currently selected unit types
+  - Quartile indicators:
+    - 🔵 Crime level (lower is better)
+    - 🔵 Schools availability (higher is better)
+    - 🔵 Parks availability (higher is better)
 
-### Filter Controls (Top of Page)
-- Checkboxes to toggle visibility:
-  - [ ] Crime Data
-  - [ ] Rent Data
-  - [ ] Schools
-  - [ ] Parks
-  - [ ] Neighbourhood Boundaries (always on)
+### Right Panel (Secondary)
+- **Shows when:** User clicks neighbourhood
+- **Position:** Top-right, fixed width (384px)
+- **NOT scrollable** - content fits within viewport
+- **Displays:**
+  - Neighbourhood name + X button (top-right) to close
+  - Crime stats with quartile indicator (🔵🟢🟡🔴)
+    - Total 2025 incidents
+    - Monthly average
+    - Quartile description
+  - Market rental rates for ONLY selected unit types
+    - Each unit type in blue card
+    - NO percentages shown below prices
+  - Schools with quartile indicator
+  - Parks with quartile indicator + count
+- **Refreshes** when different neighbourhood clicked
+
+### Filter Controls (Top-Left)
+**Position:** Absolute top-4 left-4 (NOT top-right)
+
+**Unit Type Selection:**
+- **Multiple selection via checkboxes** (NOT dropdown)
+- Available types:
+  - [ ] Studio
+  - [ ] 1 Bedroom (DEFAULT: checked on load)
+  - [ ] 2 Bedroom
+  - [ ] 3+ Bedroom
+- ❌ NO "Total Average" option
+- At least one unit type must remain selected
+- Updates happen INSTANTLY (no "Apply Filters" button)
+
+**Data Layer Toggles:**
+- [ ] Crime Data
+- [ ] Rent Data
+- [ ] Schools
+- [ ] Parks
 
 **⚠️ IMPORTANT - Z-Index Configuration:**
-Since Leaflet maps often "steal" mouse focus or overlap UI elements, ensure your `FilterControls.jsx` and `RightPanel.jsx` components have a `z-[1000]` or higher in Tailwind to stay above the Leaflet map container.
+All overlays have `z-[1000]` or higher to stay above Leaflet map container (z-0).
 
-**Global State - Unit Type Selection:**
-The "Active Unit Type" (Bachelor, 1-bed, 2-bed, 3-bed+) and "Building Type" (Condo vs. House) should be managed as **global state**. When the user changes from "1-Bed" to "2-Bed", the choropleth colors on the map should update **instantly** to reflect the rent prices for that specific category. This ensures the map visualization remains synchronized with the selected filter criteria.
+### Map Legend (Bottom-Left)
+- **Position:** Absolute bottom-6 left-6
+- **Shows quartile meanings:**
+  - 🔵 Best - Top 25%
+  - 🟢 Good - Above Average
+  - 🟡 Fair - Below Average
+  - 🔴 Poor - Bottom 25%
+- **Clarifies metrics:**
+  - Crime: Lower is better
+  - Schools/Parks: More is better
 
 ### Design Specifications
 - **Style**: Professional, minimal, data-focused (no flashy animations)
 - **Audience**: Senior real estate executives (LinkedIn-ready)
-- **Design file**: Will be provided separately to Claude Code
+- **Color Scheme**:
+  - Map: Neutral slate (#e2e8f0) for neighbourhoods
+  - Tooltip: Dark theme (slate-900 background, white text)
+  - Quartiles: 🔵 Blue (best) → 🟢 Green → 🟡 Yellow → 🔴 Red (worst)
+  - Rent cards: Blue accent (blue-50 background, blue-900 text)
+
+## Quartile Ranking System
+
+**How It Works:**
+- All neighbourhoods ranked into 4 tiers based on statistical quartiles (25th, 50th, 75th percentiles)
+- **Crime:** Lower values = better ranking (🔵 = safest, 🔴 = most crime)
+- **Schools:** Higher counts = better ranking (🔵 = most schools, 🔴 = fewest)
+- **Parks:** Higher counts = better ranking (🔵 = most parks, 🔴 = fewest)
+
+**Quartile Tiers:**
+1. **🔵 Tier 1 (Best)** - Top 25% of neighbourhoods
+2. **🟢 Tier 2 (Good)** - 25th-50th percentile
+3. **🟡 Tier 3 (Fair)** - 50th-75th percentile
+4. **🔴 Tier 4 (Poor)** - Bottom 25% of neighbourhoods
+
+**Implementation:**
+- Calculated once on data load via `quartileCalculator.js`
+- Stored in Map data structures for O(1) lookups
+- Exported functions: `getCrimeQuartile()`, `getSchoolsQuartile()`, `getParksQuartile()`
 
 ## Tech Stack
-- **Framework**: React + Vite
-- **Styling**: Tailwind CSS
-- **Mapping**: Leaflet (for interactive neighbourhood boundaries)
-- **Data Visualization**: Recharts (for crime/rent charts in right panel) or D3 (for custom viz)
+- **Framework**: React 19.2.0 + Vite 7.3.1
+- **Styling**: Tailwind CSS v4 with @tailwindcss/postcss
+- **Mapping**: Leaflet 1.9.4 (for interactive neighbourhood boundaries)
+- **State Management**: React Context API with useMemo/useCallback optimization
 - **Build & Deploy**: GitHub Pages + GitHub Actions
 
 ## GitHub Pages Deployment
@@ -200,13 +273,20 @@ git push origin main
 
 ## Important Notes
 - **This is a one-time project**: No ongoing data updates. All datasets frozen after initial commit.
-- **Map-first UX**: Users primarily interact via map, not data tables
-- **Zone-level rent data**: Rent prices are aggregated by CMHC zone, not individual neighbourhood. Right panel shows the zone's rent data when user hovers/clicks any neighbourhood in that zone.
-- **Browser-only Claude Code**: No OS-specific instructions needed. All development in browser.
-- **Design separately**: UI/UX designs will be provided to Claude Code directly (not in this doc).
+- **Map-first UX**: Users primarily interact via map hover tooltips, not data tables
+- **Neighbourhood-level rent data**: Rent prices are by neighbourhood from CMHC survey. All data loaded once at page initialization and cached in memory for instant access.
+- **Performance optimized**: O(1) data lookups via Map data structures, quartiles calculated once on load, mouse events throttled to 60fps
+- **GitHub Actions workflow**: MUST be at repository root `.github/workflows/deploy.yml` (NOT in subdirectory)
+- **Data loading**: All data (crime, rent, schools, parks, neighbourhood boundaries) loaded once at app initialization and stored in module-level Maps for O(1) lookups. No repeated file fetches during user interaction.
 
-## Questions for Claude Code
-Before starting, Claude should confirm:
-1. "Should I set up the GitHub Pages deployment workflow now, or wait for the first commit?"
-2. "Do you have the design file ready, or should I create placeholder styling with Tailwind?"
-3. "Any specific chart/visualization preference for crime and rent data in the right panel?"
+## Design Answers (Confirmed)
+1. ✅ GitHub Pages workflow set up at repository root
+2. ✅ Checkbox-based unit type selector (NOT dropdown)
+3. ✅ Multiple unit types can be selected simultaneously
+4. ✅ Default state: 1 bedroom selected
+5. ✅ Dark-themed hover tooltip following mouse cursor
+6. ✅ Quartile indicators: 🔵🟢🟡🔴 for crime/schools/parks
+7. ✅ NO map markers for schools/parks
+8. ✅ NO rent-based choropleth coloring (neutral slate only)
+9. ✅ NO "Apply Filters" button (instant updates)
+10. ✅ NO "Total Average" unit type option
