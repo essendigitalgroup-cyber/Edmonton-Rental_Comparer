@@ -6,6 +6,11 @@ import rentDataUrl from '../data/rent-data-processed.json?url';
 import schoolsDataUrl from '../data/schools.geojson?url';
 import parksDataUrl from '../data/parks.geojson?url';
 import neighbourhoodsDataUrl from '../data/City_of_Edmonton_-_Neighbourhoods_20260117.geojson?url';
+import {
+  calculateCrimeQuartiles,
+  calculateSchoolsQuartiles,
+  calculateParksQuartiles
+} from './quartileCalculator';
 
 let crimeData = null;
 let rentData = null;
@@ -18,11 +23,16 @@ let crimeDataMap = null;
 let rentDataMap = null;
 let neighbourhoodDataMap = null;
 
+// Quartile maps for crime, schools, parks
+let crimeQuartilesMap = null;
+let schoolsQuartilesMap = null;
+let parksQuartilesMap = null;
+
 // Single loading promise to prevent race conditions
 let loadingPromise = null;
 
 /**
- * Build lookup maps for O(1) performance
+ * Build lookup maps and quartile maps for O(1) performance
  */
 const buildLookupMaps = () => {
   // Crime lookup map
@@ -42,6 +52,11 @@ const buildLookupMaps = () => {
   neighbourhoodsData.features.forEach(feature => {
     neighbourhoodDataMap.set(feature.properties.name.toUpperCase(), feature);
   });
+
+  // Calculate quartile rankings
+  crimeQuartilesMap = calculateCrimeQuartiles(crimeData);
+  schoolsQuartilesMap = calculateSchoolsQuartiles(schoolsData, neighbourhoodsData);
+  parksQuartilesMap = calculateParksQuartiles(parksData, neighbourhoodsData);
 };
 
 /**
@@ -228,6 +243,39 @@ export const getNeighbourhoodByName = (neighbourhoodName) => {
   return neighbourhoodDataMap.get(normalizedName) || null;
 };
 
+/**
+ * Get crime quartile ranking for a neighbourhood (O(1) lookup)
+ * @param {string} neighbourhoodName
+ * @returns {{tier: number, emoji: string, label: string, description: string, value: number} | null}
+ */
+export const getCrimeQuartile = (neighbourhoodName) => {
+  if (!neighbourhoodName || !crimeQuartilesMap) return null;
+  const normalizedName = neighbourhoodName.toUpperCase().trim();
+  return crimeQuartilesMap.get(normalizedName) || null;
+};
+
+/**
+ * Get schools quartile ranking for a neighbourhood (O(1) lookup)
+ * @param {string} neighbourhoodName
+ * @returns {{tier: number, emoji: string, label: string, description: string, value: number} | null}
+ */
+export const getSchoolsQuartile = (neighbourhoodName) => {
+  if (!neighbourhoodName || !schoolsQuartilesMap) return null;
+  const normalizedName = neighbourhoodName.toUpperCase().trim();
+  return schoolsQuartilesMap.get(normalizedName) || null;
+};
+
+/**
+ * Get parks quartile ranking for a neighbourhood (O(1) lookup)
+ * @param {string} neighbourhoodName
+ * @returns {{tier: number, emoji: string, label: string, description: string, value: number} | null}
+ */
+export const getParksQuartile = (neighbourhoodName) => {
+  if (!neighbourhoodName || !parksQuartilesMap) return null;
+  const normalizedName = neighbourhoodName.toUpperCase().trim();
+  return parksQuartilesMap.get(normalizedName) || null;
+};
+
 export default {
   loadAllData,
   getAllData,
@@ -237,5 +285,8 @@ export default {
   getSchoolsByNeighbourhood,
   getParksByNeighbourhood,
   getNeighbourhoods,
-  getNeighbourhoodByName
+  getNeighbourhoodByName,
+  getCrimeQuartile,
+  getSchoolsQuartile,
+  getParksQuartile
 };
