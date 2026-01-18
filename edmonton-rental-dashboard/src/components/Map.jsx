@@ -2,9 +2,7 @@ import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, GeoJSON, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import { useAppContext } from '../context/AppContext';
-import { getNeighbourhoods, getRentByNeighbourhood } from '../utils/dataLoader';
-import schoolsData from '../data/schools.geojson';
-import parksData from '../data/parks.geojson';
+import { loadAllData, getNeighbourhoods, getRentByNeighbourhood } from '../utils/dataLoader';
 
 // Fix for default marker icon
 import icon from 'leaflet/dist/images/marker-icon.png';
@@ -22,10 +20,24 @@ L.Marker.prototype.options.icon = DefaultIcon;
 const Map = () => {
   const { selectedNeighbourhood, setSelectedNeighbourhood, activeUnitType, visibleLayers } = useAppContext();
   const [neighbourhoods, setNeighbourhoods] = useState(null);
+  const [schools, setSchools] = useState(null);
+  const [parks, setParks] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const data = getNeighbourhoods();
-    setNeighbourhoods(data);
+    const loadData = async () => {
+      try {
+        const data = await loadAllData();
+        setNeighbourhoods(data.neighbourhoods);
+        setSchools(data.schools);
+        setParks(data.parks);
+        setLoading(false);
+      } catch (error) {
+        console.error('Error loading data:', error);
+        setLoading(false);
+      }
+    };
+    loadData();
   }, []);
 
   // Get color based on rent value
@@ -114,8 +126,15 @@ const Map = () => {
     iconAnchor: [10, 20]
   });
 
-  if (!neighbourhoods) {
-    return <div className="flex items-center justify-center h-full">Loading map...</div>;
+  if (loading || !neighbourhoods) {
+    return (
+      <div className="flex items-center justify-center h-full bg-slate-100">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-slate-600 text-lg">Loading Edmonton neighbourhoods...</p>
+        </div>
+      </div>
+    );
   }
 
   // Edmonton center coordinates
@@ -144,7 +163,7 @@ const Map = () => {
       )}
 
       {/* Schools */}
-      {visibleLayers.schools && schoolsData.features.map((school, idx) => (
+      {visibleLayers.schools && schools && schools.features.map((school, idx) => (
         <Marker
           key={`school-${idx}`}
           position={[school.geometry.coordinates[1], school.geometry.coordinates[0]]}
@@ -162,7 +181,7 @@ const Map = () => {
       ))}
 
       {/* Parks */}
-      {visibleLayers.parks && parksData.features.slice(0, 200).map((park, idx) => (
+      {visibleLayers.parks && parks && parks.features.slice(0, 200).map((park, idx) => (
         <Marker
           key={`park-${idx}`}
           position={[park.geometry.coordinates[1], park.geometry.coordinates[0]]}
