@@ -1,5 +1,5 @@
 import { useAppContext } from '../context/AppContext';
-import { getCrimeByNeighbourhood, getRentByNeighbourhood, getParksByNeighbourhood } from '../utils/dataLoader';
+import { isDataLoaded, getCrimeByNeighbourhood, getRentByNeighbourhood, getParksByNeighbourhood } from '../utils/dataLoader';
 
 const RightPanel = () => {
   const { selectedNeighbourhood, setSelectedNeighbourhood, activeUnitType, visibleLayers } = useAppContext();
@@ -10,6 +10,18 @@ const RightPanel = () => {
         <p className="text-slate-500 text-center">
           Click on a neighbourhood to see details
         </p>
+      </div>
+    );
+  }
+
+  // Check if data is still loading (edge case: user clicks before data loads)
+  if (!isDataLoaded()) {
+    return (
+      <div className="absolute top-4 right-4 w-96 bg-white shadow-lg rounded-lg p-6 z-[1000]">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-2"></div>
+          <p className="text-slate-500">Loading neighbourhood data...</p>
+        </div>
       </div>
     );
   }

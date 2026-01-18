@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useCallback } from 'react';
 import { MapContainer, TileLayer, GeoJSON, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import { useAppContext } from '../context/AppContext';
@@ -23,6 +23,7 @@ const Map = () => {
   const [schools, setSchools] = useState(null);
   const [parks, setParks] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -34,6 +35,7 @@ const Map = () => {
         setLoading(false);
       } catch (error) {
         console.error('Error loading data:', error);
+        setError(error.message || 'Failed to load map data');
         setLoading(false);
       }
     };
@@ -52,8 +54,8 @@ const Map = () => {
     return '#ef4444'; // red
   };
 
-  // Style for neighbourhood polygons
-  const getNeighbourhoodStyle = (feature) => {
+  // Style for neighbourhood polygons (memoized to prevent unnecessary re-computation)
+  const getNeighbourhoodStyle = useCallback((feature) => {
     const neighbourhoodName = feature.properties.name;
     const rentData = getRentByNeighbourhood(neighbourhoodName);
     const rentValue = rentData ? rentData[activeUnitType] : null;
@@ -67,7 +69,7 @@ const Map = () => {
       color: isSelected ? '#1e40af' : '#64748b',
       fillOpacity: 0.6
     };
-  };
+  }, [activeUnitType, selectedNeighbourhood, visibleLayers.rent]);
 
   // Handle neighbourhood click
   const onEachNeighbourhood = (feature, layer) => {
@@ -126,6 +128,28 @@ const Map = () => {
     iconAnchor: [10, 20]
   }), []);
 
+  // Error state
+  if (error) {
+    return (
+      <div className="flex items-center justify-center h-full bg-slate-100">
+        <div className="text-center max-w-md px-6">
+          <svg className="w-16 h-16 text-red-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+          </svg>
+          <h2 className="text-xl font-bold text-slate-900 mb-2">Failed to Load Map Data</h2>
+          <p className="text-slate-700 mb-4">{error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Loading state
   if (loading || !neighbourhoods) {
     return (
       <div className="flex items-center justify-center h-full bg-slate-100">
@@ -162,8 +186,8 @@ const Map = () => {
         />
       )}
 
-      {/* Schools */}
-      {visibleLayers.schools && schools && schools.features.map((school, idx) => (
+      {/* Schools (limited to 100 for performance) */}
+      {visibleLayers.schools && schools && schools.features.slice(0, 100).map((school, idx) => (
         <Marker
           key={`school-${idx}`}
           position={[school.geometry.coordinates[1], school.geometry.coordinates[0]]}
@@ -180,7 +204,7 @@ const Map = () => {
         </Marker>
       ))}
 
-      {/* Parks */}
+      {/* Parks (showing first 200 globally for context; RightPanel filters by neighbourhood) */}
       {visibleLayers.parks && parks && parks.features.slice(0, 200).map((park, idx) => (
         <Marker
           key={`park-${idx}`}

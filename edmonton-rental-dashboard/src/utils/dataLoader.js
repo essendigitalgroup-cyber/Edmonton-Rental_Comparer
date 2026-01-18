@@ -149,6 +149,14 @@ export const getAllData = () => {
 };
 
 /**
+ * Check if data has been loaded and lookup maps are ready
+ * @returns {boolean} True if data is loaded
+ */
+export const isDataLoaded = () => {
+  return crimeDataMap !== null && rentDataMap !== null && neighbourhoodDataMap !== null;
+};
+
+/**
  * Get crime data by neighbourhood name (O(1) lookup)
  * @param {string} neighbourhoodName
  * @returns {Object|null} Crime data for the neighbourhood
@@ -223,6 +231,7 @@ export const getNeighbourhoodByName = (neighbourhoodName) => {
 export default {
   loadAllData,
   getAllData,
+  isDataLoaded,
   getCrimeByNeighbourhood,
   getRentByNeighbourhood,
   getSchoolsByNeighbourhood,
