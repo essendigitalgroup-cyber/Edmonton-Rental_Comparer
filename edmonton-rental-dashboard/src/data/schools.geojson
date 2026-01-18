@@ -1,0 +1,5808 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5709675753,
+          -113.523203322
+        ]
+      },
+      "properties": {
+        "school_name": "amiskwaciy Academy",
+        "school_type": "JS",
+        "grades": "Gr 7-12",
+        "address": "101 Airport Road NW",
+        "city": "Edmonton",
+        "postal_code": "T5G3K2",
+        "website": "http://amiskwaciy.epsb.ca/",
+        "email": "amiskwaciy@epsb.ca",
+        "phone": "(780) 424-1270",
+        "sector": "Central",
+        "epsb_id": "484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5433282282,
+          -113.498600209
+        ]
+      },
+      "properties": {
+        "school_name": "Centre High",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "10050 MacDonald Drive NW",
+        "city": "Edmonton",
+        "postal_code": "T5J2B7",
+        "website": "http://centrehigh.epsb.ca",
+        "email": "centrehigh@epsb.ca",
+        "phone": "(780) 425-6753",
+        "sector": "Central",
+        "epsb_id": "17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5593544281,
+          -113.496063946
+        ]
+      },
+      "properties": {
+        "school_name": "Glenrose Hospital",
+        "school_type": "SP",
+        "grades": "K to Gr 12",
+        "address": "10230 - 111 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5G0B7",
+        "website": "https://epsb.ca/programs/specializedprograms/hospitalstaysandmedicalneeds/",
+        "email": "glenrose@epsb.ca",
+        "phone": "(780) 735-7987",
+        "sector": "Central",
+        "epsb_id": "701"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5785796604,
+          -113.540160401
+        ]
+      },
+      "properties": {
+        "school_name": "Prince Charles",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "12325 - 127 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5L0Z9",
+        "website": "http://princecharles.epsb.ca",
+        "email": "pcharles@epsb.ca",
+        "phone": "(780) 455-5533",
+        "sector": "Central",
+        "epsb_id": "161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5708493247,
+          -113.498538918
+        ]
+      },
+      "properties": {
+        "school_name": "Transitions at the Y",
+        "school_type": "SP",
+        "grades": "Gr 9-12",
+        "address": "10211 105 Street",
+        "city": "Edmonton",
+        "postal_code": "T5J1E3",
+        "website": "http://outreach.epsb.ca",
+        "email": "transitions.at.y@epsb.ca",
+        "phone": "(780) 429-5737",
+        "sector": "Central",
+        "epsb_id": "325"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4753701646,
+          -113.462300518
+        ]
+      },
+      "properties": {
+        "school_name": "Millwoods Christian",
+        "school_type": "EJS",
+        "grades": "K to Gr 12",
+        "address": "8704 Millwoods Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6K3J3",
+        "website": "http://mcs.epsb.ca",
+        "email": "millwoodsch@epsb.ca",
+        "phone": "(780) 462-2627",
+        "sector": "Southeast 1",
+        "epsb_id": "909"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6203292882,
+          -113.431817218
+        ]
+      },
+      "properties": {
+        "school_name": "Edm Christian NE",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "5940 - 159 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5Y0J5",
+        "website": "http://edmchristian.net",
+        "email": "ecsne@epsb.ca",
+        "phone": "(780) 408-7942",
+        "sector": "North",
+        "epsb_id": "906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.596233245,
+          -113.484073399
+        ]
+      },
+      "properties": {
+        "school_name": "Glengarry",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9211 - 135 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5E1N7",
+        "website": "http://glengarry.epsb.ca",
+        "email": "glengarry@epsb.ca",
+        "phone": "(780) 476-5373",
+        "sector": "North",
+        "epsb_id": "184"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.648810127,
+          -113.538618493
+        ]
+      },
+      "properties": {
+        "school_name": "Institut Serv Schs",
+        "school_type": "SP",
+        "grades": "Gr 4-12",
+        "address": "18621 - 127 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6V1B1",
+        "website": "https://epsb.ca/programs/specializedprograms/youngoffenders/",
+        "email": "kennedale@epsb.ca",
+        "phone": "(780) 408-8209",
+        "sector": "North",
+        "epsb_id": "706"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5979129376,
+          -113.488854173
+        ]
+      },
+      "properties": {
+        "school_name": "L. S. at Northgate",
+        "school_type": "SP",
+        "grades": "Gr 10-12",
+        "address": "2014 9499-137 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5E5R8",
+        "website": "http://outreach.epsb.ca",
+        "email": "lslondonderry@epsb.ca",
+        "phone": "(780) 457-3467",
+        "sector": "North",
+        "epsb_id": "722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5940980307,
+          -113.496007244
+        ]
+      },
+      "properties": {
+        "school_name": "Rosecrest",
+        "school_type": "SP",
+        "grades": "K to Gr 12",
+        "address": "10205 - 134 AVENUE",
+        "city": "Edmonton",
+        "postal_code": "T5E1J2",
+        "website": "",
+        "email": "instsrvs@epsb.ca",
+        "phone": "(780) 475-3565",
+        "sector": "North",
+        "epsb_id": "729"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5569002932,
+          -113.586747528
+        ]
+      },
+      "properties": {
+        "school_name": "Aspen Program",
+        "school_type": "SP",
+        "grades": "Gr 2-12",
+        "address": "11031 - 154 St",
+        "city": "Edmonton",
+        "postal_code": "T5P2K2",
+        "website": "",
+        "email": "woodside@epsb.ca",
+        "phone": "(780) 457-2485",
+        "sector": "Northwest",
+        "epsb_id": "707"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5546591481,
+          -113.568288161
+        ]
+      },
+      "properties": {
+        "school_name": "Edm Christian High",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "14304-109 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5N1H6",
+        "website": "http://edmchristian.net",
+        "email": "ecssh@epsb.ca",
+        "phone": "(780) 408-7945",
+        "sector": "Northwest",
+        "epsb_id": "905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5555729827,
+          -113.568830788
+        ]
+      },
+      "properties": {
+        "school_name": "Edm Christian West",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "14345 McQueen Road NW",
+        "city": "Edmonton",
+        "postal_code": "T5N3L5",
+        "website": "http://edmchristian.net",
+        "email": "ecswest@epsb.ca",
+        "phone": "(780) 408-7948",
+        "sector": "Northwest",
+        "epsb_id": "904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5163428888,
+          -113.604686955
+        ]
+      },
+      "properties": {
+        "school_name": "Elmwood",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "16325 - 83 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5R3V8",
+        "website": "http://elmwood.epsb.ca",
+        "email": "elmwood@epsb.ca",
+        "phone": "(780) 489-6749",
+        "sector": "Northwest",
+        "epsb_id": "204"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5325150531,
+          -113.603813614
+        ]
+      },
+      "properties": {
+        "school_name": "L. S. at West Edm",
+        "school_type": "SP",
+        "grades": "Gr 10-12",
+        "address": "9532 163 St NW",
+        "city": "Edmonton",
+        "postal_code": "T5P 3M",
+        "website": "http://outreach.epsb.ca",
+        "email": "lswested@epsb.ca",
+        "phone": "(780) 443-8072",
+        "sector": "Northwest",
+        "epsb_id": "770"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5367088059,
+          -113.593334143
+        ]
+      },
+      "properties": {
+        "school_name": "Meadowlark Christian",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "9825-158 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5P2X4",
+        "website": "http://k-9christian.com",
+        "email": "meadowlarkchristian@epsb.ca",
+        "phone": "(780) 483-6476",
+        "sector": "Northwest",
+        "epsb_id": "931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5086953268,
+          -113.586209764
+        ]
+      },
+      "properties": {
+        "school_name": "Rio Terrace",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "7608 - 154 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5R1R7",
+        "website": "http://rioterrace.epsb.ca",
+        "email": "rioterrace@epsb.ca",
+        "phone": "(780) 481-6866",
+        "sector": "Northwest",
+        "epsb_id": "211"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5200338552,
+          -113.584736958
+        ]
+      },
+      "properties": {
+        "school_name": "Stratford",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "8715 - 153 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5R1P1",
+        "website": "http://stratford.epsb.ca",
+        "email": "stratford@epsb.ca",
+        "phone": "(780) 484-3381",
+        "sector": "Northwest",
+        "epsb_id": "553"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4997272558,
+          -113.524291742
+        ]
+      },
+      "properties": {
+        "school_name": "AB School for Deaf",
+        "school_type": "EJS",
+        "grades": "Gr 1-12",
+        "address": "6240 - 113 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6H3L2",
+        "website": "http://asd.epsb.ca",
+        "email": "abschdeaf@epsb.ca",
+        "phone": "(780) 439-3323",
+        "sector": "South Central",
+        "epsb_id": "730"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5215255993,
+          -113.490516929
+        ]
+      },
+      "properties": {
+        "school_name": "Academy King Edward",
+        "school_type": "EJS",
+        "grades": "Gr 2-12",
+        "address": "8525-101 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6E3Z4",
+        "website": "http://kingedward.epsb.ca",
+        "email": "academy@epsb.ca",
+        "phone": "(780) 439-1368",
+        "sector": "South Central",
+        "epsb_id": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5397222576,
+          -113.434494524
+        ]
+      },
+      "properties": {
+        "school_name": "Argyll Centre",
+        "school_type": "SP",
+        "grades": "K to Gr 12",
+        "address": "6859 - 100 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6A0G3",
+        "website": "http://argyll.epsb.ca",
+        "email": "argyll@epsb.ca",
+        "phone": "(780) 465-1299",
+        "sector": "South Central",
+        "epsb_id": "349"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.531468157,
+          -113.430770478
+        ]
+      },
+      "properties": {
+        "school_name": "Braemar",
+        "school_type": "SP",
+        "grades": "Gr 8-12",
+        "address": "9359 - 67A Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6B1R7",
+        "website": "http://braemar.epsb.ca",
+        "email": "braemar@epsb.ca",
+        "phone": "(780) 468-3000",
+        "sector": "South Central",
+        "epsb_id": "704"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5177418582,
+          -113.489335288
+        ]
+      },
+      "properties": {
+        "school_name": "L. S. on Whyte",
+        "school_type": "SP",
+        "grades": "Gr 10-12",
+        "address": "10007 - 82 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6E1Z2",
+        "website": "http://outreach.epsb.ca",
+        "email": "lswhyte@epsb.ca",
+        "phone": "(780) 437-8119",
+        "sector": "South Central",
+        "epsb_id": "386"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4837158683,
+          -113.500794446
+        ]
+      },
+      "properties": {
+        "school_name": "L. Y. Cairns",
+        "school_type": "SP",
+        "grades": "Gr 7-12",
+        "address": "10510 - 45 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6H0A1",
+        "website": "http://lycairns.epsb.ca/",
+        "email": "lycairns@epsb.ca",
+        "phone": "(780) 434-9561",
+        "sector": "South Central",
+        "epsb_id": "702"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5240952736,
+          -113.452703708
+        ]
+      },
+      "properties": {
+        "school_name": "Vimy Ridge Academy",
+        "school_type": "JS",
+        "grades": "Gr 7-12",
+        "address": "8205 - 90 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6C1N8",
+        "website": "http://vimyridge.epsb.ca",
+        "email": "vimyridge@epsb.ca",
+        "phone": "(780) 465-5461",
+        "sector": "South Central",
+        "epsb_id": "50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4852233274,
+          -113.52919974
+        ]
+      },
+      "properties": {
+        "school_name": "Malmo",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "4716 - 115 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6H3N8",
+        "website": "http://malmo.epsb.ca",
+        "email": "malmo@epsb.ca",
+        "phone": "(780) 434-1362",
+        "sector": "South Central",
+        "epsb_id": "186"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "school_name": "Metro Continuing Ed.",
+        "school_type": "SP",
+        "grades": "",
+        "address": "8205 -  90 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6C1N8",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "sector": "South Central",
+        "epsb_id": "90"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5154333966,
+          -113.481283697
+        ]
+      },
+      "properties": {
+        "school_name": "Mill Creek",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9735 - 80 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6E1S8",
+        "website": "http://millcreek.epsb.ca",
+        "email": "millcreek@epsb.ca",
+        "phone": "(780) 433-5746",
+        "sector": "South Central",
+        "epsb_id": "150"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4958957632,
+          -113.503936467
+        ]
+      },
+      "properties": {
+        "school_name": "Mount Pleasant",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10541 - 60A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6H1K4",
+        "website": "http://mountpleasant.epsb.ca",
+        "email": "mpleasant@epsb.ca",
+        "phone": "(780) 434-6766",
+        "sector": "South Central",
+        "epsb_id": "152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.519775373,
+          -113.501975651
+        ]
+      },
+      "properties": {
+        "school_name": "Old Scona",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "10523 - 84 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6E2H5",
+        "website": "http://oldscona.epsb.ca",
+        "email": "oldscona@epsb.ca",
+        "phone": "(780) 433-0627",
+        "sector": "South Central",
+        "epsb_id": "66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5138131992,
+          -113.504582698
+        ]
+      },
+      "properties": {
+        "school_name": "Queen Alexandra",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "7730 - 106 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6E4W3",
+        "website": "http://queenalexandra.epsb.ca",
+        "email": "queenalex@epsb.ca",
+        "phone": "(780) 439-2516",
+        "sector": "South Central",
+        "epsb_id": "164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.498957085,
+          -113.524332263
+        ]
+      },
+      "properties": {
+        "school_name": "Tevie Miller Hrtg Sc",
+        "school_type": "SP",
+        "grades": "K to Gr 6",
+        "address": "6240-113 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6H3L2",
+        "website": "http://teviemillerheritage.epsb.ca",
+        "email": "heritage@epsb.ca",
+        "phone": "(780) 436-0465",
+        "sector": "South Central",
+        "epsb_id": "772"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "school_name": "Ellerslie Campus South",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "",
+        "city": "",
+        "postal_code": "",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "sector": "Southeast 2",
+        "epsb_id": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4600712169,
+          -113.530716904
+        ]
+      },
+      "properties": {
+        "school_name": "L. S. at Blue Quill",
+        "school_type": "SP",
+        "grades": "Gr 10-12",
+        "address": "360 Saddleback Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6J4R7",
+        "website": "http://outreach.epsb.ca",
+        "email": "lsbluequill@epsb.ca",
+        "phone": "(780) 413-0263",
+        "sector": "Southwest 1",
+        "epsb_id": "724"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4997678517,
+          -113.621802102
+        ]
+      },
+      "properties": {
+        "school_name": "Talmud Torah",
+        "school_type": "EJ",
+        "grades": "K to Gr 6",
+        "address": "6320 - 172 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5T6H1",
+        "website": "http://talmudtorahsociety.com",
+        "email": "talmudt@epsb.ca",
+        "phone": "(780) 487-9290",
+        "sector": "West",
+        "epsb_id": "231"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.60829387,
+          53.5274879622
+        ]
+      },
+      "properties": {
+        "school_name": "Aleda Patterson",
+        "school_type": "EL",
+        "grades": "K to 3",
+        "address": "9220 165 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5R2R4",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "sector": "Northwest",
+        "epsb_id": "805"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4633361162,
+          -113.527802347
+        ]
+      },
+      "properties": {
+        "school_name": "Sweet Grass",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "11351 - 31 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6J4T6",
+        "website": "http://sweetgrass.epsb.ca",
+        "email": "sweetgrass@epsb.ca",
+        "phone": "(780) 437-0366",
+        "sector": "Southwest 1",
+        "epsb_id": "243"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4738410399,
+          -113.427931112
+        ]
+      },
+      "properties": {
+        "school_name": "Greenview",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "5904 - 38 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6L3P5",
+        "website": "http://greenview.epsb.ca",
+        "email": "greenview@epsb.ca",
+        "phone": "(780) 462-0660",
+        "sector": "Southeast 1",
+        "epsb_id": "250"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5042548389,
+          -113.478813399
+        ]
+      },
+      "properties": {
+        "school_name": "Hazeldean",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "6715 - 97 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6E3J9",
+        "website": "http://hazeldean.epsb.ca",
+        "email": "hazeldean@epsb.ca",
+        "phone": "(780) 433-7583",
+        "sector": "South Central",
+        "epsb_id": "132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5597020515,
+          -113.558080329
+        ]
+      },
+      "properties": {
+        "school_name": "Ross Sheppard",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "13546 - 111 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5M2P2",
+        "website": "https://rosssheppard.epsb.ca/",
+        "email": "rsheppard@epsb.ca",
+        "phone": "(780) 448-5000",
+        "sector": "Northwest",
+        "epsb_id": "53"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5604062257,
+          -113.448182511
+        ]
+      },
+      "properties": {
+        "school_name": "Virginia Park",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "7324 - 109 AVENUE",
+        "city": "Edmonton",
+        "postal_code": "T5B0A1",
+        "website": "http://virginiapark.epsb.ca/",
+        "email": "virginia@epsb.ca",
+        "phone": "(780) 477-8152",
+        "sector": "Central",
+        "epsb_id": "177"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5239296305,
+          -113.433532533
+        ]
+      },
+      "properties": {
+        "school_name": "Waverley",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "6825 - 89 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6B0N3",
+        "website": "http://waverley.epsb.ca",
+        "email": "waverley@epsb.ca",
+        "phone": "(780) 469-6682",
+        "sector": "South Central",
+        "epsb_id": "189"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5872307334,
+          -113.48426759
+        ]
+      },
+      "properties": {
+        "school_name": "Mee-Yah-Noh",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9228 - 128A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5E0J8",
+        "website": "http://meeyahnoh.epsb.ca",
+        "email": "meeyahnoh@epsb.ca",
+        "phone": "(780) 475-1929",
+        "sector": "North",
+        "epsb_id": "149"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5447247894,
+          -113.453352405
+        ]
+      },
+      "properties": {
+        "school_name": "Forest Heights",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10304 - 81 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6A3X4",
+        "website": "http://forestheights.epsb.ca",
+        "email": "forest@epsb.ca",
+        "phone": "(780) 466-0312",
+        "sector": "South Central",
+        "epsb_id": "123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.541633467,
+          53.4027099411
+        ]
+      },
+      "properties": {
+        "school_name": "Dr. Anne Anderson",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "11810 35 Avenue SW",
+        "city": "Edmonton",
+        "postal_code": "T6W4N2",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "sector": "Southwest 2",
+        "epsb_id": "803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6057513439,
+          -113.444063339
+        ]
+      },
+      "properties": {
+        "school_name": "M.E. LaZerte",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "6804 - 144 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5C3C7",
+        "website": "http://www.melazerte.com",
+        "email": "melazerte@epsb.ca",
+        "phone": "(780) 408-9800",
+        "sector": "North",
+        "epsb_id": "63"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.63310258,
+          -113.4356418
+        ]
+      },
+      "properties": {
+        "school_name": "Soraya Hafez",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "980 McConachie Boulevard NW",
+        "city": "Edmonton",
+        "postal_code": "T5Z 0J1",
+        "website": "https://sorayahafez.epsb.ca/",
+        "email": "sorayahafez@epsb.ca",
+        "phone": "(587) 489-4728",
+        "sector": "North",
+        "epsb_id": "801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5438199765,
+          -113.524624103
+        ]
+      },
+      "properties": {
+        "school_name": "Oliver",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "10227 - 118 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5K2V4",
+        "website": "http://oliver.epsb.ca/",
+        "email": "oliver@epsb.ca",
+        "phone": "(780) 488-1221",
+        "sector": "Central",
+        "epsb_id": "527"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.440765536,
+          -113.427854493
+        ]
+      },
+      "properties": {
+        "school_name": "Sakaw",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "5730 - 11A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6L3A9",
+        "website": "http://sakaw.epsb.ca",
+        "email": "sakaw@epsb.ca",
+        "phone": "(780) 463-1854",
+        "sector": "Southeast 1",
+        "epsb_id": "251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4564047605,
+          -113.446756578
+        ]
+      },
+      "properties": {
+        "school_name": "J. Percy Page",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "2707 Millwoods Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6K3Z3",
+        "website": "http://jpercypage.epsb.ca/",
+        "email": "jpercypage@epsb.ca",
+        "phone": "(780) 462-3322",
+        "sector": "Southeast 1",
+        "epsb_id": "75"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4909053813,
+          -113.522218104
+        ]
+      },
+      "properties": {
+        "school_name": "Lendrum",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "11330 - 54 AVENUE",
+        "city": "Edmonton",
+        "postal_code": "T6H0V7",
+        "website": "http://lendrum.epsb.ca",
+        "email": "lendrum@epsb.ca",
+        "phone": "(780) 434-3588",
+        "sector": "South Central",
+        "epsb_id": "185"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5143277189,
+          -113.604368104
+        ]
+      },
+      "properties": {
+        "school_name": "Hillcrest",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "16400 - 80 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5R3M6",
+        "website": "http://hillcrest.epsb.ca",
+        "email": "hillcrest@epsb.ca",
+        "phone": "(780) 489-2516",
+        "sector": "Northwest",
+        "epsb_id": "552"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5949474619,
+          -113.436015123
+        ]
+      },
+      "properties": {
+        "school_name": "Belvedere",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "13359 - 62 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5A0V5",
+        "website": "http://belvedere.epsb.ca/",
+        "email": "belvedere@epsb.ca",
+        "phone": "(780) 476-2022",
+        "sector": "North",
+        "epsb_id": "109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4692542925,
+          -113.456664076
+        ]
+      },
+      "properties": {
+        "school_name": "Grace Martin",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8210 - 36 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6K0C7",
+        "website": "http://gmartin.epsb.ca",
+        "email": "gmartin@epsb.ca",
+        "phone": "(780) 462-7121",
+        "sector": "Southeast 1",
+        "epsb_id": "220"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4999469056,
+          -113.449851412
+        ]
+      },
+      "properties": {
+        "school_name": "W. P. Wagner",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "6310 Wagner Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6E4N5",
+        "website": "http://wpwagner.epsb.ca",
+        "email": "wpwagner@epsb.ca",
+        "phone": "(780) 469-1315",
+        "sector": "South Central",
+        "epsb_id": "57"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4280102932,
+          -113.44176218
+        ]
+      },
+      "properties": {
+        "school_name": "Ellerslie Campus",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "521-66 Street SW",
+        "city": "Edmonton",
+        "postal_code": "T6X1A3",
+        "website": "http://ellerslie.epsb.ca",
+        "email": "ellerslie@epsb.ca",
+        "phone": "(780) 988-5556",
+        "sector": "Southeast 2",
+        "epsb_id": "565"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4896017516,
+          -113.650641213
+        ]
+      },
+      "properties": {
+        "school_name": "Michael A. Kostek",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "5303 - 190 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6M2L2",
+        "website": "http://michaelakostek.epsb.ca/",
+        "email": "makostek@epsb.ca",
+        "phone": "(780) 489-7277",
+        "sector": "West",
+        "epsb_id": "281"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4934298721,
+          -113.576920765
+        ]
+      },
+      "properties": {
+        "school_name": "Brander Gardens",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "14865 - 56 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6H5G2",
+        "website": "http://brandergardens.epsb.ca",
+        "email": "brander@epsb.ca",
+        "phone": "(780) 436-6740",
+        "sector": "Southwest 1",
+        "epsb_id": "226"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4491125932,
+          -113.440865808
+        ]
+      },
+      "properties": {
+        "school_name": "Ekota",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "1395 - Knottwood Road East NW",
+        "city": "Edmonton",
+        "postal_code": "T6K2P5",
+        "website": "http://ekota.epsb.ca",
+        "email": "ekota@epsb.ca",
+        "phone": "(780) 462-5112",
+        "sector": "Southeast 1",
+        "epsb_id": "233"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4455509369,
+          -113.454843643
+        ]
+      },
+      "properties": {
+        "school_name": "Dan Knott",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "1434 - 80 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6K2C6",
+        "website": "http://danknott.epsb.ca",
+        "email": "danknott@epsb.ca",
+        "phone": "(780) 462-7954",
+        "sector": "Southeast 1",
+        "epsb_id": "563"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5351027489,
+          -113.570689243
+        ]
+      },
+      "properties": {
+        "school_name": "Crestwood",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "9735 - 144 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5N2T3",
+        "website": "http://crestwood.epsb.ca",
+        "email": "crestwood@epsb.ca",
+        "phone": "(780) 452-4525",
+        "sector": "Northwest",
+        "epsb_id": "503"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.549409481,
+          -113.413385103
+        ]
+      },
+      "properties": {
+        "school_name": "Gold Bar",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10524 - 46 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6A1Y3",
+        "website": "http://goldbar.epsb.ca/",
+        "email": "goldbar@epsb.ca",
+        "phone": "(780) 466-4116",
+        "sector": "South Central",
+        "epsb_id": "127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5222920111,
+          -113.469135694
+        ]
+      },
+      "properties": {
+        "school_name": "Rutherford",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8620 - 91 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6C3N2",
+        "website": "http://rutherford.epsb.ca",
+        "email": "rutherford@epsb.ca",
+        "phone": "(780) 466-2891",
+        "sector": "South Central",
+        "epsb_id": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4833581364,
+          -113.408834621
+        ]
+      },
+      "properties": {
+        "school_name": "Jackson Heights",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "311 Jackson Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6L6S7",
+        "website": "http://jacksonheights.epsb.ca/",
+        "email": "jacksonheights@epsb.ca",
+        "phone": "(780) 465-9797",
+        "sector": "Southeast 1",
+        "epsb_id": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6108540816,
+          -113.431244064
+        ]
+      },
+      "properties": {
+        "school_name": "McLeod",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "14807 - 59 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5A1Y3",
+        "website": "http://mcleod.epsb.ca",
+        "email": "mcleod@epsb.ca",
+        "phone": "(780) 478-2927",
+        "sector": "North",
+        "epsb_id": "200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4696415893,
+          -113.361819679
+        ]
+      },
+      "properties": {
+        "school_name": "A. Blair McPherson",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "430 Tamarack Green NW",
+        "city": "Edmonton",
+        "postal_code": "T6T0J4",
+        "website": "https://ablairmcpherson.epsb.ca/",
+        "email": "ablairmcpherson@epsb.ca",
+        "phone": "(780) 468-4361",
+        "sector": "Southeast 1",
+        "epsb_id": "458"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6118067367,
+          -113.372731587
+        ]
+      },
+      "properties": {
+        "school_name": "Fraser",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "14904 - 21 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5Y2L6",
+        "website": "http://fraser.epsb.ca",
+        "email": "fraser@epsb.ca",
+        "phone": "(780) 472-0131",
+        "sector": "Northeast",
+        "epsb_id": "273"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4421454977,
+          -113.557149692
+        ]
+      },
+      "properties": {
+        "school_name": "Nellie Carlson",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "4132 MacTaggart Drive NW",
+        "city": "Edmonton",
+        "postal_code": "T6R0M8",
+        "website": "http://nelliecarlson.epsb.ca/",
+        "email": "Nelliecarlson@epsb.ca",
+        "phone": "(587) 489-4702",
+        "sector": "Southwest 1",
+        "epsb_id": "936"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4910368268,
+          -113.577501997
+        ]
+      },
+      "properties": {
+        "school_name": "Riverbend",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "14820 - 53 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6H4C2",
+        "website": "http://riverbend.epsb.ca",
+        "email": "riverbend@epsb.ca",
+        "phone": "(780) 434-7914",
+        "sector": "Southwest 1",
+        "epsb_id": "538"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5110087424,
+          -113.60271079
+        ]
+      },
+      "properties": {
+        "school_name": "Patricia Heights",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "16216 - 78 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5R3E6",
+        "website": "https://patriciaheights.epsb.ca/",
+        "email": "patriciaheights@epsb.ca",
+        "phone": "(780) 487-0550",
+        "sector": "Northwest",
+        "epsb_id": "176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5262922326,
+          -113.595128276
+        ]
+      },
+      "properties": {
+        "school_name": "Meadowlark",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9150 - 160 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5R2J2",
+        "website": "http://meadowlark.epsb.ca",
+        "email": "meadowlark@epsb.ca",
+        "phone": "(780) 489-5200",
+        "sector": "Northwest",
+        "epsb_id": "210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5364594681,
+          -113.706833505
+        ]
+      },
+      "properties": {
+        "school_name": "David Thomas King",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "22707 - 97 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5T5X7",
+        "website": "http://davidthomasking.epsb.ca",
+        "email": "davidthomasking@epsb.ca",
+        "phone": "(587) 489-4706",
+        "sector": "Northwest",
+        "epsb_id": "930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4427528462,
+          -113.525455297
+        ]
+      },
+      "properties": {
+        "school_name": "George P. Nicholson",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "1120 - 113 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6J7J4",
+        "website": "http://georgepnicholson.epsb.ca",
+        "email": "georgepnicholson@epsb.ca",
+        "phone": "(780) 439-9314",
+        "sector": "Southwest 1",
+        "epsb_id": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6116173694,
+          -113.460791019
+        ]
+      },
+      "properties": {
+        "school_name": "J.A. Fife",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "15004 - 76 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5C1C2",
+        "website": "http://jafife.epsb.ca",
+        "email": "jafife@epsb.ca",
+        "phone": "(780) 476-0775",
+        "sector": "North",
+        "epsb_id": "188"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6102110641,
+          -113.52682265
+        ]
+      },
+      "properties": {
+        "school_name": "Caernarvon",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "14820 - 118 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5X1T4",
+        "website": "http://caernarvon.epsb.ca",
+        "email": "caernarvon@epsb.ca",
+        "phone": "(780) 456-7020",
+        "sector": "North",
+        "epsb_id": "225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.460605402,
+          -113.398963403
+        ]
+      },
+      "properties": {
+        "school_name": "Bisset",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "3020 - 37 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6L5X1",
+        "website": "http://bisset.epsb.ca",
+        "email": "bisset@epsb.ca",
+        "phone": "(780) 450-6536",
+        "sector": "Southeast 1",
+        "epsb_id": "276"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6075656011,
+          -113.496464224
+        ]
+      },
+      "properties": {
+        "school_name": "Maj Gen Griesbach",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "320 Griesbach Road NW",
+        "city": "Edmonton",
+        "postal_code": "T5E6R8",
+        "website": "http://griesbach.epsb.ca",
+        "email": "griesbach@epsb.ca",
+        "phone": "(780) 456-9482",
+        "sector": "North",
+        "epsb_id": "575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4737860697,
+          -113.572369473
+        ]
+      },
+      "properties": {
+        "school_name": "George H. Luck",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "300 Bulyea Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6R2L4",
+        "website": "http://georgehluck.epsb.ca/",
+        "email": "ghluck@epsb.ca",
+        "phone": "(780) 438-5011",
+        "sector": "Southwest 1",
+        "epsb_id": "279"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6111120178,
+          -113.387182354
+        ]
+      },
+      "properties": {
+        "school_name": "Kirkness",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "610 Kirkness Road NW",
+        "city": "Edmonton",
+        "postal_code": "T5Y2K4",
+        "website": "http://kirkness.epsb.ca",
+        "email": "kirkness@epsb.ca",
+        "phone": "(780) 473-5924",
+        "sector": "Northeast",
+        "epsb_id": "262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5087050806,
+          -113.622850243
+        ]
+      },
+      "properties": {
+        "school_name": "Callingwood",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "17335 - 76 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5T2B1",
+        "website": "http://callingwood.epsb.ca",
+        "email": "callingwood@epsb.ca",
+        "phone": "(780) 487-0727",
+        "sector": "West",
+        "epsb_id": "237"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4775671412,
+          -113.406131401
+        ]
+      },
+      "properties": {
+        "school_name": "Julia Kiniski",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "4304 - 41 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6L5Y6",
+        "website": "http://juliakiniski.epsb.ca",
+        "email": "jkiniski@epsb.ca",
+        "phone": "(780) 462-4622",
+        "sector": "Southeast 1",
+        "epsb_id": "275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4468605988,
+          -113.460551248
+        ]
+      },
+      "properties": {
+        "school_name": "Satoo",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8515 - 17 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6K2C7",
+        "website": "http://satoo.epsb.ca",
+        "email": "satoo@epsb.ca",
+        "phone": "(780) 462-5125",
+        "sector": "Southeast 1",
+        "epsb_id": "235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4074682197,
+          -113.4534422
+        ]
+      },
+      "properties": {
+        "school_name": "Jan Reimer",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "360 Orchard Boulevard SW",
+        "city": "Edmonton",
+        "postal_code": "T6X2E1",
+        "website": "http://janreimer.epsb.ca",
+        "email": "janreimer@epsb.ca",
+        "phone": "(587) 489-4716",
+        "sector": "Southeast 2",
+        "epsb_id": "927"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5976575052,
+          -113.55143709
+        ]
+      },
+      "properties": {
+        "school_name": "McArthur",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "13535 - 134 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5L1W3",
+        "website": "http://mcarthur.epsb.ca",
+        "email": "mcarthur@epsb.ca",
+        "phone": "(780) 455-2728",
+        "sector": "North",
+        "epsb_id": "143"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4192814641,
+          -113.534880543
+        ]
+      },
+      "properties": {
+        "school_name": "Johnny Bright",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "1331 Rutherford Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6W1P4",
+        "website": "http://johnnybright.epsb.ca/",
+        "email": "johnnybright@epsb.ca",
+        "phone": "(780) 437-1341",
+        "sector": "Southwest 2",
+        "epsb_id": "455"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5333094372,
+          -113.645826415
+        ]
+      },
+      "properties": {
+        "school_name": "LaPerle",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "18715 - 97A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5T4C1",
+        "website": "http://laperle.epsb.ca",
+        "email": "laperle@epsb.ca",
+        "phone": "(780) 483-1864",
+        "sector": "Northwest",
+        "epsb_id": "267"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4134303852,
+          -113.460846565
+        ]
+      },
+      "properties": {
+        "school_name": "Michael Strembitsky",
+        "school_type": "EJ",
+        "grades": "Gr 2-9",
+        "address": "4110 Savaryn Drive SW",
+        "city": "Edmonton",
+        "postal_code": "T6X0Z5",
+        "website": "http://michaelstrembitsky.epsb.ca/",
+        "email": "michaelstrembitsky@epsb.ca",
+        "phone": "(780) 392-3500",
+        "sector": "Southeast 2",
+        "epsb_id": "578"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.442650268,
+          -113.448882815
+        ]
+      },
+      "properties": {
+        "school_name": "Menisa",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "933 Knottwood Road South NW",
+        "city": "Edmonton",
+        "postal_code": "T6K3Y9",
+        "website": "http://menisa.epsb.ca",
+        "email": "menisa@epsb.ca",
+        "phone": "(780) 463-8474",
+        "sector": "Southeast 1",
+        "epsb_id": "259"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5490519008,
+          -113.587697368
+        ]
+      },
+      "properties": {
+        "school_name": "Brightview",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "15425 - 106 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5P0W3",
+        "website": "http://brightview.epsb.ca",
+        "email": "brightview@epsb.ca",
+        "phone": "(780) 484-6631",
+        "sector": "Northwest",
+        "epsb_id": "504"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6035980296,
+          -113.476725556
+        ]
+      },
+      "properties": {
+        "school_name": "Northmount",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "14020 - 88A Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5E3J4",
+        "website": "http://northmount.epsb.ca",
+        "email": "northmount@epsb.ca",
+        "phone": "(780) 475-5162",
+        "sector": "North",
+        "epsb_id": "191"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4911534581,
+          -113.639514682
+        ]
+      },
+      "properties": {
+        "school_name": "S. Bruce Smith",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "5545 - 184 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6M2L9",
+        "website": "http://sbrucesmith.epsb.ca/",
+        "email": "sbsmith@epsb.ca",
+        "phone": "(780) 444-4946",
+        "sector": "West",
+        "epsb_id": "571"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5483265832,
+          -113.428732814
+        ]
+      },
+      "properties": {
+        "school_name": "Hardisty",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "10534 - 62 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6A2M3",
+        "website": "http://hardisty.epsb.ca",
+        "email": "hardisty@epsb.ca",
+        "phone": "(780) 469-0426",
+        "sector": "South Central",
+        "epsb_id": "512"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4421454977,
+          -113.557149692
+        ]
+      },
+      "properties": {
+        "school_name": "Nellie Carlson",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "4132 MacTaggart Drive NW",
+        "city": "Edmonton",
+        "postal_code": "T6R0M8",
+        "website": "http://nelliecarlson.epsb.ca/",
+        "email": "Nelliecarlson@epsb.ca",
+        "phone": "(587) 489-4702",
+        "sector": "Southwest 1",
+        "epsb_id": "936"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6052197544,
+          -113.477535668
+        ]
+      },
+      "properties": {
+        "school_name": "Dickinsfield",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "14320 - 88A Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5E6B6",
+        "website": "http://dickinsfield.epsb.ca",
+        "email": "dickinsfield@epsb.ca",
+        "phone": "(780) 476-4646",
+        "sector": "North",
+        "epsb_id": "559"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5119523899,
+          -113.448327283
+        ]
+      },
+      "properties": {
+        "school_name": "Avonmore",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "7835 - 76 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6C2N1",
+        "website": "http://avonmore.epsb.ca",
+        "email": "avonmore@epsb.ca",
+        "phone": "(780) 466-2976",
+        "sector": "South Central",
+        "epsb_id": "501"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5650097768,
+          -113.496157078
+        ]
+      },
+      "properties": {
+        "school_name": "Spruce Avenue",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "11424 - 102 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5G2E7",
+        "website": "http://spruceavenue.epsb.ca/",
+        "email": "spruceave@epsb.ca",
+        "phone": "(780) 479-0155",
+        "sector": "Central",
+        "epsb_id": "537"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4936482601,
+          -113.624843448
+        ]
+      },
+      "properties": {
+        "school_name": "Centennial",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "17420 - 57 Avenue",
+        "city": "Edmonton",
+        "postal_code": "T6M1K4",
+        "website": "http://centennial.epsb.ca",
+        "email": "centennial@epsb.ca",
+        "phone": "(780) 481-5590",
+        "sector": "West",
+        "epsb_id": "260"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4274715624,
+          -113.603669692
+        ]
+      },
+      "properties": {
+        "school_name": "Dr. M. A. Armour",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "3815 Allan Drive SW",
+        "city": "Edmonton",
+        "postal_code": "T6W0S7",
+        "website": "http://margaretannarmour.epsb.ca/",
+        "email": "margaretannarmour@epsb.ca",
+        "phone": "(587) 489-4704",
+        "sector": "Southwest 2",
+        "epsb_id": "934"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5482921551,
+          -113.459367504
+        ]
+      },
+      "properties": {
+        "school_name": "McNally",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "8440 - 105 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6A0B6",
+        "website": "http://mcnally.epsb.ca/",
+        "email": "mcnally@epsb.ca",
+        "phone": "(780) 469-0442",
+        "sector": "South Central",
+        "epsb_id": "58"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5256838013,
+          -113.638229696
+        ]
+      },
+      "properties": {
+        "school_name": "Belmead",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9011 - 182 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5T2Y9",
+        "website": "http://belmead.epsb.ca",
+        "email": "belmead@epsb.ca",
+        "phone": "(780) 481-3314",
+        "sector": "Northwest",
+        "epsb_id": "236"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6230566388,
+          -113.421145155
+        ]
+      },
+      "properties": {
+        "school_name": "Dr. Donald Massey",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "5435 162 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5Y0E8",
+        "website": "http://donaldmassey.epsb.ca/",
+        "email": "donaldmassey@epsb.ca",
+        "phone": "(780) 457-5435",
+        "sector": "North",
+        "epsb_id": "456"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4455799716,
+          -113.373977358
+        ]
+      },
+      "properties": {
+        "school_name": "Svend Hansen",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "2130 - 16 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6T2C1",
+        "website": "http://svendhansen.epsb.ca",
+        "email": "svendhansen@epsb.ca",
+        "phone": "(587) 489-4724",
+        "sector": "Southeast 1",
+        "epsb_id": "928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.606429067,
+          -113.457080056
+        ]
+      },
+      "properties": {
+        "school_name": "Kildare",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "7525 - 144 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5C2R8",
+        "website": "http://kildare.epsb.ca",
+        "email": "kildare@epsb.ca",
+        "phone": "(780) 476-5675",
+        "sector": "North",
+        "epsb_id": "138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5310712082,
+          -113.682207903
+        ]
+      },
+      "properties": {
+        "school_name": "Michael Phair",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "9407 - 211 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5T5X8",
+        "website": "http://michaelphair.epsb.ca",
+        "email": "michaelphair@epsb.ca",
+        "phone": "(587) 489-4720",
+        "sector": "Northwest",
+        "epsb_id": "933"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.457340398,
+          -113.579842466
+        ]
+      },
+      "properties": {
+        "school_name": "Lillian Osborne",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "15312 23 Avenue",
+        "city": "Edmonton",
+        "postal_code": "T6R0R8",
+        "website": "http://lillianosborne.epsb.ca",
+        "email": "lillianosborne@epsb.ca",
+        "phone": "(780) 391-2450",
+        "sector": "Southwest 1",
+        "epsb_id": "344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4876699417,
+          -113.545511929
+        ]
+      },
+      "properties": {
+        "school_name": "Lansdowne",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "12323 - 51 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6H0M6",
+        "website": "http://lansdowne.epsb.ca",
+        "email": "lansdowne@epsb.ca",
+        "phone": "(780) 434-3160",
+        "sector": "South Central",
+        "epsb_id": "180"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5311679277,
+          -113.448511422
+        ]
+      },
+      "properties": {
+        "school_name": "Holyrood",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "7920 - 94 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6C1W5",
+        "website": "http://holyrood.epsb.ca",
+        "email": "holyrood@epsb.ca",
+        "phone": "(780) 466-2292",
+        "sector": "South Central",
+        "epsb_id": "514"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.480957623,
+          -113.385547353
+        ]
+      },
+      "properties": {
+        "school_name": "Velma E. Baker",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "2845 - 43 A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6T1J9",
+        "website": "http://velmaebaker.epsb.ca/",
+        "email": "vebaker@epsb.ca",
+        "phone": "(780) 440-4088",
+        "sector": "Southeast 1",
+        "epsb_id": "280"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5129210122,
+          -113.525044296
+        ]
+      },
+      "properties": {
+        "school_name": "McKernan",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "11330 - 76 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6G0K1",
+        "website": "http://mckernan.epsb.ca",
+        "email": "mckernan@epsb.ca",
+        "phone": "(780) 435-4163",
+        "sector": "South Central",
+        "epsb_id": "523"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4981009372,
+          -113.639271591
+        ]
+      },
+      "properties": {
+        "school_name": "Ormsby",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "6323 - 184 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5T3K1",
+        "website": "http://ormsby.epsb.ca",
+        "email": "ormsby@epsb.ca",
+        "phone": "(780) 481-4646",
+        "sector": "West",
+        "epsb_id": "248"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6328417692,
+          -113.506150005
+        ]
+      },
+      "properties": {
+        "school_name": "Baturyn",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10603 - 172 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5X4X4",
+        "website": "http://baturyn.epsb.ca",
+        "email": "baturyn@epsb.ca",
+        "phone": "(780) 456-6727",
+        "sector": "North",
+        "epsb_id": "247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4206169808,
+          -113.515383531
+        ]
+      },
+      "properties": {
+        "school_name": "Roberta MacAdams",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "2099 Blackmud Creek Drive SW",
+        "city": "Edmonton",
+        "postal_code": "T6W1T7",
+        "website": "http://robertamacadams.epsb.ca/",
+        "email": "Robertamacadams@epsb.ca",
+        "phone": "(587) 489-4700",
+        "sector": "Southwest 2",
+        "epsb_id": "935"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5877638642,
+          -113.503649279
+        ]
+      },
+      "properties": {
+        "school_name": "Lauderdale",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10610 - 129 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5E4V6",
+        "website": "http://lauderdale.epsb.ca",
+        "email": "lauderdale@epsb.ca",
+        "phone": "(780) 475-8737",
+        "sector": "North",
+        "epsb_id": "141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4192814641,
+          -113.534880543
+        ]
+      },
+      "properties": {
+        "school_name": "Johnny Bright",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "1331 Rutherford Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6W1P4",
+        "website": "http://johnnybright.epsb.ca/",
+        "email": "johnnybright@epsb.ca",
+        "phone": "(780) 437-1341",
+        "sector": "Southwest 2",
+        "epsb_id": "455"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5873822127,
+          -113.41153191
+        ]
+      },
+      "properties": {
+        "school_name": "Homesteader",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "4455 - 128 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5A3M9",
+        "website": "http://homesteader.epsb.ca",
+        "email": "homesteader@epsb.ca",
+        "phone": "(780) 478-1139",
+        "sector": "Northeast",
+        "epsb_id": "240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5012012959,
+          -113.50374848
+        ]
+      },
+      "properties": {
+        "school_name": "Allendale",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "6415 - 106 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6H2V5",
+        "website": "http://allendale.epsb.ca",
+        "email": "allendale@epsb.ca",
+        "phone": "(780) 434-6756",
+        "sector": "South Central",
+        "epsb_id": "500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4792424495,
+          -113.518621829
+        ]
+      },
+      "properties": {
+        "school_name": "Harry Ainlay",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "4350 - 111 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6J1E8",
+        "website": "https://harryainlay.epsb.ca/",
+        "email": "hainlay@epsb.ca",
+        "phone": "(780) 413-2700",
+        "sector": "Southwest 1",
+        "epsb_id": "59"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5743841026,
+          -113.392756053
+        ]
+      },
+      "properties": {
+        "school_name": "Abbott",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "12045 - 34 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5W1Z5",
+        "website": "http://abbott.epsb.ca",
+        "email": "abbott@epsb.ca",
+        "phone": "(780) 477-7310",
+        "sector": "Central",
+        "epsb_id": "100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4921926737,
+          -113.568043944
+        ]
+      },
+      "properties": {
+        "school_name": "Brookside",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "5504 - 143 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6H4E5",
+        "website": "http://brookside.epsb.ca",
+        "email": "brookside@epsb.ca",
+        "phone": "(780) 434-0464",
+        "sector": "Southwest 1",
+        "epsb_id": "146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.3992811305,
+          -113.535253534
+        ]
+      },
+      "properties": {
+        "school_name": "Dr. Lila Fahlman",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "680 Allard Boulevard SW",
+        "city": "Edmonton",
+        "postal_code": "T6W3A2",
+        "website": "http://lilafahlman.epsb.ca",
+        "email": "lilafahlman@epsb.ca",
+        "phone": "(587) 489-4710",
+        "sector": "Southwest 2",
+        "epsb_id": "926"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6074838962,
+          -113.558242007
+        ]
+      },
+      "properties": {
+        "school_name": "Hilwie Hamdon",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "13815 Cumberland Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6V1V4",
+        "website": "http://hilwiehamdon.epsb.ca",
+        "email": "hilwiehamdon@epsb.ca",
+        "phone": "(587) 489-4712",
+        "sector": "North",
+        "epsb_id": "937"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5458076595,
+          -113.603005022
+        ]
+      },
+      "properties": {
+        "school_name": "Youngstown",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10330 - 163 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5P3N5",
+        "website": "http://youngstown.epsb.ca",
+        "email": "youngstown@epsb.ca",
+        "phone": "(780) 489-4600",
+        "sector": "Northwest",
+        "epsb_id": "213"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6087025076,
+          -113.431496665
+        ]
+      },
+      "properties": {
+        "school_name": "Steele Heights",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "14607 - 59 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5A1Y3",
+        "website": "http://eastglen.epsb.ca",
+        "email": "eastglen@epsb.ca",
+        "phone": "(780) 479-1991",
+        "sector": "North",
+        "epsb_id": "532"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4479363351,
+          -113.405228321
+        ]
+      },
+      "properties": {
+        "school_name": "T. D. Baker",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "1750 Millwoods Road East NW",
+        "city": "Edmonton",
+        "postal_code": "T6L5C5",
+        "website": "http://tdbaker.epsb.ca",
+        "email": "tdbaker@epsb.ca",
+        "phone": "(780) 462-5496",
+        "sector": "Southeast 1",
+        "epsb_id": "570"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6035209984,
+          -113.392101802
+        ]
+      },
+      "properties": {
+        "school_name": "John D. Bracco",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "3150 - 139 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5Y2P7",
+        "website": "https://johndbracco.epsb.ca/",
+        "email": "jdbracco@epsb.ca",
+        "phone": "(780) 475-1760",
+        "sector": "Northeast",
+        "epsb_id": "573"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5129210122,
+          -113.525044296
+        ]
+      },
+      "properties": {
+        "school_name": "McKernan",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "11330 - 76 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6G0K1",
+        "website": "http://mckernan.epsb.ca",
+        "email": "mckernan@epsb.ca",
+        "phone": "(780) 435-4163",
+        "sector": "South Central",
+        "epsb_id": "523"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5465348617,
+          -113.558899348
+        ]
+      },
+      "properties": {
+        "school_name": "Westminster",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "13712 - 104 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5N0W4",
+        "website": "http://westminster.epsb.ca",
+        "email": "westminster@epsb.ca",
+        "phone": "(780) 452-4343",
+        "sector": "Northwest",
+        "epsb_id": "543"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.441031572,
+          -113.405590535
+        ]
+      },
+      "properties": {
+        "school_name": "Crawford Plains",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "4210 - 12 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6L5V6",
+        "website": "https://crawfordplains.epsb.ca/",
+        "email": "crawford@epsb.ca",
+        "phone": "(780) 463-7211",
+        "sector": "Southeast 1",
+        "epsb_id": "263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6241051474,
+          -113.507259438
+        ]
+      },
+      "properties": {
+        "school_name": "Mary Butterworth",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "16315 - 109 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5X2R2",
+        "website": "http://marybutterworth.epsb.ca/",
+        "email": "mbutterworth@epsb.ca",
+        "phone": "(780) 476-1480",
+        "sector": "North",
+        "epsb_id": "572"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4074682197,
+          -113.4534422
+        ]
+      },
+      "properties": {
+        "school_name": "Jan Reimer",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "360 Orchard Boulevard SW",
+        "city": "Edmonton",
+        "postal_code": "T6X2E1",
+        "website": "http://janreimer.epsb.ca",
+        "email": "janreimer@epsb.ca",
+        "phone": "(587) 489-4716",
+        "sector": "Southeast 2",
+        "epsb_id": "927"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5025956363,
+          -113.683118453
+        ]
+      },
+      "properties": {
+        "school_name": "Kim Hung",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "1950 Glastonbury Boulevard NW",
+        "city": "Edmonton",
+        "postal_code": "T5T6M6",
+        "website": "http://kimhung.epsb.ca",
+        "email": "kimhung@epsb.ca",
+        "phone": "(587) 489-4718",
+        "sector": "West",
+        "epsb_id": "925"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5596829362,
+          -113.546884289
+        ]
+      },
+      "properties": {
+        "school_name": "Westmount",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "11124 - 130 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5M0J2",
+        "website": "https://westmount.epsb.ca/",
+        "email": "westmount@epsb.ca",
+        "phone": "(780) 452-8350",
+        "sector": "Central",
+        "epsb_id": "544"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.464662645,
+          -113.506345555
+        ]
+      },
+      "properties": {
+        "school_name": "Steinhauer",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10717 - 32A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6J4A6",
+        "website": "http://steinhauer.epsb.ca",
+        "email": "steinhauer@epsb.ca",
+        "phone": "(780) 437-1080",
+        "sector": "Southwest 1",
+        "epsb_id": "241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6207134706,
+          -113.559702863
+        ]
+      },
+      "properties": {
+        "school_name": "Elizabeth Finch",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "13815 160 Ave NW",
+        "city": "Edmonton",
+        "postal_code": "T6V0C9",
+        "website": "http://elizabethfinch.epsb.ca/",
+        "email": "elizabethfinch@epsb.ca",
+        "phone": "(780) 457-2022",
+        "sector": "North",
+        "epsb_id": "459"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4601109262,
+          -113.416300983
+        ]
+      },
+      "properties": {
+        "school_name": "Weinlos",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "2911 - 48 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6L5T7",
+        "website": "http://weinlos.epsb.ca",
+        "email": "weinlos@epsb.ca",
+        "phone": "(780) 462-5261",
+        "sector": "Southeast 1",
+        "epsb_id": "265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5087262359,
+          -113.499579271
+        ]
+      },
+      "properties": {
+        "school_name": "Strathcona",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "10450 - 72 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6E0Z6",
+        "website": "http://strathconaschool.ca",
+        "email": "strathcona@epsb.ca",
+        "phone": "(780) 439-3957",
+        "sector": "South Central",
+        "epsb_id": "54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6100761844,
+          -113.449833275
+        ]
+      },
+      "properties": {
+        "school_name": "John Barnett",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "14840 - 72 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5C3E5",
+        "website": "http://johnbarnett.epsb.ca/",
+        "email": "jbarnett@epsb.ca",
+        "phone": "(780) 478-1351",
+        "sector": "North",
+        "epsb_id": "214"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4395404605,
+          -113.617297869
+        ]
+      },
+      "properties": {
+        "school_name": "Constable Daniel Woodall",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "315 Windermere Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6W0V9",
+        "website": "http://constabledanielwoodall.epsb.ca",
+        "email": "constabledanielwoodall@epsb.ca",
+        "phone": "(780) 944-2829",
+        "sector": "Southwest 2",
+        "epsb_id": "924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.605029997,
+          -113.378714671
+        ]
+      },
+      "properties": {
+        "school_name": "Bannerman",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "14112 - 23 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5Y2B9",
+        "website": "http://bannerman.epsb.ca",
+        "email": "bannerman@epsb.ca",
+        "phone": "(780) 478-7706",
+        "sector": "Northeast",
+        "epsb_id": "253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.564141781,
+          53.4035362082
+        ]
+      },
+      "properties": {
+        "school_name": "Garth Worthington",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "351 Chappelle Drive SW",
+        "city": "Edmonton",
+        "postal_code": "T6W2Z2",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "sector": "Southwest 2",
+        "epsb_id": "804"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5159861129,
+          -113.622980683
+        ]
+      },
+      "properties": {
+        "school_name": "Thorncliffe",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8215 - 175 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5T0G9",
+        "website": "http://thorncliffe.epsb.ca",
+        "email": "thorncliffe@epsb.ca",
+        "phone": "(780) 487-2061",
+        "sector": "Northwest",
+        "epsb_id": "216"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.471253168,
+          -113.444665833
+        ]
+      },
+      "properties": {
+        "school_name": "Lee Ridge",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "440 Millbourne Road East NW",
+        "city": "Edmonton",
+        "postal_code": "T6K1Y8",
+        "website": "http://leeridge.epsb.ca",
+        "email": "leeridge@epsb.ca",
+        "phone": "(780) 462-3230",
+        "sector": "Southeast 1",
+        "epsb_id": "224"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.569510288,
+          -113.435362821
+        ]
+      },
+      "properties": {
+        "school_name": "Highlands",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "11509 - 62 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5W4C2",
+        "website": "http://highlands.epsb.ca/",
+        "email": "highlands@epsb.ca",
+        "phone": "(780) 479-4206",
+        "sector": "Central",
+        "epsb_id": "513"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4024612625,
+          -113.585170769
+        ]
+      },
+      "properties": {
+        "school_name": "Donald R. Getty",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "8102 Chappelle Way SW",
+        "city": "Edmonton",
+        "postal_code": "T6W1A6",
+        "website": "http://donaldrgetty.epsb.ca",
+        "email": "donaldrgetty@epsb.ca",
+        "phone": "(587) 489-4708",
+        "sector": "Southwest 2",
+        "epsb_id": "950"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.564141781,
+          53.4035362082
+        ]
+      },
+      "properties": {
+        "school_name": "Garth Worthington",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "351 Chappelle Drive SW",
+        "city": "Edmonton",
+        "postal_code": "T6W2Z2",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "sector": "Southwest 2",
+        "epsb_id": "804"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5483265832,
+          -113.428732814
+        ]
+      },
+      "properties": {
+        "school_name": "Hardisty",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "10534 - 62 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6A2M3",
+        "website": "http://hardisty.epsb.ca",
+        "email": "hardisty@epsb.ca",
+        "phone": "(780) 469-0426",
+        "sector": "South Central",
+        "epsb_id": "512"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.446247509,
+          -113.573908358
+        ]
+      },
+      "properties": {
+        "school_name": "Esther Starkman",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "2717 Terwillegar Way NW",
+        "city": "Edmonton",
+        "postal_code": "T6R0G5",
+        "website": "http://estherstarkman.epsb.ca/",
+        "email": "estherstarkman@epsb.ca",
+        "phone": "(780) 439-2717",
+        "sector": "Southwest 1",
+        "epsb_id": "460"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5547222385,
+          -113.541641814
+        ]
+      },
+      "properties": {
+        "school_name": "Westglen",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10950 - 127 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5M0S7",
+        "website": "http://westglen.epsb.ca",
+        "email": "westglen@epsb.ca",
+        "phone": "(780) 454-3449",
+        "sector": "Central",
+        "epsb_id": "179"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6230566388,
+          -113.421145155
+        ]
+      },
+      "properties": {
+        "school_name": "Dr. Donald Massey",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "5435 162 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5Y0E8",
+        "website": "http://donaldmassey.epsb.ca/",
+        "email": "donaldmassey@epsb.ca",
+        "phone": "(780) 457-5435",
+        "sector": "North",
+        "epsb_id": "456"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6060675751,
+          -113.449869707
+        ]
+      },
+      "properties": {
+        "school_name": "Londonderry",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "7104 - 144 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5C2R4",
+        "website": "http://londonderry.epsb.ca",
+        "email": "londonderry@epsb.ca",
+        "phone": "(780) 473-4560",
+        "sector": "North",
+        "epsb_id": "534"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6567602668,
+          -113.343731001
+        ]
+      },
+      "properties": {
+        "school_name": "Horse Hill",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "19355 Meridian Street N.E.",
+        "city": "Edmonton",
+        "postal_code": "T5Y6E5",
+        "website": "http://horsehill.epsb.ca",
+        "email": "horsehill@epsb.ca",
+        "phone": "(780) 472-6029",
+        "sector": "Northeast",
+        "epsb_id": "567"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5813067499,
+          -113.389175599
+        ]
+      },
+      "properties": {
+        "school_name": "Overlanders",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "1150 Hermitage Road NW",
+        "city": "Edmonton",
+        "postal_code": "T5A4L4",
+        "website": "http://overlanders.epsb.ca",
+        "email": "overlanders@epsb.ca",
+        "phone": "(780) 476-3361",
+        "sector": "Northeast",
+        "epsb_id": "229"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5238890944,
+          -113.435642378
+        ]
+      },
+      "properties": {
+        "school_name": "Kenilworth",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "7005 - 89 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6B0N3",
+        "website": "http://kenilworth.epsb.ca",
+        "email": "kenilworth@epsb.ca",
+        "phone": "(780) 466-2104",
+        "sector": "South Central",
+        "epsb_id": "546"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4876862593,
+          -113.508830674
+        ]
+      },
+      "properties": {
+        "school_name": "McKee",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10725 - 51 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6H0L3",
+        "website": "http://mckee.epsb.ca/",
+        "email": "mckee@epsb.ca",
+        "phone": "(780) 435-7140",
+        "sector": "South Central",
+        "epsb_id": "195"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5169286277,
+          -113.566229312
+        ]
+      },
+      "properties": {
+        "school_name": "Laurier Heights",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "8210 - 142 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5R0L9",
+        "website": "http://laurierheights.epsb.ca",
+        "email": "laurier@epsb.ca",
+        "phone": "(780) 483-5352",
+        "sector": "Northwest",
+        "epsb_id": "518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4134303852,
+          -113.460846565
+        ]
+      },
+      "properties": {
+        "school_name": "Michael Strembitsky",
+        "school_type": "EJ",
+        "grades": "Gr 2-9",
+        "address": "4110 Savaryn Drive SW",
+        "city": "Edmonton",
+        "postal_code": "T6X0Z5",
+        "website": "http://michaelstrembitsky.epsb.ca/",
+        "email": "michaelstrembitsky@epsb.ca",
+        "phone": "(780) 392-3500",
+        "sector": "Southeast 2",
+        "epsb_id": "578"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5226232835,
+          -113.584597449
+        ]
+      },
+      "properties": {
+        "school_name": "James Gibbons",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8945 - 153 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5R1P1",
+        "website": "https://jamesgibbons.epsb.ca/",
+        "email": "jgibbons@epsb.ca",
+        "phone": "(780) 489-8020",
+        "sector": "Northwest",
+        "epsb_id": "207"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4918546392,
+          -113.524420249
+        ]
+      },
+      "properties": {
+        "school_name": "Avalon",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "5425 - 114 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6H3M1",
+        "website": "http://avalon.epsb.ca/",
+        "email": "avalon@epsb.ca",
+        "phone": "(780) 434-8402",
+        "sector": "South Central",
+        "epsb_id": "550"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5309641686,
+          -113.435465614
+        ]
+      },
+      "properties": {
+        "school_name": "Clara Tyner",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9420 Ottewell Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6B2E2",
+        "website": "http://claratyner.epsb.ca",
+        "email": "claratyner@epsb.ca",
+        "phone": "(780) 469-5339",
+        "sector": "South Central",
+        "epsb_id": "193"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5557044765,
+          -113.595289395
+        ]
+      },
+      "properties": {
+        "school_name": "Mayfield",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10950 - 159 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5P3C1",
+        "website": "http://mayfield.epsb.ca",
+        "email": "mayfield@epsb.ca",
+        "phone": "(780) 489-5100",
+        "sector": "Northwest",
+        "epsb_id": "209"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6013813933,
+          -113.435150402
+        ]
+      },
+      "properties": {
+        "school_name": "York",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "13915 - 61 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5A1P3",
+        "website": "http://york.epsb.ca/",
+        "email": "york@epsb.ca",
+        "phone": "(780) 476-6336",
+        "sector": "North",
+        "epsb_id": "198"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6241636534,
+          -113.501869182
+        ]
+      },
+      "properties": {
+        "school_name": "Lorelei",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "16230 - 103 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5X3A9",
+        "website": "http://lorelei.epsb.ca",
+        "email": "lorelei@epsb.ca",
+        "phone": "(780) 456-4488",
+        "sector": "North",
+        "epsb_id": "242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5758487049,
+          -113.478502756
+        ]
+      },
+      "properties": {
+        "school_name": "Delton",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "12126 - 89 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5B3W4",
+        "website": "http://delton.epsb.ca",
+        "email": "delton@epsb.ca",
+        "phone": "(780) 477-8742",
+        "sector": "Central",
+        "epsb_id": "118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4024612625,
+          -113.585170769
+        ]
+      },
+      "properties": {
+        "school_name": "Donald R. Getty",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "8102 Chappelle Way SW",
+        "city": "Edmonton",
+        "postal_code": "T6W1A6",
+        "website": "http://donaldrgetty.epsb.ca",
+        "email": "donaldrgetty@epsb.ca",
+        "phone": "(587) 489-4708",
+        "sector": "Southwest 2",
+        "epsb_id": "950"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5942646851,
+          -113.408118444
+        ]
+      },
+      "properties": {
+        "school_name": "Sifton",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "4305 - 134 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5A3R5",
+        "website": "http://sifton.epsb.ca",
+        "email": "sifton@epsb.ca",
+        "phone": "(780) 476-7953",
+        "sector": "Northeast",
+        "epsb_id": "238"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4760352503,
+          -113.506080263
+        ]
+      },
+      "properties": {
+        "school_name": "D. S. MacKenzie",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "4020 - 106 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6J1A6",
+        "website": "http://dsmackenzie.epsb.ca",
+        "email": "dsmackenzie@epsb.ca",
+        "phone": "(780) 438-9103",
+        "sector": "Southwest 1",
+        "epsb_id": "522"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4498635546,
+          -113.399857242
+        ]
+      },
+      "properties": {
+        "school_name": "Daly Grove",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "1888 - 37 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6L2R2",
+        "website": "http://dalygrove.epsb.ca",
+        "email": "dalygrove@epsb.ca",
+        "phone": "(780) 450-1532",
+        "sector": "Southeast 1",
+        "epsb_id": "264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.474192323,
+          -113.456068083
+        ]
+      },
+      "properties": {
+        "school_name": "Edith Rogers",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "8308 Millwoods Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6K1Y7",
+        "website": "http://edithrogers.epsb.ca",
+        "email": "http://edithrogers.epsb.ca/",
+        "phone": "(780) 462-3310",
+        "sector": "Southeast 1",
+        "epsb_id": "561"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4114301502,
+          -113.427498267
+        ]
+      },
+      "properties": {
+        "school_name": "Shauna May Seneca",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "2130 Wonnacott Way SW",
+        "city": "Edmonton",
+        "postal_code": "T6X2C1",
+        "website": "http://shaunamayseneca.epsb.ca",
+        "email": "shaunamayseneca@epsb.ca",
+        "phone": "(587) 489-4722",
+        "sector": "Southeast 2",
+        "epsb_id": "929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4740281823,
+          -113.582519558
+        ]
+      },
+      "properties": {
+        "school_name": "Earl Buxton",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "250 Rhatigan Road East NW",
+        "city": "Edmonton",
+        "postal_code": "T6R2H7",
+        "website": "http://ebuxton.epsb.ca",
+        "email": "earlbuxton@epsb.ca",
+        "phone": "(780) 435-1577",
+        "sector": "Southwest 1",
+        "epsb_id": "278"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5933866602,
+          -113.392734672
+        ]
+      },
+      "properties": {
+        "school_name": "Belmont",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "3310 - 132A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5A3T1",
+        "website": "http://belmont.epsb.ca",
+        "email": "belmont@epsb.ca",
+        "phone": "(780) 476-9590",
+        "sector": "Northeast",
+        "epsb_id": "228"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5351027489,
+          -113.570689243
+        ]
+      },
+      "properties": {
+        "school_name": "Crestwood",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "9735 - 144 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5N2T3",
+        "website": "http://crestwood.epsb.ca",
+        "email": "crestwood@epsb.ca",
+        "phone": "(780) 452-4525",
+        "sector": "Northwest",
+        "epsb_id": "503"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4773089408,
+          -113.457651966
+        ]
+      },
+      "properties": {
+        "school_name": "Malcolm Tweddle",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "2340 Millbourne Road West NW",
+        "city": "Edmonton",
+        "postal_code": "T6K1Y9",
+        "website": "http://malcolmtweddle.epsb.ca",
+        "email": "mtweddle@epsb.ca",
+        "phone": "(780) 462-3270",
+        "sector": "Southeast 1",
+        "epsb_id": "223"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6104180991,
+          -113.484169589
+        ]
+      },
+      "properties": {
+        "school_name": "Evansdale",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9303 - 150 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5E2N7",
+        "website": "http://evansdale.epsb.ca",
+        "email": "evansdale@epsb.ca",
+        "phone": "(780) 476-3331",
+        "sector": "North",
+        "epsb_id": "215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4502502348,
+          -113.427851578
+        ]
+      },
+      "properties": {
+        "school_name": "Meyokumin",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "5703 - 19A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6L4J8",
+        "website": "http://meyokumin.epsb.ca",
+        "email": "meyokumin@epsb.ca",
+        "phone": "(780) 463-8409",
+        "sector": "Southeast 1",
+        "epsb_id": "257"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5952757261,
+          -113.527461554
+        ]
+      },
+      "properties": {
+        "school_name": "Kensington",
+        "school_type": "EL",
+        "grades": "K to Gr 9",
+        "address": "13410 - 119 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5E5N1",
+        "website": "http://kensington.epsb.ca",
+        "email": "kensington@epsb.ca",
+        "phone": "(780) 455-1836",
+        "sector": "North",
+        "epsb_id": "137"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4486762578,
+          -113.41337855
+        ]
+      },
+      "properties": {
+        "school_name": "Pollard Meadows",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "1715 - 48 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6L3J6",
+        "website": "http://pollardmeadows.epsb.ca",
+        "email": "pollard@epsb.ca",
+        "phone": "(780) 463-8680",
+        "sector": "Southeast 1",
+        "epsb_id": "258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.475880747,
+          -113.539541945
+        ]
+      },
+      "properties": {
+        "school_name": "Westbrook",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "11915 - 40 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6J0S1",
+        "website": "http://westbrook.epsb.ca",
+        "email": "westbrook@epsb.ca",
+        "phone": "(780) 438-4200",
+        "sector": "Southwest 1",
+        "epsb_id": "197"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6241636534,
+          -113.501869182
+        ]
+      },
+      "properties": {
+        "school_name": "Lorelei",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "16230 - 103 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5X3A9",
+        "website": "http://lorelei.epsb.ca",
+        "email": "lorelei@epsb.ca",
+        "phone": "(780) 456-4488",
+        "sector": "North",
+        "epsb_id": "242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5736367251,
+          -113.561480612
+        ]
+      },
+      "properties": {
+        "school_name": "Dovercourt",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "13910 - 122 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5L2W3",
+        "website": "http://dovercourt.epsb.ca",
+        "email": "dovercourt@epsb.ca",
+        "phone": "(780) 455-6171",
+        "sector": "Northwest",
+        "epsb_id": "121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5636671203,
+          -113.390311404
+        ]
+      },
+      "properties": {
+        "school_name": "Ivor Dent",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "11010 - 32 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5W1Y7",
+        "website": "http://ivordent.epsb.ca",
+        "email": "ivordent@epsb.ca",
+        "phone": "(587) 489-4714",
+        "sector": "Central",
+        "epsb_id": "951"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5226700159,
+          -113.513570404
+        ]
+      },
+      "properties": {
+        "school_name": "Garneau",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10925 - 87 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6G0X4",
+        "website": "http://garneau.epsb.ca",
+        "email": "garneau@epsb.ca",
+        "phone": "(780) 433-1390",
+        "sector": "South Central",
+        "epsb_id": "509"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4871395387,
+          -113.671611134
+        ]
+      },
+      "properties": {
+        "school_name": "Bessie Nichols",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "189 Hemingway Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6M2Z7",
+        "website": "http://bessienichols.epsb.ca/",
+        "email": "bessienichols@epsb.ca",
+        "phone": "(780) 444-1922",
+        "sector": "West",
+        "epsb_id": "577"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4607763441,
+          -113.441485567
+        ]
+      },
+      "properties": {
+        "school_name": "Kameyosek",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "250 Lakewood Road East NW",
+        "city": "Edmonton",
+        "postal_code": "T6K3L4",
+        "website": "http://kameyosek.epsb.ca",
+        "email": "kameyosek@epsb.ca",
+        "phone": "(780) 462-8724",
+        "sector": "Southeast 1",
+        "epsb_id": "239"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6207134706,
+          -113.559702863
+        ]
+      },
+      "properties": {
+        "school_name": "Elizabeth Finch",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "13815 160 Ave NW",
+        "city": "Edmonton",
+        "postal_code": "T6V0C9",
+        "website": "http://elizabethfinch.epsb.ca/",
+        "email": "elizabethfinch@epsb.ca",
+        "phone": "(780) 457-2022",
+        "sector": "North",
+        "epsb_id": "459"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5025956363,
+          -113.683118453
+        ]
+      },
+      "properties": {
+        "school_name": "Kim Hung",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "1950 Glastonbury Boulevard NW",
+        "city": "Edmonton",
+        "postal_code": "T5T6M6",
+        "website": "http://kimhung.epsb.ca",
+        "email": "kimhung@epsb.ca",
+        "phone": "(587) 489-4718",
+        "sector": "West",
+        "epsb_id": "925"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5897659064,
+          -113.459697737
+        ]
+      },
+      "properties": {
+        "school_name": "Princeton",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "7720 - 130 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5C1Y2",
+        "website": "http://princeton.epsb.ca",
+        "email": "princeton@epsb.ca",
+        "phone": "(780) 476-2344",
+        "sector": "North",
+        "epsb_id": "187"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5270171038,
+          -113.568467979
+        ]
+      },
+      "properties": {
+        "school_name": "Parkview",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "14313 - 92 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5R5B3",
+        "website": "http://parkview.epsb.ca",
+        "email": "parkview@epsb.ca",
+        "phone": "(780) 483-3415",
+        "sector": "Northwest",
+        "epsb_id": "531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4455799716,
+          -113.373977358
+        ]
+      },
+      "properties": {
+        "school_name": "Svend Hansen",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "2130 - 16 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6T2C1",
+        "website": "http://svendhansen.epsb.ca",
+        "email": "svendhansen@epsb.ca",
+        "phone": "(587) 489-4724",
+        "sector": "Southeast 1",
+        "epsb_id": "928"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5924950967,
+          -113.515912358
+        ]
+      },
+      "properties": {
+        "school_name": "Rosslyn",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "13215 - 113A Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5E5B9",
+        "website": "http://rosslyn.epsb.ca",
+        "email": "rosslyn@epsb.ca",
+        "phone": "(780) 453-1576",
+        "sector": "North",
+        "epsb_id": "535"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4770223185,
+          -113.534625582
+        ]
+      },
+      "properties": {
+        "school_name": "Richard Secord",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "4025 - 117 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6J1T4",
+        "website": "https://richardsecord.epsb.ca/",
+        "email": "rsecord@epsb.ca",
+        "phone": "(780) 436-9839",
+        "sector": "Southwest 1",
+        "epsb_id": "201"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5886576768,
+          -113.525571028
+        ]
+      },
+      "properties": {
+        "school_name": "Calder",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "12950 - 118 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5E5L2",
+        "website": "http://calder.epsb.ca/",
+        "email": "calder@epsb.ca",
+        "phone": "(780) 454-4313",
+        "sector": "North",
+        "epsb_id": "113"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4280102932,
+          -113.44176218
+        ]
+      },
+      "properties": {
+        "school_name": "Ellerslie Campus",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "521-66 Street SW",
+        "city": "Edmonton",
+        "postal_code": "T6X1A3",
+        "website": "http://ellerslie.epsb.ca",
+        "email": "ellerslie@epsb.ca",
+        "phone": "(780) 988-5556",
+        "sector": "Southeast 2",
+        "epsb_id": "565"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5660873526,
+          -113.540465369
+        ]
+      },
+      "properties": {
+        "school_name": "Inglewood",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "11515 - 127 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5M0V4",
+        "website": "http://inglewood.epsb.ca",
+        "email": "inglewood@epsb.ca",
+        "phone": "(780) 455-4673",
+        "sector": "Central",
+        "epsb_id": "136"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4274715624,
+          -113.603669692
+        ]
+      },
+      "properties": {
+        "school_name": "Dr. M. A. Armour",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "3815 Allan Drive SW",
+        "city": "Edmonton",
+        "postal_code": "T6W0S7",
+        "website": "http://margaretannarmour.epsb.ca/",
+        "email": "margaretannarmour@epsb.ca",
+        "phone": "(587) 489-4704",
+        "sector": "Southwest 2",
+        "epsb_id": "934"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4696415893,
+          -113.361819679
+        ]
+      },
+      "properties": {
+        "school_name": "A. Blair McPherson",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "430 Tamarack Green NW",
+        "city": "Edmonton",
+        "postal_code": "T6T0J4",
+        "website": "https://ablairmcpherson.epsb.ca/",
+        "email": "ablairmcpherson@epsb.ca",
+        "phone": "(780) 468-4361",
+        "sector": "Southeast 1",
+        "epsb_id": "458"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5099455076,
+          -113.531494605
+        ]
+      },
+      "properties": {
+        "school_name": "Belgravia",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "11605 - 74 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6G0G1",
+        "website": "http://belgravia.epsb.ca",
+        "email": "belgravia@epsb.ca",
+        "phone": "(780) 435-5560",
+        "sector": "South Central",
+        "epsb_id": "107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.575478433,
+          -113.413955146
+        ]
+      },
+      "properties": {
+        "school_name": "Beacon Heights",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "4610 - 121 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5W1M8",
+        "website": "http://beaconheights.epsb.ca",
+        "email": "beacon@epsb.ca",
+        "phone": "(780) 479-4038",
+        "sector": "Central",
+        "epsb_id": "106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4677111433,
+          -113.428136261
+        ]
+      },
+      "properties": {
+        "school_name": "Hillview",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "355 Woodvale Road East NW",
+        "city": "Edmonton",
+        "postal_code": "T6L5C3",
+        "website": "http://hillview.epsb.ca",
+        "email": "hillview@epsb.ca",
+        "phone": "(780) 463-8108",
+        "sector": "Southeast 1",
+        "epsb_id": "255"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4625851754,
+          -113.415066453
+        ]
+      },
+      "properties": {
+        "school_name": "Kate Chegwin",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "3119 - 48 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6L6P5",
+        "website": "http://katechegwin.epsb.ca",
+        "email": "kchegwin@epsb.ca",
+        "phone": "(780) 469-0470",
+        "sector": "Southeast 1",
+        "epsb_id": "574"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5270171038,
+          -113.568467979
+        ]
+      },
+      "properties": {
+        "school_name": "Parkview",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "14313 - 92 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5R5B3",
+        "website": "http://parkview.epsb.ca",
+        "email": "parkview@epsb.ca",
+        "phone": "(780) 483-3415",
+        "sector": "Northwest",
+        "epsb_id": "531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5184225509,
+          -113.636195606
+        ]
+      },
+      "properties": {
+        "school_name": "Aldergrove",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8525 - 182 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5T1X1",
+        "website": "http://aldergrove.epsb.ca/",
+        "email": "aldergrove@epsb.ca",
+        "phone": "(780) 487-5182",
+        "sector": "Northwest",
+        "epsb_id": "234"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5042053849,
+          -113.519346277
+        ]
+      },
+      "properties": {
+        "school_name": "Parkallen",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "6703 - 112 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6H3J9",
+        "website": "http://parkallen.epsb.ca",
+        "email": "parkallen@epsb.ca",
+        "phone": "(780) 434-8503",
+        "sector": "South Central",
+        "epsb_id": "529"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5056025933,
+          -113.646700126
+        ]
+      },
+      "properties": {
+        "school_name": "Lymburn",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "18710 - 72 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5T4E9",
+        "website": "http://lymburn.epsb.ca",
+        "email": "lymburn@epsb.ca",
+        "phone": "(780) 487-1777",
+        "sector": "West",
+        "epsb_id": "269"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5169286277,
+          -113.566229312
+        ]
+      },
+      "properties": {
+        "school_name": "Laurier Heights",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "8210 - 142 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5R0L9",
+        "website": "http://laurierheights.epsb.ca",
+        "email": "laurier@epsb.ca",
+        "phone": "(780) 483-5352",
+        "sector": "Northwest",
+        "epsb_id": "518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4114301502,
+          -113.427498267
+        ]
+      },
+      "properties": {
+        "school_name": "Shauna May Seneca",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "2130 Wonnacott Way SW",
+        "city": "Edmonton",
+        "postal_code": "T6X2C1",
+        "website": "http://shaunamayseneca.epsb.ca",
+        "email": "shaunamayseneca@epsb.ca",
+        "phone": "(587) 489-4722",
+        "sector": "Southeast 2",
+        "epsb_id": "929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6270228428,
+          -113.474354261
+        ]
+      },
+      "properties": {
+        "school_name": "Florence Hallock",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "16437 87 St NW",
+        "city": "Edmonton",
+        "postal_code": "T5Z3X1",
+        "website": "http://florencehallock.epsb.ca/",
+        "email": "florencehallock@epsb.ca",
+        "phone": "(780) 478-1410",
+        "sector": "North",
+        "epsb_id": "457"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.609878239,
+          53.5333195901
+        ]
+      },
+      "properties": {
+        "school_name": "Alex Janvier",
+        "school_type": "JR",
+        "grades": "Gr 4-9",
+        "address": "9535 167 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5T4P5",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "sector": "Northwest",
+        "epsb_id": "268"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5883021136,
+          -113.544840146
+        ]
+      },
+      "properties": {
+        "school_name": "Athlone",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "12940 - 129 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5L1J3",
+        "website": "http://athlone.epsb.ca/",
+        "email": "athlone@epsb.ca",
+        "phone": "(780) 455-5823",
+        "sector": "North",
+        "epsb_id": "104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4677145604,
+          -113.408363596
+        ]
+      },
+      "properties": {
+        "school_name": "Minchau",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "3615 Millwoods Road East NW",
+        "city": "Edmonton",
+        "postal_code": "T6L5X2",
+        "website": "http://minchau.epsb.ca",
+        "email": "minchau@epsb.ca",
+        "phone": "(780) 461-0616",
+        "sector": "Southeast 1",
+        "epsb_id": "274"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5315993673,
+          -113.439283809
+        ]
+      },
+      "properties": {
+        "school_name": "Ottewell",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "9435 - 73 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6B2A9",
+        "website": "http://ottewell.epsb.ca",
+        "email": "ottewell@epsb.ca",
+        "phone": "(780) 466-7331",
+        "sector": "South Central",
+        "epsb_id": "528"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6075656011,
+          -113.496464224
+        ]
+      },
+      "properties": {
+        "school_name": "Maj Gen Griesbach",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "320 Griesbach Road NW",
+        "city": "Edmonton",
+        "postal_code": "T5E6R8",
+        "website": "http://griesbach.epsb.ca",
+        "email": "griesbach@epsb.ca",
+        "phone": "(780) 456-9482",
+        "sector": "North",
+        "epsb_id": "575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6222028196,
+          -113.527547308
+        ]
+      },
+      "properties": {
+        "school_name": "Dunluce",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "11735 - 162 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5X4M6",
+        "website": "http://dunluce.epsb.ca",
+        "email": "dunluce@epsb.ca",
+        "phone": "(780) 456-9080",
+        "sector": "North",
+        "epsb_id": "246"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5550956037,
+          -113.560815996
+        ]
+      },
+      "properties": {
+        "school_name": "Coronation",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10925 - 139 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5M1P8",
+        "website": "http://coronation.epsb.ca",
+        "email": "coronation@epsb.ca",
+        "phone": "(780) 455-2008",
+        "sector": "Northwest",
+        "epsb_id": "115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4722638011,
+          -113.526849415
+        ]
+      },
+      "properties": {
+        "school_name": "Greenfield",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "3735 - 114 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6J2G6",
+        "website": "http://greenfield.epsb.ca",
+        "email": "greenfield@epsb.ca",
+        "phone": "(780) 434-8581",
+        "sector": "Southwest 1",
+        "epsb_id": "178"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4716172741,
+          -113.50516993
+        ]
+      },
+      "properties": {
+        "school_name": "Duggan",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10616 - 36A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6J0C9",
+        "website": "http://duggan.epsb.ca",
+        "email": "duggan@epsb.ca",
+        "phone": "(780) 434-0319",
+        "sector": "Southwest 1",
+        "epsb_id": "218"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6270228428,
+          -113.474354261
+        ]
+      },
+      "properties": {
+        "school_name": "Florence Hallock",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "16437 87 St NW",
+        "city": "Edmonton",
+        "postal_code": "T5Z3X1",
+        "website": "http://florencehallock.epsb.ca/",
+        "email": "florencehallock@epsb.ca",
+        "phone": "(780) 478-1410",
+        "sector": "North",
+        "epsb_id": "457"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.591945194,
+          -113.44978618
+        ]
+      },
+      "properties": {
+        "school_name": "Balwin",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "7055 - 132 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5C2A7",
+        "website": "http://balwin.epsb.ca",
+        "email": "balwin@epsb.ca",
+        "phone": "(780) 475-3646",
+        "sector": "North",
+        "epsb_id": "502"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5169039786,
+          -113.587880372
+        ]
+      },
+      "properties": {
+        "school_name": "Lynnwood",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "15451 - 84 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5R3Y1",
+        "website": "http://lynnwood.epsb.ca",
+        "email": "lynnwood@epsb.ca",
+        "phone": "(780) 489-4500",
+        "sector": "Northwest",
+        "epsb_id": "208"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5214244871,
+          -113.49193233
+        ]
+      },
+      "properties": {
+        "school_name": "King Edward",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8530 - 101 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6E3Z5",
+        "website": "http://kingedward.epsb.ca",
+        "email": "kingedward@epsb.ca",
+        "phone": "(780) 439-2491",
+        "sector": "South Central",
+        "epsb_id": "517"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5450216831,
+          -113.568459482
+        ]
+      },
+      "properties": {
+        "school_name": "Grovenor",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10345 - 144 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5N2V3",
+        "website": "https://grovenor.epsb.ca/",
+        "email": "grovenor@epsb.ca",
+        "phone": "(780) 455-0832",
+        "sector": "Northwest",
+        "epsb_id": "129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6074838962,
+          -113.558242007
+        ]
+      },
+      "properties": {
+        "school_name": "Hilwie Hamdon",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "13815 Cumberland Road NW",
+        "city": "Edmonton",
+        "postal_code": "T6V1V4",
+        "website": "http://hilwiehamdon.epsb.ca",
+        "email": "hilwiehamdon@epsb.ca",
+        "phone": "(587) 489-4712",
+        "sector": "North",
+        "epsb_id": "937"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6357586417,
+          -113.48747736
+        ]
+      },
+      "properties": {
+        "school_name": "Lago Lindo",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "17303 - 95 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5Z2Z1",
+        "website": "http://lagolindo.epsb.ca/",
+        "email": "lagolindo@epsb.ca",
+        "phone": "(780) 456-6980",
+        "sector": "North",
+        "epsb_id": "277"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5364594681,
+          -113.706833505
+        ]
+      },
+      "properties": {
+        "school_name": "David Thomas King",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "22707 - 97 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5T5X7",
+        "website": "http://davidthomasking.epsb.ca",
+        "email": "davidthomasking@epsb.ca",
+        "phone": "(587) 489-4706",
+        "sector": "Northwest",
+        "epsb_id": "930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5912492333,
+          -113.48186786
+        ]
+      },
+      "properties": {
+        "school_name": "Killarney",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "13110 - 91 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5E3P6",
+        "website": "http://killarney.epsb.ca",
+        "email": "killarney@epsb.ca",
+        "phone": "(780) 475-1737",
+        "sector": "North",
+        "epsb_id": "516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.609878239,
+          53.5333195901
+        ]
+      },
+      "properties": {
+        "school_name": "Alex Janvier",
+        "school_type": "JR",
+        "grades": "Gr 4-9",
+        "address": "9535 167 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5T4P5",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "sector": "Northwest",
+        "epsb_id": "268"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.3992811305,
+          -113.535253534
+        ]
+      },
+      "properties": {
+        "school_name": "Dr. Lila Fahlman",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "680 Allard Boulevard SW",
+        "city": "Edmonton",
+        "postal_code": "T6W3A2",
+        "website": "http://lilafahlman.epsb.ca",
+        "email": "lilafahlman@epsb.ca",
+        "phone": "(587) 489-4710",
+        "sector": "Southwest 2",
+        "epsb_id": "926"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4490458579,
+          -113.501500405
+        ]
+      },
+      "properties": {
+        "school_name": "Keheewin",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "1910 - 105 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6J5J8",
+        "website": "http://keheewin.epsb.ca",
+        "email": "keheewin@epsb.ca",
+        "phone": "(780) 438-3874",
+        "sector": "Southwest 1",
+        "epsb_id": "254"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4630232185,
+          -113.45898046
+        ]
+      },
+      "properties": {
+        "school_name": "Tipaskan",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "1200 Lakewood Road North NW",
+        "city": "Edmonton",
+        "postal_code": "T6K4A3",
+        "website": "http://tipaskan.epsb.ca",
+        "email": "tipaskan@epsb.ca",
+        "phone": "(780) 462-5031",
+        "sector": "Southeast 1",
+        "epsb_id": "270"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5678141687,
+          -113.445498138
+        ]
+      },
+      "properties": {
+        "school_name": "Eastglen",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "11430 - 68 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5B1P1",
+        "website": "http://eastglen.epsb.ca",
+        "email": "eastglen@epsb.ca",
+        "phone": "(780) 479-1991",
+        "sector": "Central",
+        "epsb_id": "51"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5910253328,
+          -113.488282294
+        ]
+      },
+      "properties": {
+        "school_name": "Queen Elizabeth",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "9425 - 132 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5E0Y4",
+        "website": "http://queene.epsb.ca",
+        "email": "queene@epsb.ca",
+        "phone": "(780) 476-8671",
+        "sector": "North",
+        "epsb_id": "52"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5533424048,
+          -113.495346164
+        ]
+      },
+      "properties": {
+        "school_name": "Victoria",
+        "school_type": "EJS",
+        "grades": "K to Gr 12",
+        "address": "10210 - 108 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5H1A8",
+        "website": "http://victoria.epsb.ca/",
+        "email": "victoria@epsb.ca",
+        "phone": "(780) 426-3010",
+        "sector": "Central",
+        "epsb_id": "55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.478604419,
+          -113.505513319
+        ]
+      },
+      "properties": {
+        "school_name": "Rideau Park",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10605 - 42 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6J3Z9",
+        "website": "http://rideaupark.epsb.ca",
+        "email": "rideaupark@epsb.ca",
+        "phone": "(780) 437-0010",
+        "sector": "Southwest 1",
+        "epsb_id": "232"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5555274783,
+          -113.505484389
+        ]
+      },
+      "properties": {
+        "school_name": "John A. McDougall",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "10930 - 107 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5H2Z4",
+        "website": "http://johnamcdougall.epsb.ca",
+        "email": "mcdougall@epsb.ca",
+        "phone": "(780) 426-0205",
+        "sector": "Central",
+        "epsb_id": "521"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5144576442,
+          -113.460702021
+        ]
+      },
+      "properties": {
+        "school_name": "Donnan",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "7803 - 87 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6C3G6",
+        "website": "http://donnan.epsb.ca",
+        "email": "donnan@epsb.ca",
+        "phone": "(780) 466-8573",
+        "sector": "South Central",
+        "epsb_id": "505"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.591945194,
+          -113.44978618
+        ]
+      },
+      "properties": {
+        "school_name": "Balwin",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "7055 - 132 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5C2A7",
+        "website": "http://balwin.epsb.ca",
+        "email": "balwin@epsb.ca",
+        "phone": "(780) 475-3646",
+        "sector": "North",
+        "epsb_id": "502"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.596882392,
+          -113.504545006
+        ]
+      },
+      "properties": {
+        "school_name": "Scott Robertson",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "13515 - 107 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5E4W3",
+        "website": "https://scottrobertson.epsb.ca/",
+        "email": "srobertson@epsb.ca",
+        "phone": "(780) 475-3565",
+        "sector": "North",
+        "epsb_id": "171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5348932145,
+          -113.688397173
+        ]
+      },
+      "properties": {
+        "school_name": "Winterburn",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9527  Winterburn Road NW",
+        "city": "Edmonton",
+        "postal_code": "T5T5X9",
+        "website": "http://winterburn.epsb.ca",
+        "email": "winterburn@epsb.ca",
+        "phone": "(780) 447-3566",
+        "sector": "Northwest",
+        "epsb_id": "569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5239301564,
+          -113.534868074
+        ]
+      },
+      "properties": {
+        "school_name": "Windsor Park",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8720 - 118 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6G1T5",
+        "website": "http://windsorpark.epsb.ca/",
+        "email": "windsor@epsb.ca",
+        "phone": "(780) 433-3924",
+        "sector": "South Central",
+        "epsb_id": "182"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5636671203,
+          -113.390311404
+        ]
+      },
+      "properties": {
+        "school_name": "Ivor Dent",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "11010 - 32 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5W1Y7",
+        "website": "http://ivordent.epsb.ca",
+        "email": "ivordent@epsb.ca",
+        "phone": "(587) 489-4714",
+        "sector": "Central",
+        "epsb_id": "951"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5439353019,
+          -113.555483812
+        ]
+      },
+      "properties": {
+        "school_name": "Glenora",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "13520 - 102 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5N0N7",
+        "website": "http://glenora.epsb.ca",
+        "email": "glenora@epsb.ca",
+        "phone": "(780) 452-4740",
+        "sector": "Northwest",
+        "epsb_id": "126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4997054681,
+          -113.546622058
+        ]
+      },
+      "properties": {
+        "school_name": "Grandview Heights",
+        "school_type": "EJ",
+        "grades": "Gr 1-9",
+        "address": "6225 - 127 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T6H3W8",
+        "website": "http://grandview.epsb.ca",
+        "email": "grandview@epsb.ca",
+        "phone": "(780) 434-1502",
+        "sector": "South Central",
+        "epsb_id": "128"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5435343756,
+          -113.46842726
+        ]
+      },
+      "properties": {
+        "school_name": "Riverdale",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "8901 - 101 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5H0B1",
+        "website": "http://riverdale.epsb.ca",
+        "email": "riverdale@epsb.ca",
+        "phone": "(780) 425-7600",
+        "sector": "Central",
+        "epsb_id": "168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.569510288,
+          -113.435362821
+        ]
+      },
+      "properties": {
+        "school_name": "Highlands",
+        "school_type": "EJ",
+        "grades": "K to Gr 9",
+        "address": "11509 - 62 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5W4C2",
+        "website": "http://highlands.epsb.ca/",
+        "email": "highlands@epsb.ca",
+        "phone": "(780) 479-4206",
+        "sector": "Central",
+        "epsb_id": "513"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5603391193,
+          -113.487706163
+        ]
+      },
+      "properties": {
+        "school_name": "Norwood",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "9520 - 111 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5G0A6",
+        "website": "http://norwood.epsb.ca",
+        "email": "norwood@epsb.ca",
+        "phone": "(780) 477-1002",
+        "sector": "Central",
+        "epsb_id": "156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4552352013,
+          -113.454041694
+        ]
+      },
+      "properties": {
+        "school_name": "Meyonohk",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "1850 Lakewood Road South NW",
+        "city": "Edmonton",
+        "postal_code": "T6K3Y5",
+        "website": "http://meyonohk.epsb.ca",
+        "email": "meyonohk@epsb.ca",
+        "phone": "(780) 463-7627",
+        "sector": "Southeast 1",
+        "epsb_id": "249"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5964245923,
+          -113.455359228
+        ]
+      },
+      "properties": {
+        "school_name": "Delwood",
+        "school_type": "EL",
+        "grades": "K to Gr 6",
+        "address": "7315 Delwood Road NW",
+        "city": "Edmonton",
+        "postal_code": "T5C3A9",
+        "website": "http://delwood.epsb.ca",
+        "email": "delwood@epsb.ca",
+        "phone": "(780) 476-3969",
+        "sector": "North",
+        "epsb_id": "194"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5467426377,
+          -113.597911605
+        ]
+      },
+      "properties": {
+        "school_name": "Britannia",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "16018 - 104 Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T5P0S3",
+        "website": "http://britannia.epsb.ca",
+        "email": "britannia@epsb.ca",
+        "phone": "(780) 489-5300",
+        "sector": "Northwest",
+        "epsb_id": "551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4735919923,
+          -113.54232263
+        ]
+      },
+      "properties": {
+        "school_name": "Vernon Barford",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "32 Fairway Drive NW",
+        "city": "Edmonton",
+        "postal_code": "T6J2C1",
+        "website": "https://vernonbarford.epsb.ca/",
+        "email": "vbarford@epsb.ca",
+        "phone": "(780) 413-2211",
+        "sector": "Southwest 1",
+        "epsb_id": "557"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5253255777,
+          -113.603605349
+        ]
+      },
+      "properties": {
+        "school_name": "Jasper Place",
+        "school_type": "SR",
+        "grades": "Gr 10-12",
+        "address": "8950 - 163 Street NW",
+        "city": "Edmonton",
+        "postal_code": "T5R2P2",
+        "website": "http://jasperplace.epsb.ca/",
+        "email": "jasper@epsb.ca",
+        "phone": "(780) 408-9000",
+        "sector": "Northwest",
+        "epsb_id": "71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.48072829,
+          -113.3823897
+        ]
+      },
+      "properties": {
+        "school_name": "Thelma Chalifoux",
+        "school_type": "JR",
+        "grades": "Gr 7-9",
+        "address": "2845 43A Avenue NW",
+        "city": "Edmonton",
+        "postal_code": "T6T 1J9",
+        "website": "https://thelmachalifoux.epsb.ca/",
+        "email": "thelmachalifoux@epsb.ca",
+        "phone": "(587) 489-4737",
+        "sector": "Southeast 1",
+        "epsb_id": "802"
+      }
+    }
+  ],
+  "_meta": {
+    "description": "Edmonton Public School Board (EPSB) School Locations",
+    "source": "City of Edmonton Open Data Portal",
+    "source_url": "https://data.edmonton.ca/Externally-Sourced-Datasets/Edmonton-Public-School-Board-EPSB-_School-Catchmen/gc4g-ct3z",
+    "year": 2021,
+    "total_schools": 252
+  }
+}
