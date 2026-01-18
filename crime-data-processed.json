@@ -1,0 +1,2047 @@
+{
+  "_meta": {
+    "description": "Edmonton Violent and Weapons Crime Data - 2025",
+    "source": "Edmonton Police Service Community Safety Data Portal",
+    "data_url": "https://data-eps1.hub.arcgis.com/",
+    "date_range": "2025-01-17 to 2025-12-31",
+    "crime_categories_included": [
+      "Violent",
+      "Weapons"
+    ],
+    "total_incidents": 8838,
+    "neighbourhoods_count": 406,
+    "note": "12-month average calculated by dividing total 2025 crimes by 12"
+  },
+  "crime_by_neighbourhood": [
+    {
+      "neighbourhood_name": "ABBOTTSFIELD",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "ALBANY",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "ALBERTA AVENUE",
+      "violent_weapons_crimes_total_2025": 160,
+      "violent_weapons_crimes_monthly_avg": 13.33
+    },
+    {
+      "neighbourhood_name": "ALBERTA PARK INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "ALCES",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "ALDERGROVE",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "ALLARD",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "ALLENDALE",
+      "violent_weapons_crimes_total_2025": 24,
+      "violent_weapons_crimes_monthly_avg": 2.0
+    },
+    {
+      "neighbourhood_name": "AMBLESIDE",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY BIG LAKE",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY CASTLEDOWNS",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY CLAREVIEW",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY ENERGY PARK",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY HORSE HILL",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY LAKE DISTRICT",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY MISTATIM",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY RAMPART",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY SOUTH",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY SOUTH BLACKBURNE",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY SOUTH EAST",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY SOUTH WEST",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "ANTHONY HENDAY TERWILLEGAR",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "ARGYLL",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "ARMSTRONG INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "ASPEN GARDENS",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "ASTER",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "ATHLONE",
+      "violent_weapons_crimes_total_2025": 25,
+      "violent_weapons_crimes_monthly_avg": 2.08
+    },
+    {
+      "neighbourhood_name": "AVONMORE",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "BALWIN",
+      "violent_weapons_crimes_total_2025": 38,
+      "violent_weapons_crimes_monthly_avg": 3.17
+    },
+    {
+      "neighbourhood_name": "BANNERMAN",
+      "violent_weapons_crimes_total_2025": 21,
+      "violent_weapons_crimes_monthly_avg": 1.75
+    },
+    {
+      "neighbourhood_name": "BARANOW",
+      "violent_weapons_crimes_total_2025": 32,
+      "violent_weapons_crimes_monthly_avg": 2.67
+    },
+    {
+      "neighbourhood_name": "BATURYN",
+      "violent_weapons_crimes_total_2025": 21,
+      "violent_weapons_crimes_monthly_avg": 1.75
+    },
+    {
+      "neighbourhood_name": "BEACON HEIGHTS",
+      "violent_weapons_crimes_total_2025": 26,
+      "violent_weapons_crimes_monthly_avg": 2.17
+    },
+    {
+      "neighbourhood_name": "BEARSPAW",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "BEAUMARIS",
+      "violent_weapons_crimes_total_2025": 36,
+      "violent_weapons_crimes_monthly_avg": 3.0
+    },
+    {
+      "neighbourhood_name": "BELGRAVIA",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "BELLE RIVE",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "BELLEVUE",
+      "violent_weapons_crimes_total_2025": 34,
+      "violent_weapons_crimes_monthly_avg": 2.83
+    },
+    {
+      "neighbourhood_name": "BELMEAD",
+      "violent_weapons_crimes_total_2025": 95,
+      "violent_weapons_crimes_monthly_avg": 7.92
+    },
+    {
+      "neighbourhood_name": "BELMONT",
+      "violent_weapons_crimes_total_2025": 31,
+      "violent_weapons_crimes_monthly_avg": 2.58
+    },
+    {
+      "neighbourhood_name": "BELVEDERE",
+      "violent_weapons_crimes_total_2025": 161,
+      "violent_weapons_crimes_monthly_avg": 13.42
+    },
+    {
+      "neighbourhood_name": "BERGMAN",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "BEVERLY HEIGHTS",
+      "violent_weapons_crimes_total_2025": 86,
+      "violent_weapons_crimes_monthly_avg": 7.17
+    },
+    {
+      "neighbourhood_name": "BISSET",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "BLACKBURNE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "BLACKMUD CREEK",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "BLACKMUD CREEK RAVINE",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "BLATCHFORD AREA",
+      "violent_weapons_crimes_total_2025": 19,
+      "violent_weapons_crimes_monthly_avg": 1.58
+    },
+    {
+      "neighbourhood_name": "BLUE QUILL",
+      "violent_weapons_crimes_total_2025": 20,
+      "violent_weapons_crimes_monthly_avg": 1.67
+    },
+    {
+      "neighbourhood_name": "BLUE QUILL ESTATES",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "BONAVENTURE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "BONNIE DOON",
+      "violent_weapons_crimes_total_2025": 60,
+      "violent_weapons_crimes_monthly_avg": 5.0
+    },
+    {
+      "neighbourhood_name": "BOYLE STREET",
+      "violent_weapons_crimes_total_2025": 215,
+      "violent_weapons_crimes_monthly_avg": 17.92
+    },
+    {
+      "neighbourhood_name": "BRANDER GARDENS",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "BRECKENRIDGE GREENS",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "BRINTNELL",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "BRITANNIA YOUNGSTOWN",
+      "violent_weapons_crimes_total_2025": 95,
+      "violent_weapons_crimes_monthly_avg": 7.92
+    },
+    {
+      "neighbourhood_name": "BROOKSIDE",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "BROWN INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "BULYEA HEIGHTS",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "CAERNARVON",
+      "violent_weapons_crimes_total_2025": 24,
+      "violent_weapons_crimes_monthly_avg": 2.0
+    },
+    {
+      "neighbourhood_name": "CALDER",
+      "violent_weapons_crimes_total_2025": 38,
+      "violent_weapons_crimes_monthly_avg": 3.17
+    },
+    {
+      "neighbourhood_name": "CALGARY TRAIL NORTH",
+      "violent_weapons_crimes_total_2025": 31,
+      "violent_weapons_crimes_monthly_avg": 2.58
+    },
+    {
+      "neighbourhood_name": "CALGARY TRAIL SOUTH",
+      "violent_weapons_crimes_total_2025": 39,
+      "violent_weapons_crimes_monthly_avg": 3.25
+    },
+    {
+      "neighbourhood_name": "CALLAGHAN",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "CALLINGWOOD NORTH",
+      "violent_weapons_crimes_total_2025": 23,
+      "violent_weapons_crimes_monthly_avg": 1.92
+    },
+    {
+      "neighbourhood_name": "CALLINGWOOD SOUTH",
+      "violent_weapons_crimes_total_2025": 31,
+      "violent_weapons_crimes_monthly_avg": 2.58
+    },
+    {
+      "neighbourhood_name": "CAMERON HEIGHTS",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "CANON RIDGE",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "CANORA",
+      "violent_weapons_crimes_total_2025": 27,
+      "violent_weapons_crimes_monthly_avg": 2.25
+    },
+    {
+      "neighbourhood_name": "CANOSSA",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "CAPILANO",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "CARLETON SQUARE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "CARLISLE",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "CARLTON",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "CARTER CREST",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "CASHMAN",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "CASSELMAN",
+      "violent_weapons_crimes_total_2025": 19,
+      "violent_weapons_crimes_monthly_avg": 1.58
+    },
+    {
+      "neighbourhood_name": "CAVANAGH",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "CENTRAL MCDOUGALL",
+      "violent_weapons_crimes_total_2025": 452,
+      "violent_weapons_crimes_monthly_avg": 37.67
+    },
+    {
+      "neighbourhood_name": "CHAMBERY",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "CHAPPELLE",
+      "violent_weapons_crimes_total_2025": 39,
+      "violent_weapons_crimes_monthly_avg": 3.25
+    },
+    {
+      "neighbourhood_name": "CHARLESWORTH",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "CLAREVIEW TOWN CENTRE",
+      "violent_weapons_crimes_total_2025": 144,
+      "violent_weapons_crimes_monthly_avg": 12.0
+    },
+    {
+      "neighbourhood_name": "CLOVER BAR AREA",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "CLOVERDALE",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "CORONET ADDITION INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "CORONET INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "CPR IRVINE",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "CRAWFORD PLAINS",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "CRESTWOOD",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "CROMDALE",
+      "violent_weapons_crimes_total_2025": 57,
+      "violent_weapons_crimes_monthly_avg": 4.75
+    },
+    {
+      "neighbourhood_name": "CROSSROADS",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "CRYSTALLINA NERA EAST",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "CRYSTALLINA NERA WEST",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "CUMBERLAND",
+      "violent_weapons_crimes_total_2025": 16,
+      "violent_weapons_crimes_monthly_avg": 1.33
+    },
+    {
+      "neighbourhood_name": "CY BECKER",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "DALY GROVE",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "DAVIES INDUSTRIAL EAST",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "DAVIES INDUSTRIAL WEST",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "DECHENE",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "DECOTEAU",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "DELTON",
+      "violent_weapons_crimes_total_2025": 17,
+      "violent_weapons_crimes_monthly_avg": 1.42
+    },
+    {
+      "neighbourhood_name": "DELWOOD",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "DESROCHERS AREA",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "DOMINION INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "DONSDALE",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "DOVERCOURT",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "DOWNTOWN",
+      "violent_weapons_crimes_total_2025": 903,
+      "violent_weapons_crimes_monthly_avg": 75.25
+    },
+    {
+      "neighbourhood_name": "DUGGAN",
+      "violent_weapons_crimes_total_2025": 16,
+      "violent_weapons_crimes_monthly_avg": 1.33
+    },
+    {
+      "neighbourhood_name": "DUNLUCE",
+      "violent_weapons_crimes_total_2025": 35,
+      "violent_weapons_crimes_monthly_avg": 2.92
+    },
+    {
+      "neighbourhood_name": "EASTGATE BUSINESS PARK",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "EASTWOOD",
+      "violent_weapons_crimes_total_2025": 169,
+      "violent_weapons_crimes_monthly_avg": 14.08
+    },
+    {
+      "neighbourhood_name": "EAUX CLAIRES",
+      "violent_weapons_crimes_total_2025": 41,
+      "violent_weapons_crimes_monthly_avg": 3.42
+    },
+    {
+      "neighbourhood_name": "EBBERS",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "EDGEMONT",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "EDMISTON INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "EDMONTON ENERGY AND TECHNOLOGY PARK",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "EDMONTON NORTHLANDS",
+      "violent_weapons_crimes_total_2025": 29,
+      "violent_weapons_crimes_monthly_avg": 2.42
+    },
+    {
+      "neighbourhood_name": "EDMONTON RESEARCH AND DEVELOPMENT PARK",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "EDMONTON SOUTH CENTRAL",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "EDMONTON SOUTH CENTRAL EAST",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "EDMONTON SOUTH EAST",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "EDMONTON SOUTH WEST",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "EKOTA",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "ELLERSLIE",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "ELLERSLIE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "ELMWOOD",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "ELMWOOD PARK",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "ELSINORE",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "EMPIRE PARK",
+      "violent_weapons_crimes_total_2025": 125,
+      "violent_weapons_crimes_monthly_avg": 10.42
+    },
+    {
+      "neighbourhood_name": "ERMINESKIN",
+      "violent_weapons_crimes_total_2025": 47,
+      "violent_weapons_crimes_monthly_avg": 3.92
+    },
+    {
+      "neighbourhood_name": "EVANSDALE",
+      "violent_weapons_crimes_total_2025": 34,
+      "violent_weapons_crimes_monthly_avg": 2.83
+    },
+    {
+      "neighbourhood_name": "EVERGREEN",
+      "violent_weapons_crimes_total_2025": 18,
+      "violent_weapons_crimes_monthly_avg": 1.5
+    },
+    {
+      "neighbourhood_name": "FALCONER HEIGHTS",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "FOREST HEIGHTS",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "FRASER",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "FULTON PLACE",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "GAGNON ESTATE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "GAINER INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "GARIEPY",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "GARNEAU",
+      "violent_weapons_crimes_total_2025": 59,
+      "violent_weapons_crimes_monthly_avg": 4.92
+    },
+    {
+      "neighbourhood_name": "GARSIDE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "GIRARD INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "GLASTONBURY",
+      "violent_weapons_crimes_total_2025": 18,
+      "violent_weapons_crimes_monthly_avg": 1.5
+    },
+    {
+      "neighbourhood_name": "GLENGARRY",
+      "violent_weapons_crimes_total_2025": 110,
+      "violent_weapons_crimes_monthly_avg": 9.17
+    },
+    {
+      "neighbourhood_name": "GLENORA",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "GLENRIDDING HEIGHTS",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "GLENRIDDING RAVINE",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "GLENWOOD",
+      "violent_weapons_crimes_total_2025": 73,
+      "violent_weapons_crimes_monthly_avg": 6.08
+    },
+    {
+      "neighbourhood_name": "GOLD BAR",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "GOODRIDGE CORNERS",
+      "violent_weapons_crimes_total_2025": 74,
+      "violent_weapons_crimes_monthly_avg": 6.17
+    },
+    {
+      "neighbourhood_name": "GORMAN",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "GRANDVIEW HEIGHTS",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "GRANVILLE",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "GRAYDON HILL",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "GREENFIELD",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "GREENVIEW",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "GRIESBACH",
+      "violent_weapons_crimes_total_2025": 25,
+      "violent_weapons_crimes_monthly_avg": 2.08
+    },
+    {
+      "neighbourhood_name": "GROVENOR",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "HADDOW",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "HAGMANN ESTATE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "HAIRSINE",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "HAWIN PARK ESTATE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "HAWKS RIDGE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "HAYS RIDGE AREA",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "HAZELDEAN",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "HENDERSON ESTATES",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "HERITAGE VALLEY AREA",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "HERITAGE VALLEY TOWN CENTRE",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "HIGH PARK",
+      "violent_weapons_crimes_total_2025": 46,
+      "violent_weapons_crimes_monthly_avg": 3.83
+    },
+    {
+      "neighbourhood_name": "HIGH PARK INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "HIGHLANDS",
+      "violent_weapons_crimes_total_2025": 33,
+      "violent_weapons_crimes_monthly_avg": 2.75
+    },
+    {
+      "neighbourhood_name": "HILLVIEW",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "HODGSON",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "HOLLICK-KENYON",
+      "violent_weapons_crimes_total_2025": 19,
+      "violent_weapons_crimes_monthly_avg": 1.58
+    },
+    {
+      "neighbourhood_name": "HOLYROOD",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "HOMESTEADER",
+      "violent_weapons_crimes_total_2025": 24,
+      "violent_weapons_crimes_monthly_avg": 2.0
+    },
+    {
+      "neighbourhood_name": "HUDSON",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "HUFF BREMNER ESTATE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "IDYLWYLDE",
+      "violent_weapons_crimes_total_2025": 17,
+      "violent_weapons_crimes_monthly_avg": 1.42
+    },
+    {
+      "neighbourhood_name": "INDUSTRIAL HEIGHTS",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "INGLEWOOD",
+      "violent_weapons_crimes_total_2025": 84,
+      "violent_weapons_crimes_monthly_avg": 7.0
+    },
+    {
+      "neighbourhood_name": "JACKSON HEIGHTS",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "JAMIESON PLACE",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "JASPER PARK",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "KAMEYOSEK",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "KEHEEWIN",
+      "violent_weapons_crimes_total_2025": 19,
+      "violent_weapons_crimes_monthly_avg": 1.58
+    },
+    {
+      "neighbourhood_name": "KENDAL",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "KENILWORTH",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "KENNEDALE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 19,
+      "violent_weapons_crimes_monthly_avg": 1.58
+    },
+    {
+      "neighbourhood_name": "KENSINGTON",
+      "violent_weapons_crimes_total_2025": 16,
+      "violent_weapons_crimes_monthly_avg": 1.33
+    },
+    {
+      "neighbourhood_name": "KERNOHAN",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "KESWICK",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "KILDARE",
+      "violent_weapons_crimes_total_2025": 60,
+      "violent_weapons_crimes_monthly_avg": 5.0
+    },
+    {
+      "neighbourhood_name": "KILKENNY",
+      "violent_weapons_crimes_total_2025": 36,
+      "violent_weapons_crimes_monthly_avg": 3.0
+    },
+    {
+      "neighbourhood_name": "KILLARNEY",
+      "violent_weapons_crimes_total_2025": 53,
+      "violent_weapons_crimes_monthly_avg": 4.42
+    },
+    {
+      "neighbourhood_name": "KING EDWARD PARK",
+      "violent_weapons_crimes_total_2025": 27,
+      "violent_weapons_crimes_monthly_avg": 2.25
+    },
+    {
+      "neighbourhood_name": "KINGLET GARDENS",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "KINISKI GARDENS",
+      "violent_weapons_crimes_total_2025": 12,
+      "violent_weapons_crimes_monthly_avg": 1.0
+    },
+    {
+      "neighbourhood_name": "KINOKAMAU PLAINS AREA",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "KIRKNESS",
+      "violent_weapons_crimes_total_2025": 22,
+      "violent_weapons_crimes_monthly_avg": 1.83
+    },
+    {
+      "neighbourhood_name": "KLARVATTEN",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "LA PERLE",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "LAGO LINDO",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "LAMBTON INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "LANSDOWNE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "LARKSPUR",
+      "violent_weapons_crimes_total_2025": 20,
+      "violent_weapons_crimes_monthly_avg": 1.67
+    },
+    {
+      "neighbourhood_name": "LAUDERDALE",
+      "violent_weapons_crimes_total_2025": 40,
+      "violent_weapons_crimes_monthly_avg": 3.33
+    },
+    {
+      "neighbourhood_name": "LAUREL",
+      "violent_weapons_crimes_total_2025": 33,
+      "violent_weapons_crimes_monthly_avg": 2.75
+    },
+    {
+      "neighbourhood_name": "LAURIER HEIGHTS",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "LEE RIDGE",
+      "violent_weapons_crimes_total_2025": 17,
+      "violent_weapons_crimes_monthly_avg": 1.42
+    },
+    {
+      "neighbourhood_name": "LEGER",
+      "violent_weapons_crimes_total_2025": 16,
+      "violent_weapons_crimes_monthly_avg": 1.33
+    },
+    {
+      "neighbourhood_name": "LENDRUM PLACE",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "LEWIS FARMS INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "LORELEI",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "LYMBURN",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "LYNNWOOD",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "MACEWAN",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "MACTAGGART",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "MAGRATH HEIGHTS",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "MALMO PLAINS",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "MAPLE",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "MAPLE RIDGE",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "MAPLE RIDGE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "MARQUIS",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "MATT BERRY",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "MATTSON",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "MAYFIELD",
+      "violent_weapons_crimes_total_2025": 18,
+      "violent_weapons_crimes_monthly_avg": 1.5
+    },
+    {
+      "neighbourhood_name": "MAYLIEWAN",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "MCARTHUR INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "MCCAULEY",
+      "violent_weapons_crimes_total_2025": 442,
+      "violent_weapons_crimes_monthly_avg": 36.83
+    },
+    {
+      "neighbourhood_name": "MCCONACHIE",
+      "violent_weapons_crimes_total_2025": 17,
+      "violent_weapons_crimes_monthly_avg": 1.42
+    },
+    {
+      "neighbourhood_name": "MCINTYRE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "MCKERNAN",
+      "violent_weapons_crimes_total_2025": 17,
+      "violent_weapons_crimes_monthly_avg": 1.42
+    },
+    {
+      "neighbourhood_name": "MCLEOD",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "MCNAMARA INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "MCQUEEN",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "MEADOWLARK PARK",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "MELTWATER",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "MENISA",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "MEYOKUMIN",
+      "violent_weapons_crimes_total_2025": 16,
+      "violent_weapons_crimes_monthly_avg": 1.33
+    },
+    {
+      "neighbourhood_name": "MEYONOHK",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "MICHAELS PARK",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "MILL CREEK RAVINE NORTH",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "MILL CREEK RAVINE SOUTH",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "MILL WOODS GOLF COURSE",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "MILL WOODS PARK",
+      "violent_weapons_crimes_total_2025": 25,
+      "violent_weapons_crimes_monthly_avg": 2.08
+    },
+    {
+      "neighbourhood_name": "MILL WOODS TOWN CENTRE",
+      "violent_weapons_crimes_total_2025": 94,
+      "violent_weapons_crimes_monthly_avg": 7.83
+    },
+    {
+      "neighbourhood_name": "MILLER",
+      "violent_weapons_crimes_total_2025": 23,
+      "violent_weapons_crimes_monthly_avg": 1.92
+    },
+    {
+      "neighbourhood_name": "MINCHAU",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "MISTATIM INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "MITCHELL INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "MONTROSE",
+      "violent_weapons_crimes_total_2025": 48,
+      "violent_weapons_crimes_monthly_avg": 4.0
+    },
+    {
+      "neighbourhood_name": "MORIN INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "MORRIS INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "NEWTON",
+      "violent_weapons_crimes_total_2025": 27,
+      "violent_weapons_crimes_monthly_avg": 2.25
+    },
+    {
+      "neighbourhood_name": "NORTH GLENORA",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "NORTHMOUNT",
+      "violent_weapons_crimes_total_2025": 56,
+      "violent_weapons_crimes_monthly_avg": 4.67
+    },
+    {
+      "neighbourhood_name": "NORWESTER INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "OGILVIE RIDGE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "OLESKIW",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "ORMSBY PLACE",
+      "violent_weapons_crimes_total_2025": 19,
+      "violent_weapons_crimes_monthly_avg": 1.58
+    },
+    {
+      "neighbourhood_name": "OTTEWELL",
+      "violent_weapons_crimes_total_2025": 52,
+      "violent_weapons_crimes_monthly_avg": 4.33
+    },
+    {
+      "neighbourhood_name": "OVERLANDERS",
+      "violent_weapons_crimes_total_2025": 12,
+      "violent_weapons_crimes_monthly_avg": 1.0
+    },
+    {
+      "neighbourhood_name": "OXFORD",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "OZERNA",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "PAISLEY",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "PAPASCHASE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "PARKALLEN",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "PARKDALE",
+      "violent_weapons_crimes_total_2025": 118,
+      "violent_weapons_crimes_monthly_avg": 9.83
+    },
+    {
+      "neighbourhood_name": "PARKVIEW",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "PARSONS INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "PATRICIA HEIGHTS",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "PEMBINA",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "PINTAIL LANDING",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "PLACE LARUE",
+      "violent_weapons_crimes_total_2025": 39,
+      "violent_weapons_crimes_monthly_avg": 3.25
+    },
+    {
+      "neighbourhood_name": "PLEASANTVIEW",
+      "violent_weapons_crimes_total_2025": 32,
+      "violent_weapons_crimes_monthly_avg": 2.67
+    },
+    {
+      "neighbourhood_name": "POLLARD MEADOWS",
+      "violent_weapons_crimes_total_2025": 25,
+      "violent_weapons_crimes_monthly_avg": 2.08
+    },
+    {
+      "neighbourhood_name": "POTTER GREENS",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "POUNDMAKER INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "PRINCE CHARLES",
+      "violent_weapons_crimes_total_2025": 43,
+      "violent_weapons_crimes_monthly_avg": 3.58
+    },
+    {
+      "neighbourhood_name": "PRINCE RUPERT",
+      "violent_weapons_crimes_total_2025": 58,
+      "violent_weapons_crimes_monthly_avg": 4.83
+    },
+    {
+      "neighbourhood_name": "PYLYPOW INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "QUARRY RIDGE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "QUEEN ALEXANDRA",
+      "violent_weapons_crimes_total_2025": 136,
+      "violent_weapons_crimes_monthly_avg": 11.33
+    },
+    {
+      "neighbourhood_name": "QUEEN MARY PARK",
+      "violent_weapons_crimes_total_2025": 106,
+      "violent_weapons_crimes_monthly_avg": 8.83
+    },
+    {
+      "neighbourhood_name": "QUESNELL HEIGHTS",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RAMPART INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "RAMSAY HEIGHTS",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "RAPPERSWILL",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "RHATIGAN RIDGE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RICHFIELD",
+      "violent_weapons_crimes_total_2025": 26,
+      "violent_weapons_crimes_monthly_avg": 2.17
+    },
+    {
+      "neighbourhood_name": "RICHFORD",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RIDEAU PARK",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "RIO TERRACE",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "RITCHIE",
+      "violent_weapons_crimes_total_2025": 43,
+      "violent_weapons_crimes_monthly_avg": 3.58
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY CAMERON",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY CAPITOL HILL",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY FORT EDMONTON",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY GLENORA",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY GOLD BAR",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY HERMITAGE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY HIGHLANDS",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY KENDAL",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY KESWICK",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY KINNAIRD",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY LAURIER",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY LESSARD NORTH",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY MAYFAIR",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY OLESKIW",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY RIVERSIDE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY RUNDLE",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY TERWILLEGAR",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY VICTORIA",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY WALTERDALE",
+      "violent_weapons_crimes_total_2025": 18,
+      "violent_weapons_crimes_monthly_avg": 1.5
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY WHITEMUD",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER VALLEY WINDERMERE",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RIVER'S EDGE",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "RIVERDALE",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "RIVERVIEW AREA",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "ROPER INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "ROSEDALE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 14,
+      "violent_weapons_crimes_monthly_avg": 1.17
+    },
+    {
+      "neighbourhood_name": "ROSENTHAL",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "ROSSDALE",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "ROSSLYN",
+      "violent_weapons_crimes_total_2025": 24,
+      "violent_weapons_crimes_monthly_avg": 2.0
+    },
+    {
+      "neighbourhood_name": "ROYAL GARDENS",
+      "violent_weapons_crimes_total_2025": 12,
+      "violent_weapons_crimes_monthly_avg": 1.0
+    },
+    {
+      "neighbourhood_name": "RUNDLE HEIGHTS",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "RURAL NORTH EAST HORSE HILL",
+      "violent_weapons_crimes_total_2025": 61,
+      "violent_weapons_crimes_monthly_avg": 5.08
+    },
+    {
+      "neighbourhood_name": "RURAL NORTH EAST SOUTH STURGEON",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "RUTHERFORD",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "SAKAW",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "SATOO",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "SCHONSEE",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "SECORD",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "SHEFFIELD INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "SHERBROOKE",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "SHERWOOD",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "SIFTON PARK",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "SILVER BERRY",
+      "violent_weapons_crimes_total_2025": 54,
+      "violent_weapons_crimes_monthly_avg": 4.5
+    },
+    {
+      "neighbourhood_name": "SKYRATTLER",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "SOUTH EDMONTON COMMON",
+      "violent_weapons_crimes_total_2025": 25,
+      "violent_weapons_crimes_monthly_avg": 2.08
+    },
+    {
+      "neighbourhood_name": "SOUTH TERWILLEGAR",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "SOUTHEAST INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 5,
+      "violent_weapons_crimes_monthly_avg": 0.42
+    },
+    {
+      "neighbourhood_name": "SPRUCE AVENUE",
+      "violent_weapons_crimes_total_2025": 157,
+      "violent_weapons_crimes_monthly_avg": 13.08
+    },
+    {
+      "neighbourhood_name": "STARLING",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "STEINHAUER",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "STEWART GREENS",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "STILLWATER",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "STONE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 11,
+      "violent_weapons_crimes_monthly_avg": 0.92
+    },
+    {
+      "neighbourhood_name": "STRATHCONA",
+      "violent_weapons_crimes_total_2025": 77,
+      "violent_weapons_crimes_monthly_avg": 6.42
+    },
+    {
+      "neighbourhood_name": "STRATHCONA INDUSTRIAL PARK",
+      "violent_weapons_crimes_total_2025": 20,
+      "violent_weapons_crimes_monthly_avg": 1.67
+    },
+    {
+      "neighbourhood_name": "STRATHCONA JUNCTION",
+      "violent_weapons_crimes_total_2025": 37,
+      "violent_weapons_crimes_monthly_avg": 3.08
+    },
+    {
+      "neighbourhood_name": "STRATHEARN",
+      "violent_weapons_crimes_total_2025": 24,
+      "violent_weapons_crimes_monthly_avg": 2.0
+    },
+    {
+      "neighbourhood_name": "SUDER GREENS",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "SUMMERLEA",
+      "violent_weapons_crimes_total_2025": 37,
+      "violent_weapons_crimes_monthly_avg": 3.08
+    },
+    {
+      "neighbourhood_name": "SUMMERSIDE",
+      "violent_weapons_crimes_total_2025": 22,
+      "violent_weapons_crimes_monthly_avg": 1.83
+    },
+    {
+      "neighbourhood_name": "SUNWAPTA INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 8,
+      "violent_weapons_crimes_monthly_avg": 0.67
+    },
+    {
+      "neighbourhood_name": "SWEET GRASS",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "TAMARACK",
+      "violent_weapons_crimes_total_2025": 39,
+      "violent_weapons_crimes_monthly_avg": 3.25
+    },
+    {
+      "neighbourhood_name": "TAWA",
+      "violent_weapons_crimes_total_2025": 37,
+      "violent_weapons_crimes_monthly_avg": 3.08
+    },
+    {
+      "neighbourhood_name": "TERRA LOSA",
+      "violent_weapons_crimes_total_2025": 26,
+      "violent_weapons_crimes_monthly_avg": 2.17
+    },
+    {
+      "neighbourhood_name": "TERRACE HEIGHTS",
+      "violent_weapons_crimes_total_2025": 10,
+      "violent_weapons_crimes_monthly_avg": 0.83
+    },
+    {
+      "neighbourhood_name": "TERWILLEGAR TOWNE",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "THE HAMPTONS",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "THE ORCHARDS AT ELLERSLIE",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "THE UPLANDS",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "THORNCLIFF",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "TIPASKAN",
+      "violent_weapons_crimes_total_2025": 15,
+      "violent_weapons_crimes_monthly_avg": 1.25
+    },
+    {
+      "neighbourhood_name": "TRUMPETER AREA",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "TWEDDLE PLACE",
+      "violent_weapons_crimes_total_2025": 13,
+      "violent_weapons_crimes_monthly_avg": 1.08
+    },
+    {
+      "neighbourhood_name": "TWIN BROOKS",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "UNIVERSITY OF ALBERTA",
+      "violent_weapons_crimes_total_2025": 110,
+      "violent_weapons_crimes_monthly_avg": 9.17
+    },
+    {
+      "neighbourhood_name": "UNIVERSITY OF ALBERTA FARM",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "VIRGINIA PARK",
+      "violent_weapons_crimes_total_2025": 7,
+      "violent_weapons_crimes_monthly_avg": 0.58
+    },
+    {
+      "neighbourhood_name": "WALKER",
+      "violent_weapons_crimes_total_2025": 29,
+      "violent_weapons_crimes_monthly_avg": 2.42
+    },
+    {
+      "neighbourhood_name": "WEBBER GREENS",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "WEDGEWOOD HEIGHTS",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "WEINLOS",
+      "violent_weapons_crimes_total_2025": 12,
+      "violent_weapons_crimes_monthly_avg": 1.0
+    },
+    {
+      "neighbourhood_name": "WEIR INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "WELLINGTON",
+      "violent_weapons_crimes_total_2025": 19,
+      "violent_weapons_crimes_monthly_avg": 1.58
+    },
+    {
+      "neighbourhood_name": "WEST JASPER PLACE",
+      "violent_weapons_crimes_total_2025": 35,
+      "violent_weapons_crimes_monthly_avg": 2.92
+    },
+    {
+      "neighbourhood_name": "WEST MEADOWLARK PARK",
+      "violent_weapons_crimes_total_2025": 30,
+      "violent_weapons_crimes_monthly_avg": 2.5
+    },
+    {
+      "neighbourhood_name": "WEST SHEFFIELD INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "WESTBROOK ESTATES",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "WESTMOUNT",
+      "violent_weapons_crimes_total_2025": 39,
+      "violent_weapons_crimes_monthly_avg": 3.25
+    },
+    {
+      "neighbourhood_name": "WESTRIDGE",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "WESTVIEW VILLAGE",
+      "violent_weapons_crimes_total_2025": 6,
+      "violent_weapons_crimes_monthly_avg": 0.5
+    },
+    {
+      "neighbourhood_name": "WESTWOOD",
+      "violent_weapons_crimes_total_2025": 63,
+      "violent_weapons_crimes_monthly_avg": 5.25
+    },
+    {
+      "neighbourhood_name": "WHITE INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "WHITEMUD CREEK RAVINE NORTH",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "WHITEMUD CREEK RAVINE SOUTH",
+      "violent_weapons_crimes_total_2025": 1,
+      "violent_weapons_crimes_monthly_avg": 0.08
+    },
+    {
+      "neighbourhood_name": "WHITEMUD CREEK RAVINE TWIN BROOKS",
+      "violent_weapons_crimes_total_2025": 0,
+      "violent_weapons_crimes_monthly_avg": 0.0
+    },
+    {
+      "neighbourhood_name": "WILD ROSE",
+      "violent_weapons_crimes_total_2025": 14,
+      "violent_weapons_crimes_monthly_avg": 1.17
+    },
+    {
+      "neighbourhood_name": "WILSON INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 2,
+      "violent_weapons_crimes_monthly_avg": 0.17
+    },
+    {
+      "neighbourhood_name": "WINDERMERE",
+      "violent_weapons_crimes_total_2025": 18,
+      "violent_weapons_crimes_monthly_avg": 1.5
+    },
+    {
+      "neighbourhood_name": "WINDSOR PARK",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "WINTERBURN INDUSTRIAL AREA EAST",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    },
+    {
+      "neighbourhood_name": "WINTERBURN INDUSTRIAL AREA WEST",
+      "violent_weapons_crimes_total_2025": 9,
+      "violent_weapons_crimes_monthly_avg": 0.75
+    },
+    {
+      "neighbourhood_name": "WOODCROFT",
+      "violent_weapons_crimes_total_2025": 64,
+      "violent_weapons_crimes_monthly_avg": 5.33
+    },
+    {
+      "neighbourhood_name": "W\u00ceHKW\u00caNT\u00d4WIN",
+      "violent_weapons_crimes_total_2025": 207,
+      "violent_weapons_crimes_monthly_avg": 17.25
+    },
+    {
+      "neighbourhood_name": "YELLOWHEAD CORRIDOR EAST",
+      "violent_weapons_crimes_total_2025": 22,
+      "violent_weapons_crimes_monthly_avg": 1.83
+    },
+    {
+      "neighbourhood_name": "YELLOWHEAD CORRIDOR WEST",
+      "violent_weapons_crimes_total_2025": 4,
+      "violent_weapons_crimes_monthly_avg": 0.33
+    },
+    {
+      "neighbourhood_name": "YORK",
+      "violent_weapons_crimes_total_2025": 28,
+      "violent_weapons_crimes_monthly_avg": 2.33
+    },
+    {
+      "neighbourhood_name": "YOUNGSTOWN INDUSTRIAL",
+      "violent_weapons_crimes_total_2025": 3,
+      "violent_weapons_crimes_monthly_avg": 0.25
+    }
+  ]
+}

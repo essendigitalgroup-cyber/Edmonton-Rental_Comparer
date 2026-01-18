@@ -1,0 +1,468 @@
+{
+  "_meta": {
+    "description": "CMHC Rental Market Survey - Edmonton Neighbourhood-Level Rent Data",
+    "source": "Canada Mortgage and Housing Corporation (CMHC)",
+    "source_url": "https://www03.cmhc-schl.gc.ca/hmip-pimh/en/TableMapChart/TableMatchingCriteria?GeographyType=MetropolitanMajorArea&GeographyId=0340&CategoryLevel1=Primary%20Rental%20Market&CategoryLevel2=Average%20Rent%20%28%24%29&ColumnField=2&RowField=24",
+    "survey_period": "October 2024",
+    "data_type": "Average Monthly Rent (CAD)",
+    "note": "** indicates insufficient data or suppressed values. Some neighbourhoods are CMA areas outside Edmonton proper (Leduc, Fort Saskatchewan, Spruce Grove, St. Albert, Sherwood Park, Stony Plain, Strathcona County, Morinville, Devon)."
+  },
+  "rent_by_neighbourhood": [
+    {
+      "neighbourhood_name": "BEVERLY/RUNDLE HEIGHTS",
+      "studio": null,
+      "1_bedroom": 1170,
+      "2_bedroom": null,
+      "3_bedroom_plus": 1473,
+      "total_avg": 1232
+    },
+    {
+      "neighbourhood_name": "BONNY DOON",
+      "studio": null,
+      "1_bedroom": 1306,
+      "2_bedroom": 1443,
+      "3_bedroom_plus": null,
+      "total_avg": 1360
+    },
+    {
+      "neighbourhood_name": "BRITANNIA",
+      "studio": 970,
+      "1_bedroom": 1102,
+      "2_bedroom": 1269,
+      "3_bedroom_plus": 1480,
+      "total_avg": 1202
+    },
+    {
+      "neighbourhood_name": "CALLINGWOOD",
+      "studio": 1140,
+      "1_bedroom": 1309,
+      "2_bedroom": 1499,
+      "3_bedroom_plus": 1704,
+      "total_avg": 1442
+    },
+    {
+      "neighbourhood_name": "CAPILANO/UPPER EAST CENTRAL",
+      "studio": null,
+      "1_bedroom": 1040,
+      "2_bedroom": 1383,
+      "3_bedroom_plus": null,
+      "total_avg": 1414
+    },
+    {
+      "neighbourhood_name": "CENTRAL MCDOUGALL",
+      "studio": 942,
+      "1_bedroom": 1131,
+      "2_bedroom": 1426,
+      "3_bedroom_plus": 1585,
+      "total_avg": 1225
+    },
+    {
+      "neighbourhood_name": "CENTRAL MILLWOODS",
+      "studio": null,
+      "1_bedroom": 1243,
+      "2_bedroom": 1377,
+      "3_bedroom_plus": null,
+      "total_avg": 1378
+    },
+    {
+      "neighbourhood_name": "CENTRAL SOUTH WEST",
+      "studio": 1104,
+      "1_bedroom": 1316,
+      "2_bedroom": 1518,
+      "3_bedroom_plus": null,
+      "total_avg": 1412
+    },
+    {
+      "neighbourhood_name": "CLAIRVIEW",
+      "studio": null,
+      "1_bedroom": 1135,
+      "2_bedroom": 1325,
+      "3_bedroom_plus": 1588,
+      "total_avg": 1289
+    },
+    {
+      "neighbourhood_name": "CONFEDERATION PARK",
+      "studio": 1252,
+      "1_bedroom": 1389,
+      "2_bedroom": 1616,
+      "3_bedroom_plus": 1797,
+      "total_avg": 1592
+    },
+    {
+      "neighbourhood_name": "DELTON/EASTWOOD",
+      "studio": null,
+      "1_bedroom": 1200,
+      "2_bedroom": 1317,
+      "3_bedroom_plus": null,
+      "total_avg": 1232
+    },
+    {
+      "neighbourhood_name": "DEVON",
+      "studio": null,
+      "1_bedroom": null,
+      "2_bedroom": null,
+      "3_bedroom_plus": null,
+      "total_avg": null
+    },
+    {
+      "neighbourhood_name": "DOWNTOWN",
+      "studio": 1219,
+      "1_bedroom": 1401,
+      "2_bedroom": 1914,
+      "3_bedroom_plus": 2268,
+      "total_avg": 1552
+    },
+    {
+      "neighbourhood_name": "EAST CASTLE DOWNS",
+      "studio": 1089,
+      "1_bedroom": 1378,
+      "2_bedroom": 1578,
+      "3_bedroom_plus": 1649,
+      "total_avg": 1514
+    },
+    {
+      "neighbourhood_name": "EDMONTON CMA REMAINDER",
+      "studio": null,
+      "1_bedroom": 1405,
+      "2_bedroom": 1606,
+      "3_bedroom_plus": null,
+      "total_avg": 1680
+    },
+    {
+      "neighbourhood_name": "FORT SASKATCHEWAN",
+      "studio": null,
+      "1_bedroom": 1416,
+      "2_bedroom": 1535,
+      "3_bedroom_plus": 1747,
+      "total_avg": 1569
+    },
+    {
+      "neighbourhood_name": "GARNEAU",
+      "studio": 1094,
+      "1_bedroom": 1231,
+      "2_bedroom": 1544,
+      "3_bedroom_plus": 1678,
+      "total_avg": 1329
+    },
+    {
+      "neighbourhood_name": "GATEWAY BLVD WEST",
+      "studio": 1109,
+      "1_bedroom": 1428,
+      "2_bedroom": 1576,
+      "3_bedroom_plus": 1631,
+      "total_avg": 1512
+    },
+    {
+      "neighbourhood_name": "GENWOOD/WEST JASPER PLACE",
+      "studio": 880,
+      "1_bedroom": 1088,
+      "2_bedroom": 1322,
+      "3_bedroom_plus": 1432,
+      "total_avg": 1214
+    },
+    {
+      "neighbourhood_name": "GRANDIN",
+      "studio": 1236,
+      "1_bedroom": 1408,
+      "2_bedroom": 1950,
+      "3_bedroom_plus": 2969,
+      "total_avg": 1576
+    },
+    {
+      "neighbourhood_name": "HIGHLANDS/ALBERTA AVENUE",
+      "studio": null,
+      "1_bedroom": null,
+      "2_bedroom": null,
+      "3_bedroom_plus": null,
+      "total_avg": null
+    },
+    {
+      "neighbourhood_name": "LEDUC",
+      "studio": null,
+      "1_bedroom": 1338,
+      "2_bedroom": 1448,
+      "3_bedroom_plus": 1715,
+      "total_avg": 1482
+    },
+    {
+      "neighbourhood_name": "LONDONDERRY",
+      "studio": null,
+      "1_bedroom": 1327,
+      "2_bedroom": 1488,
+      "3_bedroom_plus": 1710,
+      "total_avg": 1490
+    },
+    {
+      "neighbourhood_name": "LOWER EAST CENTRAL",
+      "studio": null,
+      "1_bedroom": 1170,
+      "2_bedroom": 1341,
+      "3_bedroom_plus": 1531,
+      "total_avg": 1346
+    },
+    {
+      "neighbourhood_name": "MCCAULEY",
+      "studio": 1133,
+      "1_bedroom": 1226,
+      "2_bedroom": 1616,
+      "3_bedroom_plus": 1982,
+      "total_avg": 1418
+    },
+    {
+      "neighbourhood_name": "MCLEOD PARK/CASSELMAN",
+      "studio": null,
+      "1_bedroom": null,
+      "2_bedroom": 1470,
+      "3_bedroom_plus": 1740,
+      "total_avg": 1539
+    },
+    {
+      "neighbourhood_name": "MORINVILLE",
+      "studio": null,
+      "1_bedroom": null,
+      "2_bedroom": null,
+      "3_bedroom_plus": null,
+      "total_avg": null
+    },
+    {
+      "neighbourhood_name": "NORTH CENTRAL (EAST)",
+      "studio": null,
+      "1_bedroom": 1061,
+      "2_bedroom": null,
+      "3_bedroom_plus": 1668,
+      "total_avg": 1356
+    },
+    {
+      "neighbourhood_name": "NORTH CENTRAL (WEST)",
+      "studio": null,
+      "1_bedroom": 1099,
+      "2_bedroom": 1287,
+      "3_bedroom_plus": 1589,
+      "total_avg": 1297
+    },
+    {
+      "neighbourhood_name": "NORTH EAST",
+      "studio": null,
+      "1_bedroom": 1371,
+      "2_bedroom": 1628,
+      "3_bedroom_plus": 1861,
+      "total_avg": 1652
+    },
+    {
+      "neighbourhood_name": "NORTH JASPER PLACE",
+      "studio": null,
+      "1_bedroom": 1113,
+      "2_bedroom": 1303,
+      "3_bedroom_plus": null,
+      "total_avg": 1161
+    },
+    {
+      "neighbourhood_name": "NORTH MILLWOODS",
+      "studio": null,
+      "1_bedroom": null,
+      "2_bedroom": 1608,
+      "3_bedroom_plus": 1564,
+      "total_avg": 1572
+    },
+    {
+      "neighbourhood_name": "NORTH WEST JASPER PLACE",
+      "studio": null,
+      "1_bedroom": 1304,
+      "2_bedroom": 1577,
+      "3_bedroom_plus": 1652,
+      "total_avg": 1473
+    },
+    {
+      "neighbourhood_name": "NORTHMOUNT/EVANSDALE",
+      "studio": null,
+      "1_bedroom": 1061,
+      "2_bedroom": 1269,
+      "3_bedroom_plus": 1381,
+      "total_avg": 1156
+    },
+    {
+      "neighbourhood_name": "OLIVER",
+      "studio": 1143,
+      "1_bedroom": 1332,
+      "2_bedroom": 1702,
+      "3_bedroom_plus": 1923,
+      "total_avg": 1433
+    },
+    {
+      "neighbourhood_name": "QUEEN MARY PARK",
+      "studio": 940,
+      "1_bedroom": 1222,
+      "2_bedroom": 1488,
+      "3_bedroom_plus": 1629,
+      "total_avg": 1323
+    },
+    {
+      "neighbourhood_name": "RIVERBEND/WHITEMUD CREEK",
+      "studio": null,
+      "1_bedroom": 1274,
+      "2_bedroom": 1477,
+      "3_bedroom_plus": 1852,
+      "total_avg": 1480
+    },
+    {
+      "neighbourhood_name": "SHERWOOD PARK",
+      "studio": null,
+      "1_bedroom": 1576,
+      "2_bedroom": 1940,
+      "3_bedroom_plus": null,
+      "total_avg": 1867
+    },
+    {
+      "neighbourhood_name": "SOUTH JASPER PLACE",
+      "studio": null,
+      "1_bedroom": 1212,
+      "2_bedroom": 1449,
+      "3_bedroom_plus": 1771,
+      "total_avg": 1462
+    },
+    {
+      "neighbourhood_name": "SOUTH MILLWOODS",
+      "studio": null,
+      "1_bedroom": 1478,
+      "2_bedroom": 1698,
+      "3_bedroom_plus": 1869,
+      "total_avg": 1690
+    },
+    {
+      "neighbourhood_name": "SOUTH WEST JASPER PLACE",
+      "studio": null,
+      "1_bedroom": 1346,
+      "2_bedroom": 1602,
+      "3_bedroom_plus": 1753,
+      "total_avg": 1605
+    },
+    {
+      "neighbourhood_name": "SOUTHGATE DISTRICT",
+      "studio": null,
+      "1_bedroom": 1252,
+      "2_bedroom": 1470,
+      "3_bedroom_plus": null,
+      "total_avg": 1427
+    },
+    {
+      "neighbourhood_name": "SPRUCE GROVE",
+      "studio": null,
+      "1_bedroom": 1397,
+      "2_bedroom": 1601,
+      "3_bedroom_plus": null,
+      "total_avg": 1607
+    },
+    {
+      "neighbourhood_name": "ST. ALBERT",
+      "studio": null,
+      "1_bedroom": 1659,
+      "2_bedroom": 1937,
+      "3_bedroom_plus": 1943,
+      "total_avg": 1875
+    },
+    {
+      "neighbourhood_name": "STONY PLAIN",
+      "studio": null,
+      "1_bedroom": null,
+      "2_bedroom": 1521,
+      "3_bedroom_plus": 1791,
+      "total_avg": 1638
+    },
+    {
+      "neighbourhood_name": "STRATHCONA COUNTY REMAINDER",
+      "studio": null,
+      "1_bedroom": 1678,
+      "2_bedroom": 1860,
+      "3_bedroom_plus": null,
+      "total_avg": 1843
+    },
+    {
+      "neighbourhood_name": "STRATHEARN/HOLYROOD",
+      "studio": null,
+      "1_bedroom": 1089,
+      "2_bedroom": 1374,
+      "3_bedroom_plus": null,
+      "total_avg": 1265
+    },
+    {
+      "neighbourhood_name": "TERWILLEGAR/RURAL SOUTHWEST",
+      "studio": null,
+      "1_bedroom": 1493,
+      "2_bedroom": 1702,
+      "3_bedroom_plus": 1981,
+      "total_avg": 1734
+    },
+    {
+      "neighbourhood_name": "THORNCLIFFE/ALDERGROVE",
+      "studio": null,
+      "1_bedroom": 1238,
+      "2_bedroom": 1518,
+      "3_bedroom_plus": 1773,
+      "total_avg": 1532
+    },
+    {
+      "neighbourhood_name": "UNIVERSITY",
+      "studio": 1315,
+      "1_bedroom": 1383,
+      "2_bedroom": 1739,
+      "3_bedroom_plus": 2024,
+      "total_avg": 1540
+    },
+    {
+      "neighbourhood_name": "WEST CASTLEDOWNS",
+      "studio": null,
+      "1_bedroom": 1348,
+      "2_bedroom": 1570,
+      "3_bedroom_plus": 1674,
+      "total_avg": 1543
+    },
+    {
+      "neighbourhood_name": "WEST CENTRAL (NORTH)",
+      "studio": null,
+      "1_bedroom": null,
+      "2_bedroom": 1331,
+      "3_bedroom_plus": null,
+      "total_avg": 1395
+    },
+    {
+      "neighbourhood_name": "WEST CENTRAL (SOUTH)",
+      "studio": null,
+      "1_bedroom": null,
+      "2_bedroom": 1510,
+      "3_bedroom_plus": 1540,
+      "total_avg": 1367
+    },
+    {
+      "neighbourhood_name": "WEST JASPER PLACE/RURAL",
+      "studio": null,
+      "1_bedroom": 1528,
+      "2_bedroom": 1783,
+      "3_bedroom_plus": 2094,
+      "total_avg": 1766
+    },
+    {
+      "neighbourhood_name": "WESTWOOD",
+      "studio": null,
+      "1_bedroom": 1154,
+      "2_bedroom": 1257,
+      "3_bedroom_plus": 1626,
+      "total_avg": 1135
+    },
+    {
+      "neighbourhood_name": "WOODCROFT/INGLEWOOD",
+      "studio": 993,
+      "1_bedroom": 1209,
+      "2_bedroom": 1478,
+      "3_bedroom_plus": 2074,
+      "total_avg": 1313
+    },
+    {
+      "neighbourhood_name": "EDMONTON",
+      "studio": 1108,
+      "1_bedroom": 1301,
+      "2_bedroom": 1598,
+      "3_bedroom_plus": 1802,
+      "total_avg": 1493
+    }
+  ]
+}
