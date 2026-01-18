@@ -13,34 +13,125 @@ let schoolsData = null;
 let parksData = null;
 let neighbourhoodsData = null;
 
+// Lookup maps for O(1) performance
+let crimeDataMap = null;
+let rentDataMap = null;
+let neighbourhoodDataMap = null;
+
+// Single loading promise to prevent race conditions
+let loadingPromise = null;
+
 /**
- * Load all data files asynchronously
+ * Build lookup maps for O(1) performance
+ */
+const buildLookupMaps = () => {
+  // Crime lookup map
+  crimeDataMap = new Map();
+  crimeData.crime_by_neighbourhood.forEach(entry => {
+    crimeDataMap.set(entry.neighbourhood_name.toUpperCase(), entry);
+  });
+
+  // Rent lookup map
+  rentDataMap = new Map();
+  rentData.rent_by_neighbourhood.forEach(entry => {
+    rentDataMap.set(entry.neighbourhood_name.toUpperCase(), entry);
+  });
+
+  // Neighbourhood lookup map
+  neighbourhoodDataMap = new Map();
+  neighbourhoodsData.features.forEach(feature => {
+    neighbourhoodDataMap.set(feature.properties.name.toUpperCase(), feature);
+  });
+};
+
+/**
+ * Load all data files asynchronously with error handling and race condition prevention
  * @returns {Promise<Object>} All loaded data
+ * @throws {Error} If any data file fails to load
  */
 export const loadAllData = async () => {
-  if (!crimeData) {
-    const [crime, rent, schools, parks, neighbourhoods] = await Promise.all([
-      fetch(crimeDataUrl).then(r => r.json()),
-      fetch(rentDataUrl).then(r => r.json()),
-      fetch(schoolsDataUrl).then(r => r.json()),
-      fetch(parksDataUrl).then(r => r.json()),
-      fetch(neighbourhoodsDataUrl).then(r => r.json())
-    ]);
-
-    crimeData = crime;
-    rentData = rent;
-    schoolsData = schools;
-    parksData = parks;
-    neighbourhoodsData = neighbourhoods;
+  // Return cached data if already loaded
+  if (crimeData) {
+    return {
+      crime: crimeData,
+      rent: rentData,
+      schools: schoolsData,
+      parks: parksData,
+      neighbourhoods: neighbourhoodsData
+    };
   }
 
-  return {
-    crime: crimeData,
-    rent: rentData,
-    schools: schoolsData,
-    parks: parksData,
-    neighbourhoods: neighbourhoodsData
-  };
+  // Return existing loading promise to prevent duplicate fetches
+  if (loadingPromise) {
+    return loadingPromise;
+  }
+
+  // Create new loading promise
+  loadingPromise = Promise.all([
+    fetch(crimeDataUrl).then(r => {
+      if (!r.ok) throw new Error(`Failed to load crime data: ${r.statusText}`);
+      return r.json();
+    }),
+    fetch(rentDataUrl).then(r => {
+      if (!r.ok) throw new Error(`Failed to load rent data: ${r.statusText}`);
+      return r.json();
+    }),
+    fetch(schoolsDataUrl).then(r => {
+      if (!r.ok) throw new Error(`Failed to load schools data: ${r.statusText}`);
+      return r.json();
+    }),
+    fetch(parksDataUrl).then(r => {
+      if (!r.ok) throw new Error(`Failed to load parks data: ${r.statusText}`);
+      return r.json();
+    }),
+    fetch(neighbourhoodsDataUrl).then(r => {
+      if (!r.ok) throw new Error(`Failed to load neighbourhoods data: ${r.statusText}`);
+      return r.json();
+    })
+  ])
+    .then(([crime, rent, schools, parks, neighbourhoods]) => {
+      // Validate data structure
+      if (!crime?.crime_by_neighbourhood) {
+        throw new Error('Invalid crime data structure');
+      }
+      if (!rent?.rent_by_neighbourhood) {
+        throw new Error('Invalid rent data structure');
+      }
+      if (!schools?.features) {
+        throw new Error('Invalid schools data structure');
+      }
+      if (!parks?.features) {
+        throw new Error('Invalid parks data structure');
+      }
+      if (!neighbourhoods?.features) {
+        throw new Error('Invalid neighbourhoods data structure');
+      }
+
+      // Cache data
+      crimeData = crime;
+      rentData = rent;
+      schoolsData = schools;
+      parksData = parks;
+      neighbourhoodsData = neighbourhoods;
+
+      // Build lookup maps for O(1) performance
+      buildLookupMaps();
+
+      return {
+        crime: crimeData,
+        rent: rentData,
+        schools: schoolsData,
+        parks: parksData,
+        neighbourhoods: neighbourhoodsData
+      };
+    })
+    .catch(error => {
+      // Reset loading promise on error to allow retry
+      loadingPromise = null;
+      throw error;
+    });
+
+  return loadingPromise;
 };
 
 /**
@@ -58,35 +149,27 @@ export const getAllData = () => {
 };
 
 /**
- * Get crime data by neighbourhood name
+ * Get crime data by neighbourhood name (O(1) lookup)
  * @param {string} neighbourhoodName
  * @returns {Object|null} Crime data for the neighbourhood
  */
 export const getCrimeByNeighbourhood = (neighbourhoodName) => {
-  if (!neighbourhoodName || !crimeData) return null;
+  if (!neighbourhoodName || !crimeDataMap) return null;
 
   const normalizedName = neighbourhoodName.toUpperCase().trim();
-  const crimeEntry = crimeData.crime_by_neighbourhood.find(
-    entry => entry.neighbourhood_name.toUpperCase() === normalizedName
-  );
-
-  return crimeEntry || null;
+  return crimeDataMap.get(normalizedName) || null;
 };
 
 /**
- * Get rent data by neighbourhood name
+ * Get rent data by neighbourhood name (O(1) lookup)
  * @param {string} neighbourhoodName
  * @returns {Object|null} Rent data for the neighbourhood
  */
 export const getRentByNeighbourhood = (neighbourhoodName) => {
-  if (!neighbourhoodName || !rentData) return null;
+  if (!neighbourhoodName || !rentDataMap) return null;
 
   const normalizedName = neighbourhoodName.toUpperCase().trim();
-  const rentEntry = rentData.rent_by_neighbourhood.find(
-    entry => entry.neighbourhood_name.toUpperCase() === normalizedName
-  );
-
-  return rentEntry || null;
+  return rentDataMap.get(normalizedName) || null;
 };
 
 /**
@@ -126,19 +209,15 @@ export const getNeighbourhoods = () => {
 };
 
 /**
- * Get neighbourhood by name
+ * Get neighbourhood by name (O(1) lookup)
  * @param {string} neighbourhoodName
  * @returns {Object|null} Neighbourhood feature
  */
 export const getNeighbourhoodByName = (neighbourhoodName) => {
-  if (!neighbourhoodName || !neighbourhoodsData) return null;
+  if (!neighbourhoodName || !neighbourhoodDataMap) return null;
 
   const normalizedName = neighbourhoodName.toUpperCase().trim();
-  const neighbourhood = neighbourhoodsData.features.find(
-    feature => feature.properties.name.toUpperCase() === normalizedName
-  );
-
-  return neighbourhood || null;
+  return neighbourhoodDataMap.get(normalizedName) || null;
 };
 
 export default {
