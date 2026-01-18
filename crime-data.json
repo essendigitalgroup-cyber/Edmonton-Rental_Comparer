@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "description": "Edmonton Police Service - Neighbourhood Violent Crime Data",
+    "source": "https://data.edmonton.ca/resource/xthe-mnvi.json",
+    "period": "12-month average (Jan-Dec 2025)",
+    "crime_types": ["assault", "robbery", "sexual_assault", "homicide"],
+    "note": "PLACEHOLDER DATA - Replace with actual EPS crime data from Edmonton Open Data Portal",
+    "instructions": "Fetch data using Socrata API: https://openperformance.edmonton.ca/resource/xthe-mnvi.json"
+  },
+  "neighbourhoods": [
+    {
+      "neighbourhood_name": "ABBOTTSFIELD",
+      "neighbourhood_number": "2010",
+      "violent_crimes_12mo_avg": 8.5,
+      "crime_breakdown": {
+        "assault": 6.2,
+        "robbery": 1.5,
+        "sexual_assault": 0.7,
+        "homicide": 0.1
+      },
+      "total_incidents": 102,
+      "crime_rate_per_1000": 12.3
+    },
+    {
+      "neighbourhood_name": "ALBERTA AVENUE",
+      "neighbourhood_number": "1010",
+      "violent_crimes_12mo_avg": 15.2,
+      "crime_breakdown": {
+        "assault": 11.4,
+        "robbery": 2.8,
+        "sexual_assault": 0.9,
+        "homicide": 0.1
+      },
+      "total_incidents": 182,
+      "crime_rate_per_1000": 18.7
+    },
+    {
+      "neighbourhood_name": "ALDERGROVE",
+      "neighbourhood_number": "4020",
+      "violent_crimes_12mo_avg": 3.2,
+      "crime_breakdown": {
+        "assault": 2.4,
+        "robbery": 0.6,
+        "sexual_assault": 0.2,
+        "homicide": 0.0
+      },
+      "total_incidents": 38,
+      "crime_rate_per_1000": 5.1
+    },
+    {
+      "neighbourhood_name": "DOWNTOWN",
+      "neighbourhood_number": "1100",
+      "violent_crimes_12mo_avg": 42.7,
+      "crime_breakdown": {
+        "assault": 32.5,
+        "robbery": 7.8,
+        "sexual_assault": 2.2,
+        "homicide": 0.2
+      },
+      "total_incidents": 512,
+      "crime_rate_per_1000": 45.6
+    },
+    {
+      "neighbourhood_name": "STRATHCONA",
+      "neighbourhood_number": "6020",
+      "violent_crimes_12mo_avg": 12.3,
+      "crime_breakdown": {
+        "assault": 9.1,
+        "robbery": 2.4,
+        "sexual_assault": 0.7,
+        "homicide": 0.1
+      },
+      "total_incidents": 147,
+      "crime_rate_per_1000": 14.8
+    }
+  ],
+  "_instructions": {
+    "how_to_replace": [
+      "1. Access Edmonton Open Data Portal: https://dashboard.edmonton.ca/dataset/EPS-Neighbourhood-Criminal-Occurrences/xthe-mnvi/data",
+      "2. Use Socrata API endpoint: https://openperformance.edmonton.ca/resource/xthe-mnvi.json",
+      "3. Filter for violent crimes (ucr_crime_category contains 'Crimes Against Persons')",
+      "4. Aggregate by neighbourhood for 12-month period (Jan-Dec 2025)",
+      "5. Calculate monthly averages per neighbourhood",
+      "6. Replace this file with actual aggregated data maintaining the same JSON structure"
+    ],
+    "required_fields": ["neighbourhood_name", "neighbourhood_number", "violent_crimes_12mo_avg"],
+    "optional_fields": ["crime_breakdown", "total_incidents", "crime_rate_per_1000"]
+  }
+}
