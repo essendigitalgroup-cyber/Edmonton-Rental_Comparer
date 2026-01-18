@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { MapContainer, TileLayer, GeoJSON, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import { useAppContext } from '../context/AppContext';
@@ -103,8 +103,8 @@ const Map = () => {
     });
   };
 
-  // School icon
-  const schoolIcon = new L.Icon({
+  // School icon (memoized to prevent memory leak)
+  const schoolIcon = useMemo(() => new L.Icon({
     iconUrl: 'data:image/svg+xml;base64,' + btoa(`
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3b82f6" width="24" height="24">
         <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
@@ -113,10 +113,10 @@ const Map = () => {
     `),
     iconSize: [24, 24],
     iconAnchor: [12, 24]
-  });
+  }), []);
 
-  // Park icon
-  const parkIcon = new L.Icon({
+  // Park icon (memoized to prevent memory leak)
+  const parkIcon = useMemo(() => new L.Icon({
     iconUrl: 'data:image/svg+xml;base64,' + btoa(`
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#10b981" width="20" height="20">
         <circle cx="12" cy="12" r="10" />
@@ -124,7 +124,7 @@ const Map = () => {
     `),
     iconSize: [20, 20],
     iconAnchor: [10, 20]
-  });
+  }), []);
 
   if (loading || !neighbourhoods) {
     return (

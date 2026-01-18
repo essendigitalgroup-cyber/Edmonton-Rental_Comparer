@@ -2,13 +2,13 @@ import { useAppContext } from '../context/AppContext';
 import { getCrimeByNeighbourhood, getRentByNeighbourhood, getParksByNeighbourhood } from '../utils/dataLoader';
 
 const RightPanel = () => {
-  const { selectedNeighbourhood, activeUnitType, visibleLayers } = useAppContext();
+  const { selectedNeighbourhood, setSelectedNeighbourhood, activeUnitType, visibleLayers } = useAppContext();
 
   if (!selectedNeighbourhood) {
     return (
       <div className="absolute top-4 right-4 w-96 bg-white shadow-lg rounded-lg p-6 z-[1000]">
         <p className="text-slate-500 text-center">
-          Click or hover over a neighbourhood to see details
+          Click on a neighbourhood to see details
         </p>
       </div>
     );
@@ -28,7 +28,18 @@ const RightPanel = () => {
 
   return (
     <div className="absolute top-4 right-4 w-96 bg-white shadow-lg rounded-lg p-6 z-[1000] max-h-[calc(100vh-2rem)] overflow-y-auto">
-      <h2 className="text-2xl font-bold text-slate-900 mb-4">{neighbourhoodName}</h2>
+      <div className="flex items-center justify-between mb-4">
+        <h2 className="text-2xl font-bold text-slate-900">{neighbourhoodName}</h2>
+        <button
+          onClick={() => setSelectedNeighbourhood(null)}
+          className="text-slate-400 hover:text-slate-600 transition-colors"
+          aria-label="Close panel"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
 
       {/* Crime Stats */}
       {visibleLayers.crime && (

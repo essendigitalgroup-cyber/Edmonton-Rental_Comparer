@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useState, useMemo, useCallback } from 'react';
 
 const AppContext = createContext();
 
@@ -25,22 +25,23 @@ export const AppProvider = ({ children }) => {
     parks: true
   });
 
-  // Toggle layer visibility
-  const toggleLayer = (layerName) => {
+  // Toggle layer visibility (memoized to prevent recreation)
+  const toggleLayer = useCallback((layerName) => {
     setVisibleLayers(prev => ({
       ...prev,
       [layerName]: !prev[layerName]
     }));
-  };
+  }, []);
 
-  const value = {
+  // Memoize value object to prevent unnecessary re-renders
+  const value = useMemo(() => ({
     activeUnitType,
     setActiveUnitType,
     selectedNeighbourhood,
     setSelectedNeighbourhood,
     visibleLayers,
     toggleLayer
-  };
+  }), [activeUnitType, selectedNeighbourhood, visibleLayers]);
 
   return (
     <AppContext.Provider value={value}>
