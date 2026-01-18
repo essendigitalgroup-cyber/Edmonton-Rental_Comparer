@@ -119,6 +119,11 @@ const RightPanel = () => {
                 );
               })}
               <p className="text-xs text-slate-500 mt-2">Source: CMHC October 2024</p>
+              {rentData._inheritedFrom && (
+                <div className="mt-2 p-2 bg-yellow-50 text-yellow-800 text-xs rounded border border-yellow-100">
+                  <strong>Note:</strong> Data averaged for the broader <em>{rentData._inheritedFrom}</em> zone.
+                </div>
+              )}
             </div>
           ) : (
             <p className="text-sm text-slate-500">No rent data available for this neighbourhood</p>

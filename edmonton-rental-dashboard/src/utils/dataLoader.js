@@ -102,9 +102,13 @@ export const loadAllData = async () => {
     fetch(neighbourhoodsDataUrl).then(r => {
       if (!r.ok) throw new Error(`Failed to load neighbourhoods data: ${r.statusText}`);
       return r.json();
+    }),
+    fetch(neighbourhoodToRentZoneUrl).then(r => {
+      if (!r.ok) throw new Error(`Failed to load rent mapping: ${r.statusText}`);
+      return r.json();
     })
   ])
-    .then(([crime, rent, schools, parks, neighbourhoods]) => {
+    .then(([crime, rent, schools, parks, neighbourhoods, rentMapping]) => {
       // Validate data structure
       if (!crime?.crime_by_neighbourhood) {
         throw new Error('Invalid crime data structure');
@@ -128,6 +132,7 @@ export const loadAllData = async () => {
       schoolsData = schools;
       parksData = parks;
       neighbourhoodsData = neighbourhoods;
+      neighbourhoodToRentZone = rentMapping;
 
       // Build lookup maps for O(1) performance
       buildLookupMaps();
@@ -183,8 +188,23 @@ export const getCrimeByNeighbourhood = (neighbourhoodName) => {
   return crimeDataMap.get(normalizedName) || null;
 };
 
+// Import mapping file
+import neighbourhoodToRentZoneUrl from '../data/neighbourhood-to-rent-zone.json?url';
+
+// ... (existing variables)
+let neighbourhoodToRentZone = null;
+
+// ...
+
+// Inside loadAllData Promise.all:
+// Add fetch(neighbourhoodToRentZoneUrl).then(r => r.json()) to the array
+// Then in the .then callback:
+// neighbourhoodToRentZone = loadedMapping;
+
+// ...
+
 /**
- * Get rent data by neighbourhood name (O(1) lookup)
+ * Get rent data by neighbourhood name (O(1) lookup + mapping fallback)
  * @param {string} neighbourhoodName
  * @returns {Object|null} Rent data for the neighbourhood
  */
@@ -192,7 +212,26 @@ export const getRentByNeighbourhood = (neighbourhoodName) => {
   if (!neighbourhoodName || !rentDataMap) return null;
 
   const normalizedName = neighbourhoodName.toUpperCase().trim();
-  return rentDataMap.get(normalizedName) || null;
+
+  // 1. Direct Match
+  let data = rentDataMap.get(normalizedName);
+
+  // 2. Fallback using mapping
+  if (!data && neighbourhoodToRentZone) {
+    const mappedZone = neighbourhoodToRentZone[normalizedName];
+    if (mappedZone) {
+      data = rentDataMap.get(mappedZone);
+      if (data) {
+        // Return a copy with the inherited flag
+        return {
+          ...data,
+          _inheritedFrom: mappedZone
+        };
+      }
+    }
+  }
+
+  return data || null;
 };
 
 /**
